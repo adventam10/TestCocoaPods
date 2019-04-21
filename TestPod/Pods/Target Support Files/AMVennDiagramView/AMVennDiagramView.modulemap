@@ -1,0 +1,6 @@
+framework module AMVennDiagramView {
+  umbrella header "AMVennDiagramView-umbrella.h"
+
+  export *
+  module * { export * }
+}

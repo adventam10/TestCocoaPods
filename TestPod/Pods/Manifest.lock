@@ -1,0 +1,52 @@
+PODS:
+  - AMBurnAnimation (2.0)
+  - AMCalendar (2.0)
+  - AMChart (2.1)
+  - AMClockView (2.0)
+  - AMColorPicker (2.0)
+  - AMJpnMap (2.0)
+  - AMMeterView (2.0)
+  - AMNowClockView (2.1)
+  - AMSpeedMeter (2.0)
+  - AMVennDiagramView (2.0)
+
+DEPENDENCIES:
+  - AMBurnAnimation (= 2.0)
+  - AMCalendar (= 2.0)
+  - AMChart (= 2.1)
+  - AMClockView (= 2.0)
+  - AMColorPicker (= 2.0)
+  - AMJpnMap (= 2.0)
+  - AMMeterView (= 2.0)
+  - AMNowClockView (= 2.1)
+  - AMSpeedMeter (= 2.0)
+  - AMVennDiagramView (= 2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AMBurnAnimation
+    - AMCalendar
+    - AMChart
+    - AMClockView
+    - AMColorPicker
+    - AMJpnMap
+    - AMMeterView
+    - AMNowClockView
+    - AMSpeedMeter
+    - AMVennDiagramView
+
+SPEC CHECKSUMS:
+  AMBurnAnimation: 8edb6be7d64ae1bd5a94cdad5a90da3cda1f1c18
+  AMCalendar: 5ec23f069531dca3b7acd8c1e2789246b8491198
+  AMChart: c1c536a2bfb6a67455ee8d6f860b3f3aeb23f5ba
+  AMClockView: d7290f9a221c14c5dbfa6e1ed4700619adbca4aa
+  AMColorPicker: 94e18eaafd5be96c2aa4a24467fa9bd8b4c338b9
+  AMJpnMap: b8254b896c5f1d1c71d9fe55f90bfeb4473cd5ce
+  AMMeterView: 647ded4b8155e0dd92a710c99b0ae0e55398a870
+  AMNowClockView: 45942b3d35294966a99ecb8ec99abb95d414f4aa
+  AMSpeedMeter: 7dab64c3659d12973ff1f98f0ed5f8168ef5873d
+  AMVennDiagramView: 03346f1fafe9f8263cf1f375b10ba790d888bdd6
+
+PODFILE CHECKSUM: 109fba4737981f8777f3227bc706f9adf141f2b1
+
+COCOAPODS: 1.6.1

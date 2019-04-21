@@ -1,0 +1,6 @@
+framework module AMSpeedMeter {
+  umbrella header "AMSpeedMeter-umbrella.h"
+
+  export *
+  module * { export * }
+}

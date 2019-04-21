@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AMBurnAnimation" "${PODS_CONFIGURATION_BUILD_DIR}/AMCalendar" "${PODS_CONFIGURATION_BUILD_DIR}/AMChart" "${PODS_CONFIGURATION_BUILD_DIR}/AMClockView" "${PODS_CONFIGURATION_BUILD_DIR}/AMColorPicker" "${PODS_CONFIGURATION_BUILD_DIR}/AMJpnMap" "${PODS_CONFIGURATION_BUILD_DIR}/AMMeterView" "${PODS_CONFIGURATION_BUILD_DIR}/AMNowClockView" "${PODS_CONFIGURATION_BUILD_DIR}/AMSpeedMeter" "${PODS_CONFIGURATION_BUILD_DIR}/AMVennDiagramView"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AMBurnAnimation/AMBurnAnimation.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AMCalendar/AMCalendar.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AMChart/AMChart.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AMClockView/AMClockView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AMColorPicker/AMColorPicker.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AMJpnMap/AMJpnMap.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AMMeterView/AMMeterView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AMNowClockView/AMNowClockView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AMSpeedMeter/AMSpeedMeter.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AMVennDiagramView/AMVennDiagramView.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "AMBurnAnimation" -framework "AMCalendar" -framework "AMChart" -framework "AMClockView" -framework "AMColorPicker" -framework "AMJpnMap" -framework "AMMeterView" -framework "AMNowClockView" -framework "AMSpeedMeter" -framework "AMVennDiagramView"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

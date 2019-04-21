@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TestPod' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TestPod
+pod 'AMClockView', '2.0'
+pod 'AMNowClockView', '2.1'
+pod 'AMMeterView', '2.0'
+pod 'AMSpeedMeter', '2.0'
+pod 'AMCalendar', '2.0'
+pod 'AMChart', '2.1'
+pod 'AMVennDiagramView', '2.0'
+pod 'AMBurnAnimation', '2.0'
+pod 'AMJpnMap', '2.0'
+pod 'AMColorPicker', '2.0'
+  target 'TestPodTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TestPodUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

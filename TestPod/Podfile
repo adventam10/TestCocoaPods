@@ -6,16 +6,16 @@ target 'TestPod' do
   use_frameworks!
 
   # Pods for TestPod
-pod 'AMClockView', '2.0'
-pod 'AMNowClockView', '2.1'
-pod 'AMMeterView', '2.0'
-pod 'AMSpeedMeter', '2.0'
-pod 'AMCalendar', '2.0'
-pod 'AMChart', '2.1'
-pod 'AMVennDiagramView', '2.0'
-pod 'AMBurnAnimation', '2.0'
-pod 'AMJpnMap', '2.0'
-pod 'AMColorPicker', '2.0'
+pod 'AMClockView', '2.1.0'
+pod 'AMNowClockView', '2.2.0'
+pod 'AMMeterView', '2.1.1'
+pod 'AMSpeedMeter', '2.1.0'
+pod 'AMCalendar', '2.1.2'
+pod 'AMChart', '2.2.0'
+pod 'AMVennDiagramView', '2.1.0'
+pod 'AMBurnAnimation', '2.1.0'
+pod 'AMJpnMap', '2.1.0'
+pod 'AMColorPicker', '3.0.1'
   target 'TestPodTests' do
     inherit! :search_paths
     # Pods for testing

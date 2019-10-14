@@ -21,13 +21,13 @@ class JpnMapViewController: UIViewController {
 }
 
 extension JpnMapViewController: AMJpnMapViewDelegate {
-    func jpnMapView(_ jpnMapView: AMJpnMapView, didSelectAtRegion region: AMJMRegion) {
-        jpnMapView.setFillColor(color: UIColor.red, region: region)
-        jpnMapView.setStrokeColor(color: UIColor.red, region: region)
+    func jpnMapView(_ jpnMapView: AMJpnMapView, didSelectAtRegion region: AMRegion) {
+        jpnMapView.setFillColor(color: .red, region: region)
+        jpnMapView.setStrokeColor(color: .red, region: region)
     }
     
-    func jpnMapView(_ jpnMapView: AMJpnMapView, didDeselectAtRegion region: AMJMRegion) {
-        jpnMapView.setFillColor(color: UIColor.green, region: region)
-        jpnMapView.setStrokeColor(color: UIColor.green, region: region)
+    func jpnMapView(_ jpnMapView: AMJpnMapView, didDeselectAtRegion region: AMRegion) {
+        jpnMapView.setFillColor(color: .green, region: region)
+        jpnMapView.setStrokeColor(color: .green, region: region)
     }
 }

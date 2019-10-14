@@ -35,8 +35,15 @@ extension MeterViewController: AMMeterViewDataSource {
         return meterList.count
     }
     
-    func meterView(_ meterView: AMMeterView, valueForIndex index: Int) -> String {
+    func meterView(_ meterView: AMMeterView, titleForValueAtIndex index: Int) -> String {
         return meterList[index]
     }
     
+    func meterView(_ meterView: AMMeterView, textFontForValueAtIndex index: Int) -> UIFont {
+        return .systemFont(ofSize: 13)
+    }
+    
+    func meterView(_ meterView: AMMeterView, textColorForValueAtIndex index: Int) -> UIColor {
+        return .red
+    }
 }

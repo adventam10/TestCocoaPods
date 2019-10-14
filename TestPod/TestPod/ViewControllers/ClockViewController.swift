@@ -19,7 +19,7 @@ class ClockViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        dateFormatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
+        dateFormatter.dateFormat = "yyyy/MM/dd HH:mm"
         cView.delegate = self
     }
 }

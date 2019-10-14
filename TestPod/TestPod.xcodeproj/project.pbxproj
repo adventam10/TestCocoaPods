@@ -340,34 +340,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestPod/Pods-TestPod-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AMBurnAnimation/AMBurnAnimation.framework",
-				"${BUILT_PRODUCTS_DIR}/AMCalendar/AMCalendar.framework",
-				"${BUILT_PRODUCTS_DIR}/AMChart/AMChart.framework",
-				"${BUILT_PRODUCTS_DIR}/AMClockView/AMClockView.framework",
-				"${BUILT_PRODUCTS_DIR}/AMColorPicker/AMColorPicker.framework",
-				"${BUILT_PRODUCTS_DIR}/AMJpnMap/AMJpnMap.framework",
-				"${BUILT_PRODUCTS_DIR}/AMMeterView/AMMeterView.framework",
-				"${BUILT_PRODUCTS_DIR}/AMNowClockView/AMNowClockView.framework",
-				"${BUILT_PRODUCTS_DIR}/AMSpeedMeter/AMSpeedMeter.framework",
-				"${BUILT_PRODUCTS_DIR}/AMVennDiagramView/AMVennDiagramView.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TestPod/Pods-TestPod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMBurnAnimation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMCalendar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMChart.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMClockView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMColorPicker.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMJpnMap.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMMeterView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMNowClockView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMSpeedMeter.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMVennDiagramView.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TestPod/Pods-TestPod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

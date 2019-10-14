@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-TestPod/Pods-TestPod-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AMBurnAnimation/AMBurnAnimation.framework
+${BUILT_PRODUCTS_DIR}/AMCalendar/AMCalendar.framework
+${BUILT_PRODUCTS_DIR}/AMChart/AMChart.framework
+${BUILT_PRODUCTS_DIR}/AMClockView/AMClockView.framework
+${BUILT_PRODUCTS_DIR}/AMColorPicker/AMColorPicker.framework
+${BUILT_PRODUCTS_DIR}/AMJpnMap/AMJpnMap.framework
+${BUILT_PRODUCTS_DIR}/AMMeterView/AMMeterView.framework
+${BUILT_PRODUCTS_DIR}/AMNowClockView/AMNowClockView.framework
+${BUILT_PRODUCTS_DIR}/AMSpeedMeter/AMSpeedMeter.framework
+${BUILT_PRODUCTS_DIR}/AMVennDiagramView/AMVennDiagramView.framework

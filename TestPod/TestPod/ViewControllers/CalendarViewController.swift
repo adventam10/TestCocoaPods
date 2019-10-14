@@ -19,17 +19,16 @@ class CalendarViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let _ = 
-        AMCalendarRootViewController.setCalendar(onView: containerView,
-                                                 parentViewController: self,
-                                                 selectedDate: Date(),
-                                                 delegate: self)
+        AMCalendar.setCalendar(onView: containerView,
+                               parentViewController: self,
+                               selectedDate: Date(),
+                               delegate: self)
         dateFormatter.dateFormat = "yyyy/MM/dd"
     }
 }
 
-extension CalendarViewController: AMCalendarRootViewControllerDelegate {
-    func calendarRootViewController(_ calendarRootViewController: AMCalendarRootViewController, didSelectDate date: Date?) {
+extension CalendarViewController: AMCalendarDelegate {
+    func calendar(_ calendar: AMCalendar, didSelectDate date: Date?) {
         label.text = dateFormatter.string(from: date!)
     }
 }

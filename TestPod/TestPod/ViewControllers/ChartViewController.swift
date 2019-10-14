@@ -23,7 +23,7 @@ class ChartViewController: UIViewController {
     var scatterDataList = [[AMSCScatterValue]]()
     var lineDataList = [[CGFloat]]()
     var radarRowNum:Int = 0
-    let radarAxisNum:UInt32 = 6
+    let radarAxisNum:CGFloat = 6
     var barColors = [UIColor]()
     var lineRowNum:Int = 0;
     
@@ -45,9 +45,11 @@ class ChartViewController: UIViewController {
         lineChartView.dataSource = self
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    private func randomColor(alpha: CGFloat) -> UIColor {
+        let r = CGFloat.random(in: 0...255) / 255.0
+        let g = CGFloat.random(in: 0...255) / 255.0
+        let b = CGFloat.random(in: 0...255) / 255.0
+        return UIColor(red: r, green: g, blue: b, alpha: alpha)
     }
     
     @IBAction private func tappedReloadButton(_ sender: Any) {
@@ -68,66 +70,61 @@ class ChartViewController: UIViewController {
     }
     
     private func prepareDataList () {
-        radarRowNum = Int(arc4random_uniform(24)) + 3
-        let radarSectionNum = Int(arc4random_uniform(6)) + 1
+        radarRowNum = Int.random(in: 3...24)
+        let radarSectionNum = Int.random(in: 1...6)
         radarDataList.removeAll()
         for _ in 0..<radarSectionNum {
             var values = [CGFloat]()
             for _ in 0..<radarRowNum {
-                let value = CGFloat(arc4random_uniform(radarAxisNum))
+                let value = CGFloat.random(in: 0..<radarAxisNum)
                 values.append(value)
             }
             radarDataList.append(values)
         }
         
-        let lineSectionNum = Int(arc4random_uniform(10)) + 1
-        lineRowNum = Int(arc4random_uniform(15)) + 1
+        let lineSectionNum = Int.random(in: 1...10)
+        lineRowNum = Int.random(in: 1...15)
         lineDataList.removeAll()
         for _ in 0..<lineSectionNum {
             var values = [CGFloat]()
             for _ in 0..<lineRowNum {
-                let value = CGFloat(arc4random_uniform(800))
+                let value = CGFloat.random(in: 0..<800)
                 values.append(value)
             }
             lineDataList.append(values)
         }
         
-        let pieSectionNum = Int(arc4random_uniform(10)) + 1
+        let pieSectionNum = Int.random(in: 1...10)
         pieDataList.removeAll()
         for _ in 0..<pieSectionNum {
-            let value = CGFloat(arc4random_uniform(800))
+            let value = CGFloat.random(in: 0..<800)
             pieDataList.append(value)
         }
         
-        let barSectionNum = Int(arc4random_uniform(10)) + 1
-        let barRownNum = Int(arc4random_uniform(5)) + 1
+        let barSectionNum = Int.random(in: 1...10)
+        let barRownNum = Int.random(in: 1...5)
         barDataList.removeAll()
         barColors.removeAll()
         for (i) in 0..<barSectionNum {
             var values = [CGFloat]()
             for _ in 0..<barRownNum {
                 if i == 0 {
-                    let r = CGFloat(arc4random_uniform(255) + 1)/255.0
-                    let g = CGFloat(arc4random_uniform(255) + 1)/255.0
-                    let b = CGFloat(arc4random_uniform(255) + 1)/255.0
-                    
-                    let color = UIColor(red: r, green: g, blue: b, alpha: 1.0)
-                    barColors.append(color)
+                    barColors.append(randomColor(alpha: 1.0))
                 }
-                let value = CGFloat(arc4random_uniform(200))
+                let value = CGFloat.random(in: 0..<200)
                 values.append(value)
             }
             barDataList.append(values)
         }
         
-        let scatterSectionNum = Int(arc4random_uniform(10)) + 1
+        let scatterSectionNum = Int.random(in: 1...10)
         scatterDataList.removeAll()
         for _ in 0..<scatterSectionNum {
             var values = [AMSCScatterValue]()
-            let scatterRownNum = Int(arc4random_uniform(100)) + 1
+            let scatterRownNum = Int.random(in: 1...100)
             for _ in 0..<scatterRownNum {
-                let valueX = CGFloat(arc4random_uniform(1000))
-                let valueY = CGFloat(arc4random_uniform(1000))
+                let valueX = CGFloat.random(in: 0..<1000)
+                let valueY = CGFloat.random(in: 0..<1000)
                 values.append(AMSCScatterValue(x:valueX, y: valueY))
             }
             scatterDataList.append(values)
@@ -149,17 +146,11 @@ extension ChartViewController: AMRadarChartViewDataSource {
     }
     
     func radarChartView(_ radarChartView:AMRadarChartView, fillColorForSection section: Int) -> UIColor {
-        let r = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let g = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let b = CGFloat(arc4random_uniform(255) + 1)/255.0
-        return UIColor(red: r, green: g, blue: b, alpha: 0.5)
+        return randomColor(alpha: 0.5)
     }
     
     func radarChartView(_ radarChartView:AMRadarChartView, strokeColorForSection section: Int) -> UIColor {
-        let r = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let g = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let b = CGFloat(arc4random_uniform(255) + 1)/255.0
-        return UIColor(red: r, green: g, blue: b, alpha: 0.5)
+        return randomColor(alpha: 0.5)
     }
     
     func radarChartView(_ radarChartView: AMRadarChartView, titleForXlabelInRow row: Int) -> String {
@@ -181,10 +172,7 @@ extension ChartViewController: AMScatterChartViewDataSource {
     }
     
     func scatterChartView(_ scatterChartView:AMScatterChartView, colorForSection section: Int) -> UIColor {
-        let r = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let g = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let b = CGFloat(arc4random_uniform(255) + 1)/255.0
-        return UIColor(red: r, green: g, blue: b, alpha: 1.0)
+        return randomColor(alpha: 1.0)
     }
     
     func scatterChartView(_ scatterChartView:AMScatterChartView, pointTypeForSection section: Int) -> AMSCPointType {
@@ -202,10 +190,7 @@ extension ChartViewController: AMPieChartViewDataSource {
     }
     
     func pieChartView(_ pieChartView:AMPieChartView, colorForSection section: Int) -> UIColor {
-        let r = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let g = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let b = CGFloat(arc4random_uniform(255) + 1)/255.0
-        return UIColor(red: r, green: g, blue: b, alpha: 1.0)
+        return randomColor(alpha: 1.0)
     }
 }
 
@@ -223,10 +208,7 @@ extension ChartViewController: AMLineChartViewDataSource {
     }
     
     func lineChartView(_ lineChartView:AMLineChartView, colorForSection section: Int) -> UIColor {
-        let r = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let g = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let b = CGFloat(arc4random_uniform(255) + 1)/255.0
-        return UIColor(red: r, green: g, blue: b, alpha: 1.0)
+        return randomColor(alpha: 1.0)
     }
     
     func lineChartView(_ lineChartView:AMLineChartView, titleForXlabelInRow row: Int) -> String {

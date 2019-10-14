@@ -26,8 +26,7 @@ class SpeedMeterViewController: UIViewController {
     
     /// Timer Action
     @objc func timerAction(teimer:Timer) {
-        let value = CGFloat(arc4random() % 100)
         /// set CGFloat value
-        sView.currentValue = value
+        sView.currentValue = CGFloat.random(in: 0...100)
     }
 }

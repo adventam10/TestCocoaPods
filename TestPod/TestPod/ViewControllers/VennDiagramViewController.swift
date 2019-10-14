@@ -19,61 +19,46 @@ class VennDiagramViewController: UIViewController {
         vView.setupVennDiagram(value1: 1000, value2: 900, commonValue: 100)
         vView.dataSource = self
     }
+    
+    private func randomColor(alpha: CGFloat) -> UIColor {
+        let r = CGFloat.random(in: 0...255) / 255.0
+        let g = CGFloat.random(in: 0...255) / 255.0
+        let b = CGFloat.random(in: 0...255) / 255.0
+        return UIColor(red: r, green: g, blue: b, alpha: alpha)
+    }
 }
 
 extension VennDiagramViewController: AMVennDiagramViewDataSource {
     func vennDiagramView(_ vennDiagramView:AMVennDiagramView, fillColorForSection section: Int) -> UIColor {
-        let r = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let g = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let b = CGFloat(arc4random_uniform(255) + 1)/255.0
-        
-        let color = UIColor(red: r, green: g, blue: b, alpha: 0.5)
-        return color
+        return randomColor(alpha: 0.5)
     }
     
     func vennDiagramView(_ vennDiagramView:AMVennDiagramView, strokeColorForSection section: Int) -> UIColor {
-        let r = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let g = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let b = CGFloat(arc4random_uniform(255) + 1)/255.0
-        
-        let color = UIColor(red: r, green: g, blue: b, alpha: 1.0)
-        return color
+        return randomColor(alpha: 1.0)
     }
     
     func vennDiagramView(_ vennDiagramView:AMVennDiagramView, titleForSection section: Int, value: CGFloat) -> String {
         let title = section == 0 ? "A" : "B"
-        let valueText = NSString(format: "%.0f", value) as String
-        return title + "\n" + valueText
+        return title + "\n" + String(format: "%.0f", value)
     }
     
     func titleForCommonArea(in vennDiagramView:AMVennDiagramView, value: CGFloat) -> String {
-        let valueText = NSString(format: "%.0f", value) as String
-        return "Common\n" + valueText
+        return "Common\n" + String(format: "%.0f", value)
     }
     
     func vennDiagramView(_ vennDiagramView:AMVennDiagramView, textColorForSection section: Int) -> UIColor {
-        let r = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let g = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let b = CGFloat(arc4random_uniform(255) + 1)/255.0
-        
-        let color = UIColor(red: r, green: g, blue: b, alpha: 1.0)
-        return color
+        return randomColor(alpha: 1.0)
     }
     
     func textColorForCommonArea(in vennDiagramView:AMVennDiagramView) -> UIColor {
-        let r = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let g = CGFloat(arc4random_uniform(255) + 1)/255.0
-        let b = CGFloat(arc4random_uniform(255) + 1)/255.0
-        
-        let color = UIColor(red: r, green: g, blue: b, alpha: 1.0)
-        return color
+        return randomColor(alpha: 1.0)
     }
     
     func vennDiagramView(_ vennDiagramView:AMVennDiagramView, textFontForSection section: Int) -> UIFont {
-        return UIFont.systemFont(ofSize: 17)
+        return .systemFont(ofSize: 17)
     }
     
     func textFontForCommonArea(in vennDiagramView:AMVennDiagramView) -> UIFont {
-        return UIFont.systemFont(ofSize: 17)
+        return .systemFont(ofSize: 17)
     }
 }

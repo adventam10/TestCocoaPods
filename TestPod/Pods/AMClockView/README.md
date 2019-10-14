@@ -1,5 +1,11 @@
 # AMClockView
 
+![Pod Platform](https://img.shields.io/cocoapods/p/AMClockView.svg?style=flat)
+![Pod License](https://img.shields.io/cocoapods/l/AMClockView.svg?style=flat)
+[![Pod Version](https://img.shields.io/cocoapods/v/AMClockView.svg?style=flat)](http://cocoapods.org/pods/AMClockView)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+
 `AMClockView` is a view can select time.
 
 ## Demo
@@ -8,6 +14,7 @@
 
 ## Usage
 
+Create clockView.
 
 ```swift
 let clockView = AMClockView(frame: view.bounds)
@@ -18,18 +25,53 @@ clockView.delegate = self
 view.addSubview(clockView)
 ```
 
-The hour hand moves  when you dragged inside of central circle.
-The minute hand moves  when you draged outside of central circle.
+Conform to the protocol in the class implementation.
 
-## Variety
+```swift
+func clockView(_ clockView: AMClockView, didChangeDate date: Date) { 
+    // use selected date here
+}
+```
 
-<img width="373" alt="amclock" src="https://user-images.githubusercontent.com/34936885/34641906-29d09d4c-f34e-11e7-8fb8-0e9637f1092d.png">
+The hour hand moves when you dragged inside of central circle.
+
+The minute hand moves when you draged outside of central circle.
+
+### Customization
+`AMClockView` can be customized via the following properties.
+
+```swift
+@IBInspectable public var clockBorderLineWidth: CGFloat = 5.0
+@IBInspectable public var smallClockIndexWidth: CGFloat = 1.0
+@IBInspectable public var clockIndexWidth: CGFloat = 2.0
+@IBInspectable public var hourHandWidth: CGFloat = 5.0
+@IBInspectable public var minuteHandWidth: CGFloat = 3.0
+@IBInspectable public var clockBorderLineColor: UIColor = .black
+@IBInspectable public var centerCircleLineColor: UIColor = .darkGray
+@IBInspectable public var hourHandColor: UIColor = .black
+@IBInspectable public var minuteHandColor: UIColor = .black
+@IBInspectable public var selectedTimeLabelTextColor: UIColor = .black
+@IBInspectable public var timeLabelTextColor: UIColor = .black
+@IBInspectable public var smallClockIndexColor: UIColor = .black
+@IBInspectable public var clockIndexColor: UIColor = .black
+@IBInspectable public var clockColor: UIColor = .clear
+@IBInspectable public var clockImage: UIImage?
+@IBInspectable public var minuteHandImage: UIImage?
+@IBInspectable public var hourHandImage: UIImage?
+@IBInspectable public var isShowSelectedTime: Bool = false
+public var clockType = AMCVClockType.arabic
+public var timeZone: TimeZone?  // default is TimeZone.current
+public var selectedDate: Date?
+```
+
+![clock](https://user-images.githubusercontent.com/34936885/66701955-20c3c680-ed3d-11e9-8e17-03544afab1bf.png)
 
 ## Installation
 
 ### CocoaPods
 
 Add this to your Podfile.
+
 ```ogdl
 pod 'AMClockView'
 ```

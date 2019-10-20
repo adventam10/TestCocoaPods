@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QEH-9Q-QSX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -83,7 +82,7 @@
                                                 <rect key="frame" x="0.0" y="110" width="184.5" height="40"/>
                                                 <state key="normal" title="AMChart"/>
                                                 <connections>
-                                                    <segue destination="8kv-NO-KtY" kind="show" id="seX-tz-Vaz"/>
+                                                    <segue destination="9Pd-aY-EKV" kind="show" id="8dK-iq-Kfl"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZW-v4-mss">
@@ -331,119 +330,6 @@
             </objects>
             <point key="canvasLocation" x="86" y="820"/>
         </scene>
-        <!--AMChart-->
-        <scene sceneID="wDI-gB-Dsb">
-            <objects>
-                <viewController title="AMChart" id="8kv-NO-KtY" customClass="ChartViewController" customModule="TestPod" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mDj-br-bqd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UMq-xo-qvg" customClass="AMLineChartView" customModule="AMChart">
-                                <rect key="frame" x="0.0" y="88" width="165.5" height="269"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00b-vb-Sen" customClass="AMScatterChartView" customModule="AMChart">
-                                <rect key="frame" x="248.5" y="88" width="165.5" height="269"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DWk-P1-g7i" customClass="AMRadarChartView" customModule="AMChart">
-                                <rect key="frame" x="124" y="365" width="166" height="166"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="DWk-P1-g7i" secondAttribute="height" multiplier="1:1" id="8A4-f5-aSV"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8mJ-pY-3IL" customClass="AMPieChartView" customModule="AMChart">
-                                <rect key="frame" x="0.0" y="593" width="165.5" height="269"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="93z-bp-ktg" customClass="AMBarChartView" customModule="AMChart">
-                                <rect key="frame" x="248.5" y="593" width="165.5" height="269"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0uj-7m-rlv">
-                                <rect key="frame" x="0.0" y="365" width="124" height="166"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zt8-iB-jBX">
-                                        <rect key="frame" x="0.0" y="82.5" width="124" height="1"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1" id="qPq-eJ-lGS"/>
-                                        </constraints>
-                                    </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khR-k2-4fs">
-                                        <rect key="frame" x="38" y="42.5" width="48" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="UL0-iU-OyU"/>
-                                        </constraints>
-                                        <state key="normal" title="reload"/>
-                                        <connections>
-                                            <action selector="tappedReloadButton:" destination="8kv-NO-KtY" eventType="touchUpInside" id="6dh-54-9kF"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNd-zs-Bjv">
-                                        <rect key="frame" x="38" y="93.5" width="48" height="30"/>
-                                        <state key="normal" title="redraw"/>
-                                        <connections>
-                                            <action selector="tappedRedrawButton:" destination="8kv-NO-KtY" eventType="touchUpInside" id="DC2-I1-xtC"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstItem="pNd-zs-Bjv" firstAttribute="top" secondItem="zt8-iB-jBX" secondAttribute="bottom" constant="10" id="7on-jY-1gx"/>
-                                    <constraint firstItem="zt8-iB-jBX" firstAttribute="centerY" secondItem="0uj-7m-rlv" secondAttribute="centerY" id="8sN-tf-6BG"/>
-                                    <constraint firstItem="pNd-zs-Bjv" firstAttribute="height" secondItem="khR-k2-4fs" secondAttribute="height" id="Pv0-mI-Gfd"/>
-                                    <constraint firstItem="pNd-zs-Bjv" firstAttribute="width" secondItem="khR-k2-4fs" secondAttribute="width" id="RLf-T6-yMn"/>
-                                    <constraint firstItem="khR-k2-4fs" firstAttribute="centerX" secondItem="0uj-7m-rlv" secondAttribute="centerX" id="UUv-Vh-PaZ"/>
-                                    <constraint firstItem="zt8-iB-jBX" firstAttribute="top" secondItem="khR-k2-4fs" secondAttribute="bottom" constant="10" id="f3C-C7-8u5"/>
-                                    <constraint firstItem="pNd-zs-Bjv" firstAttribute="centerX" secondItem="khR-k2-4fs" secondAttribute="centerX" id="gQ0-6B-a3X"/>
-                                    <constraint firstAttribute="trailing" secondItem="zt8-iB-jBX" secondAttribute="trailing" id="ojP-5U-4Zh"/>
-                                    <constraint firstItem="zt8-iB-jBX" firstAttribute="leading" secondItem="0uj-7m-rlv" secondAttribute="leading" id="pKF-9Z-kqA"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="z5u-LS-YQI" firstAttribute="bottom" secondItem="93z-bp-ktg" secondAttribute="bottom" id="5JK-3T-5y9"/>
-                            <constraint firstItem="z5u-LS-YQI" firstAttribute="bottom" secondItem="8mJ-pY-3IL" secondAttribute="bottom" id="5nX-KF-6zp"/>
-                            <constraint firstItem="DWk-P1-g7i" firstAttribute="centerX" secondItem="mDj-br-bqd" secondAttribute="centerX" id="7Mj-Kw-Lcc"/>
-                            <constraint firstItem="z5u-LS-YQI" firstAttribute="trailing" secondItem="93z-bp-ktg" secondAttribute="trailing" id="8o0-2J-6Ep"/>
-                            <constraint firstItem="00b-vb-Sen" firstAttribute="height" secondItem="UMq-xo-qvg" secondAttribute="height" id="ChZ-RX-aGE"/>
-                            <constraint firstItem="00b-vb-Sen" firstAttribute="centerY" secondItem="UMq-xo-qvg" secondAttribute="centerY" id="FoN-ja-Vfw"/>
-                            <constraint firstItem="8mJ-pY-3IL" firstAttribute="leading" secondItem="z5u-LS-YQI" secondAttribute="leading" id="HNG-S2-Fuf"/>
-                            <constraint firstItem="00b-vb-Sen" firstAttribute="width" secondItem="UMq-xo-qvg" secondAttribute="width" id="I2z-TB-ErL"/>
-                            <constraint firstItem="UMq-xo-qvg" firstAttribute="width" secondItem="mDj-br-bqd" secondAttribute="width" multiplier="0.4" id="IzN-Pd-4lE"/>
-                            <constraint firstItem="UMq-xo-qvg" firstAttribute="top" secondItem="z5u-LS-YQI" secondAttribute="top" id="S1m-UI-nb3"/>
-                            <constraint firstItem="z5u-LS-YQI" firstAttribute="trailing" secondItem="00b-vb-Sen" secondAttribute="trailing" id="SjC-SK-SxG"/>
-                            <constraint firstItem="DWk-P1-g7i" firstAttribute="centerY" secondItem="mDj-br-bqd" secondAttribute="centerY" id="Th7-NQ-hMR"/>
-                            <constraint firstItem="0uj-7m-rlv" firstAttribute="height" secondItem="DWk-P1-g7i" secondAttribute="height" id="Xz5-CV-uKi"/>
-                            <constraint firstItem="8mJ-pY-3IL" firstAttribute="width" secondItem="UMq-xo-qvg" secondAttribute="width" id="Y9Z-At-PvM"/>
-                            <constraint firstItem="0uj-7m-rlv" firstAttribute="leading" secondItem="mDj-br-bqd" secondAttribute="leading" id="YQo-F6-Gs2"/>
-                            <constraint firstItem="DWk-P1-g7i" firstAttribute="leading" secondItem="0uj-7m-rlv" secondAttribute="trailing" id="c3A-z4-JaY"/>
-                            <constraint firstItem="DWk-P1-g7i" firstAttribute="width" secondItem="UMq-xo-qvg" secondAttribute="width" id="fIz-gx-0AH"/>
-                            <constraint firstItem="UMq-xo-qvg" firstAttribute="leading" secondItem="z5u-LS-YQI" secondAttribute="leading" id="fJw-Ec-gGc"/>
-                            <constraint firstItem="0uj-7m-rlv" firstAttribute="centerY" secondItem="DWk-P1-g7i" secondAttribute="centerY" id="hsh-6I-a4g"/>
-                            <constraint firstItem="8mJ-pY-3IL" firstAttribute="height" secondItem="UMq-xo-qvg" secondAttribute="height" id="mIM-Hm-5Zl"/>
-                            <constraint firstItem="UMq-xo-qvg" firstAttribute="height" secondItem="mDj-br-bqd" secondAttribute="height" multiplier="0.3" id="o8D-ZO-OtE"/>
-                            <constraint firstItem="93z-bp-ktg" firstAttribute="width" secondItem="8mJ-pY-3IL" secondAttribute="width" id="syB-GO-foe"/>
-                            <constraint firstItem="93z-bp-ktg" firstAttribute="height" secondItem="8mJ-pY-3IL" secondAttribute="height" id="uqh-yg-sn3"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="z5u-LS-YQI"/>
-                    </view>
-                    <connections>
-                        <outlet property="barChartView" destination="93z-bp-ktg" id="d1l-Du-yZu"/>
-                        <outlet property="lineChartView" destination="UMq-xo-qvg" id="NFS-sp-2hr"/>
-                        <outlet property="pieChartView" destination="8mJ-pY-3IL" id="WLK-zk-8gC"/>
-                        <outlet property="radarChartView" destination="DWk-P1-g7i" id="MWd-x4-4RU"/>
-                        <outlet property="scatterChartView" destination="00b-vb-Sen" id="hIl-dK-zHX"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W8i-VM-GNN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="786" y="820"/>
-        </scene>
         <!--AMColorPicker-->
         <scene sceneID="ayg-Pp-mvF">
             <objects>
@@ -579,29 +465,142 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKe-yH-2Kv" customClass="AMJpnMapView" customModule="AMJpnMap">
-                                <rect key="frame" x="57" y="298" width="300" height="300"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="lKe-yH-2Kv" secondAttribute="height" multiplier="1:1" id="GFs-Xc-QqP"/>
-                                    <constraint firstAttribute="width" constant="300" id="cVx-2t-LAC"/>
-                                </constraints>
-                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="UN5-Qm-7cm">
+                                <rect key="frame" x="57" y="140" width="300" height="616"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKe-yH-2Kv" customClass="AMJpnMapView" customModule="AMJpnMap">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="lKe-yH-2Kv" secondAttribute="height" multiplier="1:1" id="GFs-Xc-QqP"/>
+                                            <constraint firstAttribute="width" priority="750" constant="300" id="VE1-a7-6sR"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="cVx-2t-LAC"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VN9-Z1-xj9" customClass="AMJpnMapDetailView" customModule="AMJpnMap">
+                                        <rect key="frame" x="0.0" y="316" width="300" height="300"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="lKe-yH-2Kv" firstAttribute="centerY" secondItem="Rdq-Im-qJO" secondAttribute="centerY" id="89A-E5-M8n"/>
-                            <constraint firstItem="lKe-yH-2Kv" firstAttribute="centerX" secondItem="Rdq-Im-qJO" secondAttribute="centerX" id="oqs-Uz-RKa"/>
+                            <constraint firstItem="8of-gE-tfJ" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="UN5-Qm-7cm" secondAttribute="bottom" constant="8" id="1rt-CB-Hd4"/>
+                            <constraint firstItem="UN5-Qm-7cm" firstAttribute="centerY" secondItem="Rdq-Im-qJO" secondAttribute="centerY" id="2bH-Kl-F8k"/>
+                            <constraint firstItem="UN5-Qm-7cm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8of-gE-tfJ" secondAttribute="leading" constant="8" id="4DA-8Y-CCl"/>
+                            <constraint firstItem="UN5-Qm-7cm" firstAttribute="centerX" secondItem="Rdq-Im-qJO" secondAttribute="centerX" id="n73-9H-Tkl"/>
+                            <constraint firstItem="8of-gE-tfJ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UN5-Qm-7cm" secondAttribute="trailing" constant="8" id="nrk-cs-gFa"/>
+                            <constraint firstItem="UN5-Qm-7cm" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8of-gE-tfJ" secondAttribute="top" constant="8" id="wh2-PF-RLu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8of-gE-tfJ"/>
                     </view>
                     <connections>
                         <outlet property="jView" destination="lKe-yH-2Kv" id="KoA-Sf-80b"/>
+                        <outlet property="jdView" destination="VN9-Z1-xj9" id="OdA-bj-CbZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bd7-qa-Nbz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2780" y="149"/>
+        </scene>
+        <!--AMChart-->
+        <scene sceneID="DqN-jg-70O">
+            <objects>
+                <viewController title="AMChart" id="9Pd-aY-EKV" customClass="ChartViewController" customModule="TestPod" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XFZ-1T-ZBr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nOJ-Cm-UXW">
+                                <rect key="frame" x="8" y="96" width="398" height="758"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ndx-NX-7Rp">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="247.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gsL-Ub-Feg" customClass="AMLineChartView" customModule="AMChart">
+                                                <rect key="frame" x="0.0" y="0.0" width="191" height="247.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7bA-Ck-usJ" customClass="AMScatterChartView" customModule="AMChart">
+                                                <rect key="frame" x="207" y="0.0" width="191" height="247.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="CCw-6r-zMm">
+                                        <rect key="frame" x="43.5" y="255.5" width="311" height="247"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3WB-9V-Yvt">
+                                                <rect key="frame" x="0.0" y="0.0" width="48" height="247"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Rm-1u-SOc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="48" height="115.5"/>
+                                                        <state key="normal" title="reload"/>
+                                                        <connections>
+                                                            <action selector="tappedReloadButton:" destination="9Pd-aY-EKV" eventType="touchUpInside" id="v4X-Qr-yha"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cG-Qh-mqf">
+                                                        <rect key="frame" x="0.0" y="131.5" width="48" height="115.5"/>
+                                                        <state key="normal" title="redraw"/>
+                                                        <connections>
+                                                            <action selector="tappedRedrawButton:" destination="9Pd-aY-EKV" eventType="touchUpInside" id="Br0-6g-LcB"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0D-qx-WwM" customClass="AMRadarChartView" customModule="AMChart">
+                                                <rect key="frame" x="64" y="0.0" width="247" height="247"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="i0D-qx-WwM" secondAttribute="height" multiplier="1:1" id="xx8-hB-wfN"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="pIf-T9-XpS">
+                                        <rect key="frame" x="0.0" y="510.5" width="398" height="247.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s9t-o3-awy" customClass="AMPieChartView" customModule="AMChart">
+                                                <rect key="frame" x="0.0" y="0.0" width="191" height="247.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aeB-Y1-jDM" customClass="AMBarChartView" customModule="AMChart">
+                                                <rect key="frame" x="207" y="0.0" width="191" height="247.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Ndx-NX-7Rp" secondAttribute="trailing" id="IcS-wu-lHR"/>
+                                    <constraint firstAttribute="trailing" secondItem="pIf-T9-XpS" secondAttribute="trailing" id="Uft-98-VoJ"/>
+                                    <constraint firstItem="Ndx-NX-7Rp" firstAttribute="leading" secondItem="nOJ-Cm-UXW" secondAttribute="leading" id="kwO-RT-1FM"/>
+                                    <constraint firstItem="pIf-T9-XpS" firstAttribute="leading" secondItem="nOJ-Cm-UXW" secondAttribute="leading" id="o6Y-Xb-Nkf"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KN1-Cd-uwv" firstAttribute="bottom" secondItem="nOJ-Cm-UXW" secondAttribute="bottom" constant="8" id="3sX-Zz-qmf"/>
+                            <constraint firstItem="nOJ-Cm-UXW" firstAttribute="top" secondItem="KN1-Cd-uwv" secondAttribute="top" constant="8" id="ACX-g6-hVW"/>
+                            <constraint firstItem="nOJ-Cm-UXW" firstAttribute="leading" secondItem="KN1-Cd-uwv" secondAttribute="leading" constant="8" id="bbL-MO-3FH"/>
+                            <constraint firstItem="KN1-Cd-uwv" firstAttribute="trailing" secondItem="nOJ-Cm-UXW" secondAttribute="trailing" constant="8" id="cMG-ic-5Vp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KN1-Cd-uwv"/>
+                    </view>
+                    <connections>
+                        <outlet property="barChartView" destination="aeB-Y1-jDM" id="3sj-DH-NaU"/>
+                        <outlet property="lineChartView" destination="gsL-Ub-Feg" id="dat-yF-CyS"/>
+                        <outlet property="pieChartView" destination="s9t-o3-awy" id="ro2-YD-wlN"/>
+                        <outlet property="radarChartView" destination="i0D-qx-WwM" id="ONv-pK-ceC"/>
+                        <outlet property="scatterChartView" destination="7bA-Ck-usJ" id="cmj-wL-IFb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IZk-RU-49h" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="845" y="831"/>
         </scene>
     </scenes>
 </document>

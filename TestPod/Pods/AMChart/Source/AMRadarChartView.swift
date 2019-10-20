@@ -8,160 +8,188 @@
 
 import UIKit
 
-public enum AMRCDecimalFormat {
-    case none
-    case first
-    case second
-}
-
 public protocol AMRadarChartViewDataSource: AnyObject {
+    // MARK:- Required
     func numberOfSections(in radarChartView: AMRadarChartView) -> Int
     func numberOfRows(in radarChartView: AMRadarChartView) -> Int
     func radarChartView(_ radarChartView: AMRadarChartView, valueForRowAtIndexPath indexPath: IndexPath) -> CGFloat
     func radarChartView(_ radarChartView: AMRadarChartView, fillColorForSection section: Int) -> UIColor
     func radarChartView(_ radarChartView: AMRadarChartView, strokeColorForSection section: Int) -> UIColor
-    func radarChartView(_ radarChartView: AMRadarChartView, titleForXlabelInRow row: Int) -> String
+    // MARK:- Optional
+    func radarChartView(_ radarChartView: AMRadarChartView, titleForVertexInRow row: Int) -> String
+    func radarChartView(_ radarChartView: AMRadarChartView, fontForVertexInRow row: Int) -> UIFont
+    func radarChartView(_ radarChartView: AMRadarChartView, textColorForVertexInRow row: Int) -> UIColor
 }
 
-extension AMRadarChartViewDataSource {
-    func radarChartView(radarChartView: AMRadarChartView,
-                        titleForXlabelInRow row: Int) -> String {
+public extension AMRadarChartViewDataSource {
+    func radarChartView(_ radarChartView: AMRadarChartView, titleForVertexInRow row: Int) -> String {
         return ""
+    }
+    
+    func radarChartView(_ radarChartView: AMRadarChartView, fontForVertexInRow row: Int) -> UIFont {
+        return .systemFont(ofSize: 15)
+    }
+    
+    func radarChartView(_ radarChartView: AMRadarChartView, textColorForVertexInRow row: Int) -> UIColor {
+        return .black
     }
 }
 
-public class AMRadarChartView: UIView {
-
+public class AMRadarChartView: AMChartView {
+    
     @IBInspectable public var axisMaxValue: CGFloat = 5.0
     @IBInspectable public var axisMinValue: CGFloat = 0.0
-    @IBInspectable public var numberOfAxisLabel: Int = 6
-    @IBInspectable public var rowLabelWidth: CGFloat = 50.0
-    @IBInspectable public var rowLabelHeight: CGFloat = 30.0
+    @IBInspectable public var numberOfAxisLabels: Int = 6
     @IBInspectable public var axisColor: UIColor = .black
     @IBInspectable public var axisWidth: CGFloat = 1.0
-    @IBInspectable public var axisLabelsFont: UIFont = .systemFont(ofSize: 12)
-    @IBInspectable public var axisLabelsWidth: CGFloat = 50.0
-    @IBInspectable public var rowLabelsFont: UIFont = .systemFont(ofSize: 15)
+    @IBInspectable public var axisLabelsFont: UIFont = .systemFont(ofSize: 15)
     @IBInspectable public var axisLabelsTextColor: UIColor = .black
-    @IBInspectable public var rowLabelsTextColor: UIColor = .black
     @IBInspectable public var isDottedLine: Bool = false
     
     weak public var dataSource: AMRadarChartViewDataSource?
-    public var axisDecimalFormat: AMRCDecimalFormat = .none
+    public var axisDecimalFormat: AMDecimalFormat = .none
     public var animationDuration: CFTimeInterval = 0.6
     
-    override public var bounds: CGRect {
-        didSet {
-            reloadData()
-        }
-    }
-    
-    private let space: CGFloat = 10
     private let borderLineWidth: CGFloat = 3.5
     private let chartView = UIView()
     private let axisView = UIView()
     private let graphView = UIView()
     
-    private var rowLabels = [UILabel]()
-    private var axisLabels = [UILabel]()
+    private var radarChartLayer: CAShapeLayer?
     private var graphLayers = [CAShapeLayer]()
-    private var radarChartLayer:CAShapeLayer?
     private var angleList = [Float]()
     private var animationPaths = [UIBezierPath]()
-    
-    // MARK:- Initialize
-    required public init?(coder aDecoder: NSCoder) {
-        super.init(coder:aDecoder)
-        initView()
+    private var radius: CGFloat {
+        if let radarChartLayer = radarChartLayer {
+            return radarChartLayer.frame.size.width / 2
+        }
+        let height = chartView.frame.height - (maxVertexLabelLength*2)
+        let width = chartView.frame.width - (maxVertexLabelLength*2)
+        let length = height < width ? height : width
+        return length / 2
     }
-    
-    override public init(frame: CGRect) {
-        super.init(frame: frame)
-        backgroundColor = .clear
-        initView()
+    private var chartCenter: CGPoint {
+        return chartView.center
     }
-    
-    convenience init() {
-        self.init(frame: .zero)
-    }
-    
-    private func initView() {
+    private var maxVertexLabelLength: CGFloat = 0
+    override public func initView() {
         addSubview(chartView)
         chartView.addSubview(axisView)
         chartView.addSubview(graphView)
     }
     
-    override public func draw(_ rect: CGRect) {
-        reloadData()
-    }
-    
-    // MARK:- Draw
+    // MARK:- Prepare View
     private func settingChartViewFrame() {
         let length = (frame.height < frame.width) ? frame.height : frame.width
-        
-        chartView.frame = CGRect(x: frame.width/2 - length/2,
-                                 y: frame.height/2 - length/2,
-                                 width: length,
-                                 height: length)
+        chartView.frame = CGRect(x: frame.width/2 - length/2, y: frame.height/2 - length/2,
+                                 width: length, height: length)
         axisView.frame = chartView.bounds
         graphView.frame = chartView.bounds
     }
     
-    private func prepareRadarChartLayer(rows: Int) {
-        radarChartLayer = CAShapeLayer()
-        guard let radarChartLayer = radarChartLayer else {
-            return
+    private func prepareRowLabels() {
+        var labels = [UILabel]()
+        for (index, _) in angleList.enumerated() {
+            let label = makeLabel()
+            label.font = dataSource?.radarChartView(self, fontForVertexInRow: index)
+            label.textColor = dataSource?.radarChartView(self, textColorForVertexInRow: index)
+            label.text = dataSource?.radarChartView(self, titleForVertexInRow: index)
+            label.sizeToFit()
+            chartView.addSubview(label)
+            labels.append(label)
         }
-        
+        let margin: CGFloat = 2
+        let maxWidth = labels.sorted { $0.frame.width > $1.frame.width }.first!.frame.width
+        let maxHeight = labels.sorted { $0.frame.height > $1.frame.height }.first!.frame.height
+        maxVertexLabelLength = maxWidth < maxHeight ? maxHeight + margin : maxWidth + margin
+        let smallRadius = radius + maxVertexLabelLength/2
+        let center = CGPoint(x: chartView.frame.size.width/2, y: chartView.frame.size.height/2)
+        for (index, angle) in angleList.enumerated() {
+            let label = labels[index]
+            label.center = CGPoint(x: center.x + smallRadius * CGFloat(cosf(angle)),
+                                   y: center.y + smallRadius * CGFloat(sinf(angle)))
+        }
+    }
+    
+    private func prepareAxisLabels() {
+        let valueCount = CGFloat(axisMaxValue - axisMinValue) /  CGFloat(numberOfAxisLabels - 1)
+        var value = axisMaxValue
+        var labels = [UILabel]()
+        for _ in 0..<numberOfAxisLabels {
+            let label = makeLabel()
+            label.font = axisLabelsFont
+            label.textColor = axisLabelsTextColor
+            label.text = axisDecimalFormat.formattedValue(value)
+            value -= valueCount
+            label.sizeToFit()
+            chartView.addSubview(label)
+            labels.append(label)
+        }
+        let angle = angleList.first!
+        var drawRadius = radius
+        let margin: CGFloat = 8
+        let maxWidth = labels.sorted { $0.frame.width > $1.frame.width }.first!.frame.width
+        let center = CGPoint(x: chartView.frame.size.width/2, y: chartView.frame.size.height/2)
+        labels.forEach {
+            $0.center = CGPoint(x: center.x - maxWidth/2 - margin + drawRadius * CGFloat(cosf(angle)),
+                                y: center.y + margin + drawRadius * CGFloat(sinf(angle)))
+            drawRadius -= radius / CGFloat(numberOfAxisLabels - 1)
+        }
+    }
+    
+    private func makeLabel() -> UILabel {
+        let label = UILabel(frame: .zero)
+        label.numberOfLines = 0
+        return label
+    }
+    
+    // MARK:- ChartLayers
+    private func makeRadarChartLayer() -> CAShapeLayer {
+        let radarChartLayer = CAShapeLayer()
         radarChartLayer.lineWidth = axisWidth
-        let height = chartView.frame.height - (space*2) - (rowLabelHeight*2)
-        let width = chartView.frame.width - (space*2) - (rowLabelWidth*2)
-        let length = (height < width) ? height : width
-        radarChartLayer.frame = CGRect(x: chartView.frame.width/2 - length/2,
-                                       y: chartView.frame.height/2 - length/2,
-                                       width: length,
-                                       height: length)
-        axisView.layer.addSublayer(radarChartLayer)
+        radarChartLayer.frame = CGRect(x: chartView.frame.width/2 - radius,
+                                       y: chartView.frame.height/2 - radius,
+                                       width: radius*2, height: radius*2)
         radarChartLayer.strokeColor = axisColor.cgColor
         radarChartLayer.fillColor = UIColor.clear.cgColor
-        let radius = length/2
-        let centerPoint = CGPoint(x: length/2, y: length/2)
+        radarChartLayer.path = makeRadarChartPath().cgPath
+        radarChartLayer.cornerRadius = radius
+        return radarChartLayer
+    }
+    
+    private func makeRadarChartPath() -> UIBezierPath {
+        let centerPoint = CGPoint(x: radius, y: radius)
+        func point(radius: CGFloat, angle: Float) -> CGPoint {
+            return .init(x: centerPoint.x + radius * CGFloat(cosf(angle)), y: centerPoint.y + radius * CGFloat(sinf(angle)))
+        }
         let path = UIBezierPath()
         path.move(to: centerPoint)
-        var angle:Float = Float(Double.pi/2 + Double.pi)
-
-        for _ in 0..<rows {
-            let point = CGPoint(x: centerPoint.x + radius * CGFloat(cosf(angle)),
-                                y: centerPoint.y + radius * CGFloat(sinf(angle)))
-            
-            path.addLine(to: point)
+        angleList.forEach {
+            path.addLine(to: point(radius: radius, angle: $0))
             path.move(to: centerPoint)
-            angleList.append(angle)
-            angle +=  Float(Double.pi*2) / Float(rows)
         }
         
         var drawRadius = radius
-        for _ in 0..<numberOfAxisLabel {
-            var startPoint = CGPoint.zero
-            var angle:Float = Float(Double.pi/2 + Double.pi)
-            for row in 0..<rows {
-                let point = CGPoint(x: centerPoint.x + drawRadius * CGFloat(cosf(angle)),
-                                    y: centerPoint.y + drawRadius * CGFloat(sinf(angle)))
-                if row == 0 {
-                    path.move(to: point)
-                    startPoint = point
-                } else {
-                    path.addLine(to: point)
-                }
-                
-                angle +=  Float(Double.pi*2) / Float(rows)
+        for _ in 0..<numberOfAxisLabels {
+            let startPoint = point(radius: drawRadius, angle: angleList.first!)
+            path.move(to: startPoint)
+            angleList[1..<angleList.count].forEach {
+                path.addLine(to: point(radius: drawRadius, angle: $0))
             }
             path.addLine(to: startPoint)
-            drawRadius -= radius/CGFloat(numberOfAxisLabel - 1)
+            drawRadius -= radius / CGFloat(numberOfAxisLabels - 1)
         }
-        
-        radarChartLayer.path = path.cgPath
-        radarChartLayer.cornerRadius = radius
+        return path
+    }
+    
+    private func makeAngleList(rows: Int) -> [Float] {
+        var angle = Float(Double.pi/2 + Double.pi)
+        var angleList = [Float]()
+        for _ in 0..<rows {
+            angleList.append(angle)
+            angle +=  Float(Double.pi*2) / Float(rows)
+        }
+        return angleList
     }
     
     private func prepareGraphLayers(sections: Int) {
@@ -184,126 +212,44 @@ public class AMRadarChartView: UIView {
         for graphLayer in graphLayers {
             graphLayer.frame = radarChartLayer.frame
             graphLayer.lineWidth = borderLineWidth
-            graphLayer.lineJoin = CAShapeLayerLineJoin.round
-            graphLayer.lineCap = CAShapeLayerLineCap.round
-            graphLayer.lineDashPattern = (isDottedLine) ? [5, 6] : nil
+            graphLayer.lineJoin = .round
+            graphLayer.lineCap = .round
+            graphLayer.lineDashPattern = isDottedLine ? [5, 6] : nil
         }
     }
     
-    private func prepareRowLabels() {
-        guard let radarChartLayer = radarChartLayer else {
-            return
-        }
-        
-        let radius = radarChartLayer.frame.width/2
-        let centerPoint = CGPoint(x: radarChartLayer.frame.origin.x + radius,
-                                  y: radarChartLayer.frame.origin.y + radius)
-        
-        for angle in angleList {
-            let label = UILabel(frame:CGRect(x: 0,
-                                             y: 0,
-                                             width: rowLabelWidth,
-                                             height: rowLabelHeight))
-            label.adjustsFontSizeToFitWidth = true
-            label.textAlignment = .center
-            label.font = rowLabelsFont
-            label.textColor = rowLabelsTextColor
-            let point = CGPoint(x: centerPoint.x + (radius + rowLabelHeight) * CGFloat(cosf(angle)),
-                                y: centerPoint.y + (radius + rowLabelHeight) * CGFloat(sinf(angle)))
-            label.center = point
-            rowLabels.append(label)
-            chartView.addSubview(label)
+    private func setGraphLayer(_ graphLayer: CAShapeLayer, path: UIBezierPath,
+                               fillColor: UIColor, strokeColor: UIColor) {
+        graphLayer.fillColor = fillColor.cgColor
+        graphLayer.strokeColor = strokeColor.cgColor
+        graphLayer.cornerRadius = radius
+        if graphLayer.path == nil {
+            graphLayer.path = path.cgPath
         }
     }
     
-    private func prepareAxisLabels() {
-        guard let radarChartLayer = radarChartLayer else {
-            return
-        }
-        
-        let radius = radarChartLayer.frame.width/2
-        let centerPoint = CGPoint(x: radarChartLayer.frame.origin.x + radius,
-                                  y: radarChartLayer.frame.origin.y + radius)
-        var drawRadius = radius
-        let angle = angleList.first!
-        let width = axisLabelsWidth
-        let height = radius / CGFloat(numberOfAxisLabel)
-        let valueCount = CGFloat(axisMaxValue - axisMinValue) /  CGFloat(numberOfAxisLabel - 1)
-        var value = axisMaxValue
-        
-        for _ in 0..<numberOfAxisLabel {
-            let point = CGPoint(x: centerPoint.x + drawRadius * CGFloat(cosf(angle)),
-                                y: centerPoint.y + drawRadius * CGFloat(sinf(angle)))
-            
-            let label = UILabel(frame:CGRect(x: point.x - width - space,
-                                             y: point.y - height/2,
-                                             width: width,
-                                             height: height))
-            
-            label.adjustsFontSizeToFitWidth = true
-            label.textAlignment = .right
-            label.font = axisLabelsFont
-            label.textColor = axisLabelsTextColor
-            
-            var text = ""
-            switch axisDecimalFormat {
-            case .none:
-                text = NSString(format: "%.0f", value) as String
-            case .first:
-                text = NSString(format: "%.1f", value) as String
-            case .second:
-                text = NSString(format: "%.2f", value) as String
-            }
-            
-            label.text = text
-            axisLabels.append(label)
-            chartView.addSubview(label)
-            drawRadius -= radius/CGFloat(numberOfAxisLabel - 1)
-            value -= valueCount
-        }
-    }
-    
-    private func prepareGraphLayers(section: Int,
-                                    rows: Int,
-                                    fillColor: UIColor,
-                                    strokeColor: UIColor,
-                                    values: [CGFloat]) {
-        guard let radarChartLayer = radarChartLayer else {
-            return
-        }
-        
-        let layer = graphLayers[section]
-        layer.fillColor = fillColor.cgColor
-        layer.strokeColor = strokeColor.cgColor
-        let radius = radarChartLayer.frame.width/2
-        layer.cornerRadius = radius
-        
+    private func makeGraphPath(rows: Int, values: [CGFloat]) -> (start: UIBezierPath, animation: UIBezierPath) {
         let centerPoint = CGPoint(x: radius, y: radius)
-        let path = UIBezierPath()
+        let animationPath = UIBezierPath()
         let startPath = UIBezierPath()
         var startPoint = CGPoint.zero
-        
         for row in 0..<rows {
             let angle = angleList[row]
             let rate = values[row] / (axisMaxValue - axisMinValue)
             let point = CGPoint(x: centerPoint.x + (radius * rate) * CGFloat(cosf(angle)),
                                 y: centerPoint.y + (radius * rate) * CGFloat(sinf(angle)))
             if row == 0 {
-                path.move(to: point)
+                animationPath.move(to: point)
                 startPath.move(to: centerPoint)
                 startPoint = point
             } else {
-                path.addLine(to: point)
+                animationPath.addLine(to: point)
                 startPath.addLine(to: centerPoint)
             }
         }
-        path.addLine(to: startPoint)
+        animationPath.addLine(to: startPoint)
         startPath.move(to: centerPoint)
-        
-        if (layer.path == nil) {
-            layer.path = startPath.cgPath
-        }
-        animationPaths.append(path)
+        return (startPath, animationPath)
     }
     
     private func showAnimation() {
@@ -319,20 +265,8 @@ public class AMRadarChartView: UIView {
         animationPaths.removeAll()
     }
     
-    private func clearView() {
-        axisLabels.forEach { $0.removeFromSuperview() }
-        axisLabels.removeAll()
-        
-        rowLabels.forEach { $0.removeFromSuperview() }
-        rowLabels.removeAll()
-        
-        radarChartLayer?.removeFromSuperlayer()
-        radarChartLayer = nil
-        angleList.removeAll()
-    }
-    
     // MARK:- Reload
-    public func reloadData() {
+    override public func reloadData() {
         clearView()
         settingChartViewFrame()
         guard let dataSource = dataSource else {
@@ -341,39 +275,27 @@ public class AMRadarChartView: UIView {
         
         let sections = dataSource.numberOfSections(in: self)
         let rows = dataSource.numberOfRows(in: self)
-        
-        if (rows < 3) {
-            return
-        }
-        
-        prepareRadarChartLayer(rows:rows)
-        prepareGraphLayers(sections:sections)
+        precondition(numberOfAxisLabels > 1, "numberOfAxisLabel is less than 2")
+        precondition(sections > 0, "numberOfSections is less than 1")
+        precondition(rows > 2, "numberOfRows is less than 3")
+        precondition(axisMinValue < axisMaxValue, "axisMaxValue is less than or eqaul to axisMinValue")
+        angleList = makeAngleList(rows: rows)
         prepareRowLabels()
         prepareAxisLabels()
-        
+        radarChartLayer = makeRadarChartLayer()
+        axisView.layer.addSublayer(radarChartLayer!)
+        prepareGraphLayers(sections: sections)
         for section in 0..<sections {
             var values = [CGFloat]()
             for row in 0..<rows {
-                if section == 0 {
-                    let label = rowLabels[row]
-                    label.text = dataSource.radarChartView(radarChartView: self,
-                                                           titleForXlabelInRow: row)
-                }
-                
-                let indexPath = IndexPath(row:row, section: section)
-                let value = dataSource.radarChartView(self, valueForRowAtIndexPath: indexPath)
-                values.append(value)
+                values.append(dataSource.radarChartView(self, valueForRowAtIndexPath: IndexPath(row:row, section: section)))
             }
-            
-            let fillColor = dataSource.radarChartView(self, fillColorForSection:section)
-            let strokeColor = dataSource.radarChartView(self, strokeColorForSection:section)
-            prepareGraphLayers(section:section,
-                               rows:rows,
-                               fillColor:fillColor,
-                               strokeColor:strokeColor,
-                               values:values)
+            let paths = makeGraphPath(rows: rows, values: values)
+            setGraphLayer(graphLayers[section], path: paths.start,
+                          fillColor: dataSource.radarChartView(self, fillColorForSection:section),
+                          strokeColor: dataSource.radarChartView(self, strokeColorForSection:section))
+            animationPaths.append(paths.animation)
         }
-        
         showAnimation()
     }
     
@@ -381,5 +303,16 @@ public class AMRadarChartView: UIView {
         graphLayers.forEach { $0.removeFromSuperlayer() }
         graphLayers.removeAll()
         reloadData()
+    }
+    
+    private func clearView() {
+        chartView.subviews.forEach {
+            if $0 != graphView && $0 != axisView {
+                $0.removeFromSuperview()
+            }
+        }
+        radarChartLayer?.removeFromSuperlayer()
+        radarChartLayer = nil
+        angleList.removeAll()
     }
 }

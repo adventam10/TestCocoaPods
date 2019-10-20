@@ -11,10 +11,10 @@ pod 'AMNowClockView', '2.2.0'
 pod 'AMMeterView', '2.1.1'
 pod 'AMSpeedMeter', '2.1.0'
 pod 'AMCalendar', '2.1.2'
-pod 'AMChart', '2.2.0'
+pod 'AMChart', '2.3.3'
 pod 'AMVennDiagramView', '2.1.0'
 pod 'AMBurnAnimation', '2.1.0'
-pod 'AMJpnMap', '2.1.0'
+pod 'AMJpnMap', '2.1.1'
 pod 'AMColorPicker', '3.0.1'
   target 'TestPodTests' do
     inherit! :search_paths

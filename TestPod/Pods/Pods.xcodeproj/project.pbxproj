@@ -3,87 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002D3E745F9C90BC6D9AF61B7F677155 /* AMRadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA37620EC88BB09EB6EE394C19DAEBD /* AMRadarChartView.swift */; };
 		0470C02C7066081A522B6B463D8DCFE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		056280D1F00978A071FBDAA3ED74093E /* AMJMRegionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9E19711EE925EE50B4AA0FE0C44D2 /* AMJMRegionLayer.swift */; };
-		0AA327C220E8FCE029277DEDDA3FCDEC /* AMClockView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 258BEEBD46EE62BCB67B898A88F56E1D /* AMClockView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		128506D8BD225B90D13B981EA6DF3ABA /* AMColorPickerWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BD10098A3F3605C72DF8F81C3B53F7 /* AMColorPickerWheelView.xib */; };
+		056280D1F00978A071FBDAA3ED74093E /* AMJMRegionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CE75EC8094C75D69ABD3C5520090E /* AMJMRegionLayer.swift */; };
+		0AA327C220E8FCE029277DEDDA3FCDEC /* AMClockView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5776FF94C0B1555F0855C75FE817EECE /* AMClockView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		128506D8BD225B90D13B981EA6DF3ABA /* AMColorPickerWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E488C4F7AA1A50159C84DB35CD839C /* AMColorPickerWheelView.xib */; };
 		1290B48B5522977377D6A57EC4FC0471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		13EC04A37A3195D0A8146D397CF97BA5 /* AMColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76E8E8AA1491AF67EAAA96ED3A49476 /* AMColorPickerViewController.xib */; };
+		13EC04A37A3195D0A8146D397CF97BA5 /* AMColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1CD58C57D13F615A0238BA529C6F49C /* AMColorPickerViewController.xib */; };
 		1A857CFB8ED5A51752E6368142CF3EE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1BC4ED0A533396E47F0A4A48D299B5CA /* AMVennDiagramView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E69F2580CE4D3CD3F218EB4EE98065 /* AMVennDiagramView-dummy.m */; };
-		26B5FF575E7029ECC5AF87B6200DFD33 /* AMPrefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126AC7644FD9514E36359C9CE448048 /* AMPrefecture.swift */; };
+		1BC4ED0A533396E47F0A4A48D299B5CA /* AMVennDiagramView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D21730C318713A93714AC292A0C36454 /* AMVennDiagramView-dummy.m */; };
+		26B5FF575E7029ECC5AF87B6200DFD33 /* AMPrefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079747C13B0E83253DADD95DD0F89836 /* AMPrefecture.swift */; };
 		26BD2D756FA41E8C5303E4BC4CF0AF4B /* Pods-TestPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B794E7ABFEAF42E3CAB000BB5B585A98 /* Pods-TestPod-dummy.m */; };
 		2EBE2FC73F450AA91FBBF78249B32E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3140D0FED860B8395E30F04E6E787E61 /* AMColorPickerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05BD47A049022458751D91AB4E6716 /* AMColorPickerTableView.swift */; };
-		356D1AE507089A89F01D3834FA9F46CB /* AMColorPickerWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BA5FABCC51C335F1F761B039DAF3E6 /* AMColorPickerWheelView.swift */; };
-		3895C84D6508F27A1208A87123FB3A3D /* AMJpnMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967A4C08C18A7E363D44C3F8E03F9A9B /* AMJpnMapView.swift */; };
+		3140D0FED860B8395E30F04E6E787E61 /* AMColorPickerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52171B4529EE1E79AA2C56FBD14CEB88 /* AMColorPickerTableView.swift */; };
+		339B8A5E2059FE085A151459CEEE0778 /* AMChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573976AFDBB0DF5533F5B84EC807D78 /* AMChartView.swift */; };
+		356D1AE507089A89F01D3834FA9F46CB /* AMColorPickerWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4624A90763FE078D6016DF2254701 /* AMColorPickerWheelView.swift */; };
+		3895C84D6508F27A1208A87123FB3A3D /* AMJpnMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C44C609297690A799E1BAFF8CF8758 /* AMJpnMapView.swift */; };
+		39CB03CC056F3B091962D0F86E12014F /* AMPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A0382B34E1C56D919D64028DAD96E /* AMPieChartView.swift */; };
 		3C909B8B0252A97D2EFCA04C544C8D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3D36A4E03C7F00F835FD5216CEE3AA42 /* AMBurnAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC56055D92E5A09CEFAC27611F27E963 /* AMBurnAnimation-dummy.m */; };
-		3E06FC16AD490E415C5FFF1F3D1C59DB /* AMColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 116EBD35582A03FDD29A792F916C9929 /* AMColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4180F4AC37CC5E2396844E7FBCFE5167 /* AMClockView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C499F864468A832BFFFFF4511A7ABD /* AMClockView-dummy.m */; };
-		4571796293BFF4B811BF62DBEBDE3CAC /* amb_particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9D86A85D006E217529EDF9EA8F284B /* amb_particle.png */; };
-		4707A5A3172D8AC780295C3C76C3E510 /* AMMeterView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8617A92EDC313931A80822B771B9F32 /* AMMeterView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B12C426BF53064A3880EDBACC0A7B8A /* AMCP_cursor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794E15B70F2F686630D3731FD7615D7A /* AMCP_cursor@2x.png */; };
-		51F48BFF707DF7154B16E2907ACA3870 /* AMCP_color_wheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D93B184FD960ACD76AE6C4D032980427 /* AMCP_color_wheel@2x.png */; };
-		5644F65E3F5B827F3BCF973B40023C98 /* AMJpnMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8122DCD511DF27ECDDA9310FF37BF2DE /* AMJpnMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A2845621383D0A8039974EDF113AC1A /* AMScatterChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7950E685EA5E6E08063E9149D825F2C0 /* AMScatterChartView.swift */; };
-		5A76530FB7E3B665B9AE92C49F718A34 /* AMLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0653E39B21ACDA30A3044EB1EE6C4382 /* AMLineChartView.swift */; };
+		3D36A4E03C7F00F835FD5216CEE3AA42 /* AMBurnAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDECB6049A8F847C231EF56F81FB9324 /* AMBurnAnimation-dummy.m */; };
+		3E06FC16AD490E415C5FFF1F3D1C59DB /* AMColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FA867AD679808B18A7AE354A03C836 /* AMColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4180F4AC37CC5E2396844E7FBCFE5167 /* AMClockView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A99DB9127F18532A532BD905DD7D8E /* AMClockView-dummy.m */; };
+		4571796293BFF4B811BF62DBEBDE3CAC /* amb_particle.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEF18503B5BCB6D478568CEC61B0EA6 /* amb_particle.png */; };
+		4707A5A3172D8AC780295C3C76C3E510 /* AMMeterView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11ACB5E036A039405EAC959D0AFC213B /* AMMeterView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B12C426BF53064A3880EDBACC0A7B8A /* AMCP_cursor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22EF679CE3FCA17436B3989988C7E6AC /* AMCP_cursor@2x.png */; };
+		51F48BFF707DF7154B16E2907ACA3870 /* AMCP_color_wheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5E44CA053D5DA4A6033B56E965FDD /* AMCP_color_wheel@2x.png */; };
+		5644F65E3F5B827F3BCF973B40023C98 /* AMJpnMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE1EBB3DAA993A6BD57785ABFCFC917 /* AMJpnMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		631415B5E62D19C325747E8D1489BF7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6477ED8BDC252A1F54B52A3350DFDE8A /* AMMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE137F846F89B49406B713F0549AFBB /* AMMeterView.swift */; };
+		6477ED8BDC252A1F54B52A3350DFDE8A /* AMMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF2FDA2753C3D7C553569B8372A6BFC /* AMMeterView.swift */; };
 		64BF9942ABDBB3C1718BB50D3511D154 /* Pods-TestPodUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3CD55EF66D16F4712CEA92C8CE33D1 /* Pods-TestPodUITests-dummy.m */; };
-		66EB131EC062D11D014B86C4A75FFC39 /* AMColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E260204BF461A4F515110DA48A04991 /* AMColorPicker-dummy.m */; };
-		674DD9B40617922F953D3AB39D6BD466 /* AMRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7F5BEB5059FF9CB3D3EE820B5D1EF /* AMRegion.swift */; };
-		67E246E3DBB8E9239BB266DAD3553427 /* AMNowClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE7FC9ADB4D71E170468A47980056E2 /* AMNowClockView.swift */; };
-		6B181C52EFABD9BCFD4ADE57861E28E6 /* AMCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E9DB2528B06175CDFB2B1C53422FCE /* AMCalendar-dummy.m */; };
-		6DC43B6FC3B5FDF0D72D6162C3E75805 /* AMColorPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D6D4B8F44C451F70A3C5BB4478E9AC /* AMColorPickerTableViewCell.xib */; };
-		6E5B6B2BB4BF7EDFCA7F9C281D9EA94E /* AMNowClockView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6444524A7B97A2FDF1A4BAAB9660EB04 /* AMNowClockView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E6116BC68E56AB32D64A378BE12833B /* AMCalendarRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D421336C1C50E27D8D8A62A978B9F2D /* AMCalendarRootViewController.swift */; };
-		7062F4939C7CDC5DD6D5FDFF770204A4 /* AMJpnMapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F868556A502E5C22344E3339DAED9EE /* AMJpnMapDetailView.swift */; };
+		66EB131EC062D11D014B86C4A75FFC39 /* AMColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FDA44648BA425D9DA5B3B3D405E62 /* AMColorPicker-dummy.m */; };
+		674DD9B40617922F953D3AB39D6BD466 /* AMRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6316B5EC9FA542312A91C5F0542B11F8 /* AMRegion.swift */; };
+		67E246E3DBB8E9239BB266DAD3553427 /* AMNowClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77066FF86F20084F3D7DC87681C53DF /* AMNowClockView.swift */; };
+		67E7D7E01BAA12F987A93D0F6FA76211 /* AMScatterChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8071D08D1B4BFFBE70C0A55E9F233791 /* AMScatterChartView.swift */; };
+		67EFD42D4E6ADD4C01889220F108E009 /* AMChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204C7B4DB3F780AED35C39BE7EE782A /* AMChartData.swift */; };
+		6B181C52EFABD9BCFD4ADE57861E28E6 /* AMCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795501E4E437876E071521D089CF4A90 /* AMCalendar-dummy.m */; };
+		6DC43B6FC3B5FDF0D72D6162C3E75805 /* AMColorPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BEB19EEF8FFB7C3B4A4ABDAD589729E /* AMColorPickerTableViewCell.xib */; };
+		6E5B6B2BB4BF7EDFCA7F9C281D9EA94E /* AMNowClockView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C7330125124011EF3FE46D34E94FDA /* AMNowClockView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E6116BC68E56AB32D64A378BE12833B /* AMCalendarRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4168B247504451B3D4D6F2B0F8F70 /* AMCalendarRootViewController.swift */; };
+		7062F4939C7CDC5DD6D5FDFF770204A4 /* AMJpnMapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF61087EF7C3BE4E156A3D36350CFE7 /* AMJpnMapDetailView.swift */; };
 		76CC2ACE9B630CEC9061530896B3BE20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		77E9B74277BB26EC02831EF81803DEAD /* AMSpeedMeter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D04439E27C5BA2619F737924FBBECCCD /* AMSpeedMeter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		783970EA10935DCD94A66D818B41E8F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7BC369523CF18358BD597372CDBD8760 /* AMColorPickerRGBSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8287FD75CB2D974BDC4E914458634 /* AMColorPickerRGBSliderView.swift */; };
-		7D832B41FDDA8A6B1D64EE9EE3E6D97A /* AMRadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D36F33D3FB56A04779D35124DD3FEA /* AMRadarChartView.swift */; };
+		77E9B74277BB26EC02831EF81803DEAD /* AMSpeedMeter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBFAA51F5C9D04CECED06B623C8B2CB /* AMSpeedMeter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BC369523CF18358BD597372CDBD8760 /* AMColorPickerRGBSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21559D8B417AD4E340A802501665F5 /* AMColorPickerRGBSliderView.swift */; };
 		81EC41401E97C90CD0B6218D66DE2A75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		848C9A7BE243F4A7F9C809A3CBA46E1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		85D9C313DB134095A59156BB7B10A38F /* AMColorPickerRGBSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687BD9ACB8D323D6210D901A7D18A08C /* AMColorPickerRGBSliderView.xib */; };
-		89DB9E860605EFEAD33A2C1042AA4E3D /* AMCalendarDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078352778EC2169F6CEC108B32779D22 /* AMCalendarDataViewController.swift */; };
-		8C7910BE0665ED3D757C0027BB557857 /* AMSpeedMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF21311B018F146ECB5A479BA756824 /* AMSpeedMeterView.swift */; };
-		8EFAFE5D81B5B54356EE52CD67AB8560 /* amb_particle1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869EEC41FB5423CD46360E1FBCFC63DB /* amb_particle1@2x.png */; };
-		8FE189AABE07B9D87E5E86201AAF956C /* AMCalendarDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B143C8DE608CAFC7D08047301D3967D /* AMCalendarDataViewController.xib */; };
-		90266A6477C1383952D62B7F08271FC4 /* AMChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09545F092DE90CF08C4C083CCDCB1D9A /* AMChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94498466C336B5576A8948432C546094 /* AMVennDiagramView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E75C33BD157C33C890F640370C79F2B /* AMVennDiagramView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85D9C313DB134095A59156BB7B10A38F /* AMColorPickerRGBSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6B8151F29F6906BFBFB7889EE3A1CB /* AMColorPickerRGBSliderView.xib */; };
+		87AB9C29DAFD3EF44739BBC725ECAB1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		89DB9E860605EFEAD33A2C1042AA4E3D /* AMCalendarDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05366AEB539F392755B45512B3D73AE2 /* AMCalendarDataViewController.swift */; };
+		8C7910BE0665ED3D757C0027BB557857 /* AMSpeedMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571FF99085AF1EEF696DED0EEFFCD644 /* AMSpeedMeterView.swift */; };
+		8EFAFE5D81B5B54356EE52CD67AB8560 /* amb_particle1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EC383DAA22FEDA08D17701161806BF6 /* amb_particle1@2x.png */; };
+		8FE189AABE07B9D87E5E86201AAF956C /* AMCalendarDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFCD4CEA8AAE2C12415923AC54E177C /* AMCalendarDataViewController.xib */; };
+		94498466C336B5576A8948432C546094 /* AMVennDiagramView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F6BA20DF5CDB9AFC2919971555F556 /* AMVennDiagramView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9699DEA1EE304F8E7E7808C0AA8C5D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		97C8E7EF0EC310807B6A02E375468B9D /* AMColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AFE256918C56FBAA51E9C41FE9C86 /* AMColorPickerViewController.swift */; };
+		97C8E7EF0EC310807B6A02E375468B9D /* AMColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E5E2184E96AE7829658AF169A7176A /* AMColorPickerViewController.swift */; };
 		9CF8C154625FF514C7C89ED1820BF33A /* Pods-TestPodTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB74114CC60889BA7FEE24186D4F3C /* Pods-TestPodTests-dummy.m */; };
-		9EAE89F96980DB22E6B55D4C3D97C0E2 /* AMChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4491A5D1F890852BE4B7DD56BFD25AC /* AMChart-dummy.m */; };
-		9FB05ACA9AC17734F1EAC88B7A7A75BE /* AMCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF444EDD7CC75DD42206DBD9A89BCA0 /* AMCalendar.swift */; };
-		A57ADBCB229B6F41CA4E9EE13CC43EFF /* AMCP_slider_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49EFD619BCA1F946A8EC9339C4496CFC /* AMCP_slider_thumb@2x.png */; };
-		AAD681D4C2C3F9C553E67C299E8A972A /* AMColorPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8738BBC3E6672C06B5A46486BE9D14D7 /* AMColorPickerTableViewCell.swift */; };
+		9FB05ACA9AC17734F1EAC88B7A7A75BE /* AMCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F13E4A16922F8C20DF725DE21BF4 /* AMCalendar.swift */; };
+		A57ADBCB229B6F41CA4E9EE13CC43EFF /* AMCP_slider_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4A336BDD06692046A31B204E821100 /* AMCP_slider_thumb@2x.png */; };
+		A5CE8DBDDF499241BF241078A50739A0 /* AMLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554AFAB46DEE9263FDFF830D4BC0C43 /* AMLineChartView.swift */; };
+		AAD681D4C2C3F9C553E67C299E8A972A /* AMColorPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61F3ECB3BF16098310E4408924F676B /* AMColorPickerTableViewCell.swift */; };
 		AB22EA577A2147B073B51F0BC1EA5897 /* Pods-TestPodTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF908265C305873D9934D211B4D88F3 /* Pods-TestPodTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B35A16906C41E4EE0F1A6892583D5A36 /* AMJpnMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD638B591A3ED588ACD4F2414F6968B0 /* AMJpnMap-dummy.m */; };
-		B87210436C179E36BCCDA1E4CC23D4E3 /* AMBurnAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4C538A6493D5B83B670335F9166F44 /* AMBurnAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0349F4B6D030FF46053FF68124DC000 /* AMChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF433ECDD757C37F1344ADB711141C9 /* AMChart-dummy.m */; };
+		B35A16906C41E4EE0F1A6892583D5A36 /* AMJpnMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F23992B5FFE2667A4D62BC6A9D4F7E /* AMJpnMap-dummy.m */; };
+		B87210436C179E36BCCDA1E4CC23D4E3 /* AMBurnAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1457FAAC74EFDAD597BFA7482680D505 /* AMBurnAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B998B3C32365E86245DEE8270F995573 /* Pods-TestPodUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA8F960B58F4F9EA3196BD104BF242B /* Pods-TestPodUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC35563945987857B72BA0356686C31C /* amb_particle2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 356763992379B7F9532E2B1BBE492D99 /* amb_particle2@2x.png */; };
-		CC528D67C6AD1CB8EA704605FD876132 /* AMColorPickerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E14E25D650CA782BF3B92337910A6E /* AMColorPickerAssets.xcassets */; };
-		D32F16DEC6B076DD440B1ADC8AE7C168 /* AMPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6058051FD6BBECFEB699AD0F836C8F7B /* AMPieChartView.swift */; };
-		DC95BC3637599CCC334A9A5C20C1EE1F /* AMMeterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB93F0664C0929D57095AFA7631A6041 /* AMMeterView-dummy.m */; };
-		DCD5A4241617B33C312631CC6419702C /* AMClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9DA03C0EFE44E8CD958EB1B481E41E /* AMClockView.swift */; };
-		DDE8680E2FF9A5116A5A6E6B53F0FFD3 /* AMCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB6AEC737E903FE520FBA2EF9EE6FAB /* AMCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC35563945987857B72BA0356686C31C /* amb_particle2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 937C8F1315BDC595AB18F6C23C08A5E3 /* amb_particle2@2x.png */; };
+		CC528D67C6AD1CB8EA704605FD876132 /* AMColorPickerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B0E5DDFF918D4A07F48E381A3271E9 /* AMColorPickerAssets.xcassets */; };
+		DC95BC3637599CCC334A9A5C20C1EE1F /* AMMeterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5171FD0025EADE6EA81D45152CF5F /* AMMeterView-dummy.m */; };
+		DCD5A4241617B33C312631CC6419702C /* AMClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D530D42D49798586E54D4B8DA99D0 /* AMClockView.swift */; };
+		DDE8680E2FF9A5116A5A6E6B53F0FFD3 /* AMCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6AC846B7A1E0BC6202C5040A7BB4BE5 /* AMCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE7DFEA48E2C67D9A3469C002465DBA9 /* Pods-TestPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE290030B1ACC4D201758F9D2FF0075 /* Pods-TestPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0563B12E0D46DAEEBD1C9FD5574F0AA /* AMNowClockView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB574868CF8782DC1020A85550DD2EAB /* AMNowClockView-dummy.m */; };
-		E2EA729DDCB79B80D6B98A691D7D64B2 /* AMColorPickerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFEE75AAF732965A44355960F39135 /* AMColorPickerProtocol.swift */; };
-		E689591BB17DDF3F9D10908FBEA60555 /* AMVennDiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A350D3C87CD03B4ACAB008D8669D5F7 /* AMVennDiagramView.swift */; };
-		E8CE31EA9F9CA6D823325B704DED1677 /* AMColorPickerTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A03D5A831ED795F3AE38ED658CF579B2 /* AMColorPickerTableView.xib */; };
-		EDDEEE155BA6604647B3944EA1F1DB27 /* AMBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E22A2E9A3B44385902C11A7D294646C /* AMBarChartView.swift */; };
+		DF68F8DCE1D843F99BE1B9A5E184D7B8 /* AMBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E552A6936D14DC5F594F698A9A21B1 /* AMBarChartView.swift */; };
+		E0563B12E0D46DAEEBD1C9FD5574F0AA /* AMNowClockView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD968CF0D80F584150411BFA68292B26 /* AMNowClockView-dummy.m */; };
+		E2EA729DDCB79B80D6B98A691D7D64B2 /* AMColorPickerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E096624141CBE427ACD202303510A /* AMColorPickerProtocol.swift */; };
+		E689591BB17DDF3F9D10908FBEA60555 /* AMVennDiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114E9271DA97390B5DE6A2E394EA3CC1 /* AMVennDiagramView.swift */; };
+		E8CE31EA9F9CA6D823325B704DED1677 /* AMColorPickerTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21FDFB1143EF4D4EE0D73C64C69DA882 /* AMColorPickerTableView.xib */; };
 		F3ADCEC6EA60DD4B6D2C9F7E071B18F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F476825FAA1B3E7E0966D7CE811B625C /* AMSpeedMeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED70CEB3AF5DDD1D324814CEB04975C /* AMSpeedMeter-dummy.m */; };
-		F73469DCD67695A6102650720D580542 /* AMColorPickerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E71AF5600DD94151CE3C5ED1F4202 /* AMColorPickerSlider.swift */; };
-		F9720E94127967011FD0AFFEBE6A0E90 /* UIView+BurnAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93777290C19FE051DAD4446371C7C1 /* UIView+BurnAnimation.swift */; };
+		F476825FAA1B3E7E0966D7CE811B625C /* AMSpeedMeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDD50DBFB8CF6370DD651858705F813 /* AMSpeedMeter-dummy.m */; };
+		F73469DCD67695A6102650720D580542 /* AMColorPickerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525654A9B9AC964B34BFB8D4EE225BF6 /* AMColorPickerSlider.swift */; };
+		F8EE1660DF98F371793A767819B3FA04 /* AMChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E50F162A1043B5EE99841ACB270CA42D /* AMChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9720E94127967011FD0AFFEBE6A0E90 /* UIView+BurnAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62086BC6FEAF8788D842D8F7CBFCC4C /* UIView+BurnAnimation.swift */; };
 		FD059F242EB9EC7CDF88C9EE0A813A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -175,145 +177,147 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02D6D4B8F44C451F70A3C5BB4478E9AC /* AMColorPickerTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerTableViewCell.xib; path = Source/view/Cell/AMColorPickerTableViewCell.xib; sourceTree = "<group>"; };
 		02F74660652CF76D653CC429ECF48F5D /* Pods_TestPodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestPodTests.framework; path = "Pods-TestPodTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		035A5DDA32758FA93BBE935D5E9CA6F9 /* AMClockView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMClockView-prefix.pch"; sourceTree = "<group>"; };
 		04DB74114CC60889BA7FEE24186D4F3C /* Pods-TestPodTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPodTests-dummy.m"; sourceTree = "<group>"; };
 		05200BBACD238E18246723C7D5EE8BED /* AMMeterView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMMeterView.framework; path = AMMeterView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0653E39B21ACDA30A3044EB1EE6C4382 /* AMLineChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMLineChartView.swift; path = Source/AMLineChartView.swift; sourceTree = "<group>"; };
-		06D8287FD75CB2D974BDC4E914458634 /* AMColorPickerRGBSliderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerRGBSliderView.swift; path = Source/view/AMColorPickerRGBSliderView.swift; sourceTree = "<group>"; };
-		078352778EC2169F6CEC108B32779D22 /* AMCalendarDataViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendarDataViewController.swift; path = Source/AMCalendarDataViewController.swift; sourceTree = "<group>"; };
-		09545F092DE90CF08C4C083CCDCB1D9A /* AMChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMChart-umbrella.h"; sourceTree = "<group>"; };
-		0966BAD66A01DB8AB3001B0439D9DCE1 /* AMMeterView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMMeterView-Info.plist"; sourceTree = "<group>"; };
-		0A350D3C87CD03B4ACAB008D8669D5F7 /* AMVennDiagramView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMVennDiagramView.swift; path = Source/AMVennDiagramView.swift; sourceTree = "<group>"; };
-		0A93777290C19FE051DAD4446371C7C1 /* UIView+BurnAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+BurnAnimation.swift"; path = "Source/UIView+BurnAnimation.swift"; sourceTree = "<group>"; };
-		0EE137F846F89B49406B713F0549AFBB /* AMMeterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMMeterView.swift; path = Source/AMMeterView.swift; sourceTree = "<group>"; };
-		0F4C3B77622D2883DEA68E7D06E631D1 /* AMSpeedMeter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSpeedMeter-prefix.pch"; sourceTree = "<group>"; };
-		116EBD35582A03FDD29A792F916C9929 /* AMColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMColorPicker-umbrella.h"; sourceTree = "<group>"; };
-		11E14E25D650CA782BF3B92337910A6E /* AMColorPickerAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AMColorPickerAssets.xcassets; path = Source/AMColorPickerAssets.xcassets; sourceTree = "<group>"; };
-		141D76F6421C3A0068B38D95EB5B1996 /* AMVennDiagramView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMVennDiagramView.xcconfig; sourceTree = "<group>"; };
-		17C499F864468A832BFFFFF4511A7ABD /* AMClockView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMClockView-dummy.m"; sourceTree = "<group>"; };
-		17D36F33D3FB56A04779D35124DD3FEA /* AMRadarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMRadarChartView.swift; path = Source/AMRadarChartView.swift; sourceTree = "<group>"; };
-		1A0E71AF5600DD94151CE3C5ED1F4202 /* AMColorPickerSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerSlider.swift; path = Source/view/Slider/AMColorPickerSlider.swift; sourceTree = "<group>"; };
-		1B143C8DE608CAFC7D08047301D3967D /* AMCalendarDataViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMCalendarDataViewController.xib; path = Source/AMCalendarDataViewController.xib; sourceTree = "<group>"; };
-		1C5CDDAA5D35F1F060A17EF3D370D3C2 /* AMCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMCalendar-prefix.pch"; sourceTree = "<group>"; };
-		258BEEBD46EE62BCB67B898A88F56E1D /* AMClockView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMClockView-umbrella.h"; sourceTree = "<group>"; };
-		29D9F172033D8C2E73F0D30CE9F2276B /* AMNowClockView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMNowClockView-prefix.pch"; sourceTree = "<group>"; };
-		2B5047B1C87361773BB5BAB9B950104D /* AMChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMChart.modulemap; sourceTree = "<group>"; };
-		2DE7FC9ADB4D71E170468A47980056E2 /* AMNowClockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMNowClockView.swift; path = Source/AMNowClockView.swift; sourceTree = "<group>"; };
-		2E22A2E9A3B44385902C11A7D294646C /* AMBarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMBarChartView.swift; path = Source/AMBarChartView.swift; sourceTree = "<group>"; };
-		2E75C33BD157C33C890F640370C79F2B /* AMVennDiagramView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMVennDiagramView-umbrella.h"; sourceTree = "<group>"; };
-		2EE72F3CE32F1A35644304DC56A0430B /* AMMeterView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMMeterView.modulemap; sourceTree = "<group>"; };
+		05366AEB539F392755B45512B3D73AE2 /* AMCalendarDataViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendarDataViewController.swift; path = Source/AMCalendarDataViewController.swift; sourceTree = "<group>"; };
+		0573976AFDBB0DF5533F5B84EC807D78 /* AMChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMChartView.swift; path = Source/AMChartView.swift; sourceTree = "<group>"; };
+		079747C13B0E83253DADD95DD0F89836 /* AMPrefecture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPrefecture.swift; path = Source/enums/AMPrefecture.swift; sourceTree = "<group>"; };
+		0DADBA2DE3423DC93B21A5FB96A8DD65 /* AMBurnAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMBurnAnimation-prefix.pch"; sourceTree = "<group>"; };
+		0E08056CF5AD93C0866BE0AD146FB15F /* AMJpnMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMJpnMap.modulemap; sourceTree = "<group>"; };
+		0EC383DAA22FEDA08D17701161806BF6 /* amb_particle1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amb_particle1@2x.png"; path = "Source/Resource/amb_particle1@2x.png"; sourceTree = "<group>"; };
+		114E9271DA97390B5DE6A2E394EA3CC1 /* AMVennDiagramView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMVennDiagramView.swift; path = Source/AMVennDiagramView.swift; sourceTree = "<group>"; };
+		11ACB5E036A039405EAC959D0AFC213B /* AMMeterView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMMeterView-umbrella.h"; sourceTree = "<group>"; };
+		12E4168B247504451B3D4D6F2B0F8F70 /* AMCalendarRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendarRootViewController.swift; path = Source/AMCalendarRootViewController.swift; sourceTree = "<group>"; };
+		1457FAAC74EFDAD597BFA7482680D505 /* AMBurnAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMBurnAnimation-umbrella.h"; sourceTree = "<group>"; };
+		16B4DFE285311A9ABBDF27C0307EDD15 /* AMClockView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMClockView.modulemap; sourceTree = "<group>"; };
+		1D4A336BDD06692046A31B204E821100 /* AMCP_slider_thumb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_slider_thumb@2x.png"; path = "Source/image/AMCP_slider_thumb@2x.png"; sourceTree = "<group>"; };
+		200A0382B34E1C56D919D64028DAD96E /* AMPieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPieChartView.swift; path = Source/AMPieChartView.swift; sourceTree = "<group>"; };
+		21FDFB1143EF4D4EE0D73C64C69DA882 /* AMColorPickerTableView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerTableView.xib; path = Source/view/AMColorPickerTableView.xib; sourceTree = "<group>"; };
+		22EF679CE3FCA17436B3989988C7E6AC /* AMCP_cursor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_cursor@2x.png"; path = "Source/image/AMCP_cursor@2x.png"; sourceTree = "<group>"; };
+		25C7330125124011EF3FE46D34E94FDA /* AMNowClockView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMNowClockView-umbrella.h"; sourceTree = "<group>"; };
+		2907F13E4A16922F8C20DF725DE21BF4 /* AMCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendar.swift; path = Source/AMCalendar.swift; sourceTree = "<group>"; };
+		2EA60A6A8849DE2680CA18E8CA75C0E0 /* AMCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMCalendar.modulemap; sourceTree = "<group>"; };
+		2EF433ECDD757C37F1344ADB711141C9 /* AMChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMChart-dummy.m"; sourceTree = "<group>"; };
 		2F36045FCE9AC9F9CC008FD6007B9F6A /* AMClockView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMClockView.framework; path = AMClockView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F9D86A85D006E217529EDF9EA8F284B /* amb_particle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = amb_particle.png; path = Source/Resource/amb_particle.png; sourceTree = "<group>"; };
+		2FDD50DBFB8CF6370DD651858705F813 /* AMSpeedMeter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMSpeedMeter-dummy.m"; sourceTree = "<group>"; };
+		30573FEF94F22A939A50B6C296CAC49A /* AMNowClockView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMNowClockView-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3470F84E9C3EBF449F67C732024148E0 /* Pods-TestPodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPodUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		34EB7B1D018609A9A2F49E3F5A104E25 /* AMNowClockView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMNowClockView.xcconfig; sourceTree = "<group>"; };
 		35054CEEEEFC76CC19A2519D50F5E6ED /* Pods_TestPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestPod.framework; path = "Pods-TestPod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		356763992379B7F9532E2B1BBE492D99 /* amb_particle2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amb_particle2@2x.png"; path = "Source/Resource/amb_particle2@2x.png"; sourceTree = "<group>"; };
-		387B159EAB68921CF8D484A5B32AD08E /* AMChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMChart-Info.plist"; sourceTree = "<group>"; };
-		423FB6B3890D001BBCEC2C3F7CC4DCB8 /* AMJpnMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMJpnMap-Info.plist"; sourceTree = "<group>"; };
-		43D3436BB930358D3AA4B0FDB9F03569 /* AMNowClockView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMNowClockView.modulemap; sourceTree = "<group>"; };
+		351CE75EC8094C75D69ABD3C5520090E /* AMJMRegionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJMRegionLayer.swift; path = Source/Detail/AMJMRegionLayer.swift; sourceTree = "<group>"; };
+		35B776C42DF80C4EDD82B939930513A8 /* AMBurnAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMBurnAnimation.modulemap; sourceTree = "<group>"; };
+		3631C5BDA04A5259116415E0AEB35066 /* AMSpeedMeter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSpeedMeter-prefix.pch"; sourceTree = "<group>"; };
+		3FF61087EF7C3BE4E156A3D36350CFE7 /* AMJpnMapDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJpnMapDetailView.swift; path = Source/Detail/AMJpnMapDetailView.swift; sourceTree = "<group>"; };
+		45D95CD9819AB51F8BCFCA7E26CF9837 /* AMJpnMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMJpnMap.xcconfig; sourceTree = "<group>"; };
 		46DA3043A8C5B8423AF64E8D77CC55C2 /* Pods-TestPodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPodUITests.release.xcconfig"; sourceTree = "<group>"; };
-		49EFD619BCA1F946A8EC9339C4496CFC /* AMCP_slider_thumb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_slider_thumb@2x.png"; path = "Source/image/AMCP_slider_thumb@2x.png"; sourceTree = "<group>"; };
-		4C4C538A6493D5B83B670335F9166F44 /* AMBurnAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMBurnAnimation-umbrella.h"; sourceTree = "<group>"; };
-		4C805C012FCD031E44C79FAD710259BB /* AMColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMColorPicker.modulemap; sourceTree = "<group>"; };
-		4E260204BF461A4F515110DA48A04991 /* AMColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMColorPicker-dummy.m"; sourceTree = "<group>"; };
-		4FF21311B018F146ECB5A479BA756824 /* AMSpeedMeterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMSpeedMeterView.swift; path = Source/AMSpeedMeterView.swift; sourceTree = "<group>"; };
+		488E5900191B7E3CD6C33ABAACB8D3F0 /* AMMeterView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMMeterView-prefix.pch"; sourceTree = "<group>"; };
+		48B14E65764CC10AE35F9B9C6620A0DC /* AMBurnAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMBurnAnimation.xcconfig; sourceTree = "<group>"; };
+		4DE1EBB3DAA993A6BD57785ABFCFC917 /* AMJpnMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMJpnMap-umbrella.h"; sourceTree = "<group>"; };
+		4FA8560C9B4BA29E3BB6F2F4941D29F0 /* AMChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMChart.modulemap; sourceTree = "<group>"; };
+		520581FF317B89CE25CFDCC7D4D2B94F /* AMColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMColorPicker.xcconfig; sourceTree = "<group>"; };
+		52171B4529EE1E79AA2C56FBD14CEB88 /* AMColorPickerTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerTableView.swift; path = Source/view/AMColorPickerTableView.swift; sourceTree = "<group>"; };
+		525654A9B9AC964B34BFB8D4EE225BF6 /* AMColorPickerSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerSlider.swift; path = Source/view/Slider/AMColorPickerSlider.swift; sourceTree = "<group>"; };
+		536E4AE416E5BFD7FCCA3DE1C2E72756 /* AMVennDiagramView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMVennDiagramView-Info.plist"; sourceTree = "<group>"; };
+		540B830254F59E6F8BFF9E87396B9091 /* AMColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMColorPicker.modulemap; sourceTree = "<group>"; };
 		54781FAE12597BC0E9AEBB4F05F9A1A8 /* Pods-TestPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPod.release.xcconfig"; sourceTree = "<group>"; };
+		571FF99085AF1EEF696DED0EEFFCD644 /* AMSpeedMeterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMSpeedMeterView.swift; path = Source/AMSpeedMeterView.swift; sourceTree = "<group>"; };
+		5776FF94C0B1555F0855C75FE817EECE /* AMClockView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMClockView-umbrella.h"; sourceTree = "<group>"; };
 		57A0F81CE72FA7A86ECE498F288DF92F /* AMSpeedMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMSpeedMeter.framework; path = AMSpeedMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57BA6AA3737C6785DA4359021A09AEA0 /* AMSpeedMeter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMSpeedMeter.modulemap; sourceTree = "<group>"; };
-		5DE7F5BEB5059FF9CB3D3EE820B5D1EF /* AMRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMRegion.swift; path = Source/enums/AMRegion.swift; sourceTree = "<group>"; };
+		5A21559D8B417AD4E340A802501665F5 /* AMColorPickerRGBSliderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerRGBSliderView.swift; path = Source/view/AMColorPickerRGBSliderView.swift; sourceTree = "<group>"; };
 		5EBA536FAB2BD24D56A0384B0BB92DB6 /* Pods-TestPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPod.modulemap"; sourceTree = "<group>"; };
-		6058051FD6BBECFEB699AD0F836C8F7B /* AMPieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPieChartView.swift; path = Source/AMPieChartView.swift; sourceTree = "<group>"; };
-		60EFF7C07B45F148AE7BAAEE1BAF99E5 /* AMMeterView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMMeterView-prefix.pch"; sourceTree = "<group>"; };
-		61C4EBD26F25338DECF329A2704F3D7D /* AMSpeedMeter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMSpeedMeter-Info.plist"; sourceTree = "<group>"; };
-		6444524A7B97A2FDF1A4BAAB9660EB04 /* AMNowClockView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMNowClockView-umbrella.h"; sourceTree = "<group>"; };
+		6117E3CF038CE4154524470DA6D7169F /* AMMeterView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMMeterView.xcconfig; sourceTree = "<group>"; };
+		61E552A6936D14DC5F594F698A9A21B1 /* AMBarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMBarChartView.swift; path = Source/AMBarChartView.swift; sourceTree = "<group>"; };
+		6316B5EC9FA542312A91C5F0542B11F8 /* AMRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMRegion.swift; path = Source/enums/AMRegion.swift; sourceTree = "<group>"; };
 		671E440D7B0B93F24356F299A096F4FD /* Pods-TestPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPod.debug.xcconfig"; sourceTree = "<group>"; };
-		687BD9ACB8D323D6210D901A7D18A08C /* AMColorPickerRGBSliderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerRGBSliderView.xib; path = Source/view/AMColorPickerRGBSliderView.xib; sourceTree = "<group>"; };
+		686A98C31135FD5D65E44B3B365FB1D9 /* AMNowClockView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMNowClockView-prefix.pch"; sourceTree = "<group>"; };
+		6CA37620EC88BB09EB6EE394C19DAEBD /* AMRadarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMRadarChartView.swift; path = Source/AMRadarChartView.swift; sourceTree = "<group>"; };
 		6F1D7A2169DDBD530F754423B212B925 /* Pods-TestPodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPodTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7007CEF49D48FD8CD2908905024CAB6A /* AMCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMCalendar.modulemap; sourceTree = "<group>"; };
+		7204C7B4DB3F780AED35C39BE7EE782A /* AMChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMChartData.swift; path = Source/AMChartData.swift; sourceTree = "<group>"; };
 		73B0BFAD611E2722781DB5431975FA7B /* Pods-TestPodUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPodUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73F205FAF9070BD04ECF03CD628B89D4 /* Pods-TestPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPod-Info.plist"; sourceTree = "<group>"; };
 		74E920B452C5D54B25B1D78B516F3C7E /* AMColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMColorPicker.framework; path = AMColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76BD10098A3F3605C72DF8F81C3B53F7 /* AMColorPickerWheelView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerWheelView.xib; path = Source/view/AMColorPickerWheelView.xib; sourceTree = "<group>"; };
-		7776B97BC2781BF9CDE9E5F8AB548312 /* AMClockView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMClockView-Info.plist"; sourceTree = "<group>"; };
+		7572EFC1C65936018F58AAF90A1971F6 /* AMClockView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMClockView.xcconfig; sourceTree = "<group>"; };
 		7896A9C124E1319B8188BD3CF62D6072 /* AMChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMChart.framework; path = AMChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		794E15B70F2F686630D3731FD7615D7A /* AMCP_cursor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_cursor@2x.png"; path = "Source/image/AMCP_cursor@2x.png"; sourceTree = "<group>"; };
-		7950E685EA5E6E08063E9149D825F2C0 /* AMScatterChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMScatterChartView.swift; path = Source/AMScatterChartView.swift; sourceTree = "<group>"; };
+		78E5E2184E96AE7829658AF169A7176A /* AMColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerViewController.swift; path = Source/AMColorPickerViewController.swift; sourceTree = "<group>"; };
+		795501E4E437876E071521D089CF4A90 /* AMCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMCalendar-dummy.m"; sourceTree = "<group>"; };
 		7A9F2351F47A03F4B67352E50E1B47D9 /* Pods-TestPodUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPodUITests.modulemap"; sourceTree = "<group>"; };
-		80E9DB2528B06175CDFB2B1C53422FCE /* AMCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMCalendar-dummy.m"; sourceTree = "<group>"; };
-		8122DCD511DF27ECDDA9310FF37BF2DE /* AMJpnMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMJpnMap-umbrella.h"; sourceTree = "<group>"; };
+		7BEB19EEF8FFB7C3B4A4ABDAD589729E /* AMColorPickerTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerTableViewCell.xib; path = Source/view/Cell/AMColorPickerTableViewCell.xib; sourceTree = "<group>"; };
+		7DA5171FD0025EADE6EA81D45152CF5F /* AMMeterView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMMeterView-dummy.m"; sourceTree = "<group>"; };
+		8071D08D1B4BFFBE70C0A55E9F233791 /* AMScatterChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMScatterChartView.swift; path = Source/AMScatterChartView.swift; sourceTree = "<group>"; };
+		81095431D97A80AE45158C180D885078 /* AMVennDiagramView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMVennDiagramView-prefix.pch"; sourceTree = "<group>"; };
+		826172C12308F126218A7647E85D46AF /* AMCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMCalendar-Info.plist"; sourceTree = "<group>"; };
 		8453F04176CA43DA3F246FD92B823CFB /* Pods-TestPodUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPodUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		869EEC41FB5423CD46360E1FBCFC63DB /* amb_particle1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amb_particle1@2x.png"; path = "Source/Resource/amb_particle1@2x.png"; sourceTree = "<group>"; };
-		8738BBC3E6672C06B5A46486BE9D14D7 /* AMColorPickerTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerTableViewCell.swift; path = Source/view/Cell/AMColorPickerTableViewCell.swift; sourceTree = "<group>"; };
+		8C3E096624141CBE427ACD202303510A /* AMColorPickerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerProtocol.swift; path = Source/AMColorPickerProtocol.swift; sourceTree = "<group>"; };
 		8DF29A613BD34F9C690CAABBE1CB5BA5 /* Pods-TestPod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPod-acknowledgements.plist"; sourceTree = "<group>"; };
 		8FE7C13DB4DD71363B13A607E95C66B2 /* Pods-TestPodTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPodTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		967A4C08C18A7E363D44C3F8E03F9A9B /* AMJpnMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJpnMapView.swift; path = Source/AMJpnMapView.swift; sourceTree = "<group>"; };
+		92B0E5DDFF918D4A07F48E381A3271E9 /* AMColorPickerAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AMColorPickerAssets.xcassets; path = Source/AMColorPickerAssets.xcassets; sourceTree = "<group>"; };
+		937C8F1315BDC595AB18F6C23C08A5E3 /* amb_particle2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amb_particle2@2x.png"; path = "Source/Resource/amb_particle2@2x.png"; sourceTree = "<group>"; };
 		991D9240A5EDFB5774089FA68F54D4D3 /* Pods-TestPodUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPodUITests-Info.plist"; sourceTree = "<group>"; };
 		99A10FCF4692DF18A40D25DE118FF245 /* AMJpnMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMJpnMap.framework; path = AMJpnMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D421336C1C50E27D8D8A62A978B9F2D /* AMCalendarRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendarRootViewController.swift; path = Source/AMCalendarRootViewController.swift; sourceTree = "<group>"; };
+		9BB5E44CA053D5DA4A6033B56E965FDD /* AMCP_color_wheel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_color_wheel@2x.png"; path = "Source/image/AMCP_color_wheel@2x.png"; sourceTree = "<group>"; };
+		9C0F5F4D6CDB71E6724D8BBE921EE208 /* AMChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMChart.xcconfig; sourceTree = "<group>"; };
+		9CBE0E00FFA0E437D94026A5240DA84B /* AMClockView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMClockView-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA70DB0FC4EA09900185C30F949DD0E /* AMColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMColorPicker-Info.plist"; sourceTree = "<group>"; };
+		9DBFAA51F5C9D04CECED06B623C8B2CB /* AMSpeedMeter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSpeedMeter-umbrella.h"; sourceTree = "<group>"; };
 		9DF0849583DA8B4CB81C3333F6E470BE /* AMNowClockView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMNowClockView.framework; path = AMNowClockView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ED70CEB3AF5DDD1D324814CEB04975C /* AMSpeedMeter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMSpeedMeter-dummy.m"; sourceTree = "<group>"; };
-		9F05BD47A049022458751D91AB4E6716 /* AMColorPickerTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerTableView.swift; path = Source/view/AMColorPickerTableView.swift; sourceTree = "<group>"; };
-		9F868556A502E5C22344E3339DAED9EE /* AMJpnMapDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJpnMapDetailView.swift; path = Source/Detail/AMJpnMapDetailView.swift; sourceTree = "<group>"; };
-		A03D5A831ED795F3AE38ED658CF579B2 /* AMColorPickerTableView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerTableView.xib; path = Source/view/AMColorPickerTableView.xib; sourceTree = "<group>"; };
-		A2A1EB7157F3F09F3ABD2B7B279FB71A /* AMVennDiagramView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMVennDiagramView.modulemap; sourceTree = "<group>"; };
-		A416B018E1D90F222168A407595BBDCC /* AMCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMCalendar-Info.plist"; sourceTree = "<group>"; };
-		AC6389C98BF3F0FB9CA84A0294FE517B /* AMClockView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMClockView.modulemap; sourceTree = "<group>"; };
-		AD26D391EC9195C18B51CD06DCB970F1 /* AMBurnAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMBurnAnimation.modulemap; sourceTree = "<group>"; };
-		B5E69F2580CE4D3CD3F218EB4EE98065 /* AMVennDiagramView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMVennDiagramView-dummy.m"; sourceTree = "<group>"; };
-		B6F2DE57E60083FAFFC8691E5D1E0971 /* AMBurnAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMBurnAnimation-prefix.pch"; sourceTree = "<group>"; };
-		B721F9E7D4B25F6F43FC5495AEA9A040 /* AMMeterView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMMeterView.xcconfig; sourceTree = "<group>"; };
+		9DF2FDA2753C3D7C553569B8372A6BFC /* AMMeterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMMeterView.swift; path = Source/AMMeterView.swift; sourceTree = "<group>"; };
+		A2BF8D8F058335F69900FEB051C5C125 /* AMChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMChart-Info.plist"; sourceTree = "<group>"; };
+		A46F802927D22CBFC4AFD93E7717FA46 /* AMChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMChart-prefix.pch"; sourceTree = "<group>"; };
+		A554AFAB46DEE9263FDFF830D4BC0C43 /* AMLineChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMLineChartView.swift; path = Source/AMLineChartView.swift; sourceTree = "<group>"; };
+		A62086BC6FEAF8788D842D8F7CBFCC4C /* UIView+BurnAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+BurnAnimation.swift"; path = "Source/UIView+BurnAnimation.swift"; sourceTree = "<group>"; };
+		AC59BF3C25CB92C23F853A57BE24D2A6 /* AMSpeedMeter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMSpeedMeter.xcconfig; sourceTree = "<group>"; };
+		B1CD58C57D13F615A0238BA529C6F49C /* AMColorPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerViewController.xib; path = Source/AMColorPickerViewController.xib; sourceTree = "<group>"; };
 		B794E7ABFEAF42E3CAB000BB5B585A98 /* Pods-TestPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPod-dummy.m"; sourceTree = "<group>"; };
+		BB87C7A05C8F003028C13C7A77C32DA2 /* AMColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMColorPicker-prefix.pch"; sourceTree = "<group>"; };
 		BBE290030B1ACC4D201758F9D2FF0075 /* Pods-TestPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPod-umbrella.h"; sourceTree = "<group>"; };
-		BE22134D944A05A432FD9D5883D6E465 /* AMChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMChart.xcconfig; sourceTree = "<group>"; };
-		BE6A7C5E3D09A31582AC88D27A2D37FD /* AMVennDiagramView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMVennDiagramView-prefix.pch"; sourceTree = "<group>"; };
+		BD0D530D42D49798586E54D4B8DA99D0 /* AMClockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMClockView.swift; path = Source/AMClockView.swift; sourceTree = "<group>"; };
+		BDECB6049A8F847C231EF56F81FB9324 /* AMBurnAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMBurnAnimation-dummy.m"; sourceTree = "<group>"; };
+		BFE1682EC3576DDEEA4FD2A8FF00C95D /* AMVennDiagramView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMVennDiagramView.xcconfig; sourceTree = "<group>"; };
 		BFF908265C305873D9934D211B4D88F3 /* Pods-TestPodTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPodTests-umbrella.h"; sourceTree = "<group>"; };
-		C10922FCCCD628B717329CC670BC229A /* AMColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		C0E4624A90763FE078D6016DF2254701 /* AMColorPickerWheelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerWheelView.swift; path = Source/view/AMColorPickerWheelView.swift; sourceTree = "<group>"; };
 		C121A3F7AD663BAAE08277F739738ABA /* AMCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMCalendar.framework; path = AMCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30A22A1E6C934D43B19B186B3D1A15F /* AMMeterView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMMeterView.modulemap; sourceTree = "<group>"; };
 		C3CA71A980358D4E54C4A089DA6EE02A /* Pods-TestPodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPodTests.release.xcconfig"; sourceTree = "<group>"; };
 		C4AA31080F736996A64AD1FF58878230 /* Pods_TestPodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestPodUITests.framework; path = "Pods-TestPodUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7BA5FABCC51C335F1F761B039DAF3E6 /* AMColorPickerWheelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerWheelView.swift; path = Source/view/AMColorPickerWheelView.swift; sourceTree = "<group>"; };
-		C7FCB7C5ED46760FDAE56221297EE40A /* AMChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMChart-prefix.pch"; sourceTree = "<group>"; };
+		C61F3ECB3BF16098310E4408924F676B /* AMColorPickerTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerTableViewCell.swift; path = Source/view/Cell/AMColorPickerTableViewCell.swift; sourceTree = "<group>"; };
+		C9C4561035C5F2C406FF5752AF3A82D8 /* AMSpeedMeter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMSpeedMeter.modulemap; sourceTree = "<group>"; };
 		CAC50FC4BE0B9B940A4D0953579902B2 /* Pods-TestPodTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPodTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB428D3D7F664001C5BE50001BC561F5 /* AMBurnAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMBurnAnimation.xcconfig; sourceTree = "<group>"; };
-		CB574868CF8782DC1020A85550DD2EAB /* AMNowClockView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMNowClockView-dummy.m"; sourceTree = "<group>"; };
-		CBB6AEC737E903FE520FBA2EF9EE6FAB /* AMCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMCalendar-umbrella.h"; sourceTree = "<group>"; };
 		CCAEF9ADE3280EEC103B85A09F1E0756 /* Pods-TestPodTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPodTests.modulemap"; sourceTree = "<group>"; };
-		CD638B591A3ED588ACD4F2414F6968B0 /* AMJpnMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMJpnMap-dummy.m"; sourceTree = "<group>"; };
+		CCEF18503B5BCB6D478568CEC61B0EA6 /* amb_particle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = amb_particle.png; path = Source/Resource/amb_particle.png; sourceTree = "<group>"; };
+		CD6E38C3F113EAD83AE552B1F5B300CE /* AMNowClockView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMNowClockView.modulemap; sourceTree = "<group>"; };
+		CD968CF0D80F584150411BFA68292B26 /* AMNowClockView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMNowClockView-dummy.m"; sourceTree = "<group>"; };
 		CFA8F960B58F4F9EA3196BD104BF242B /* Pods-TestPodUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPodUITests-umbrella.h"; sourceTree = "<group>"; };
-		CFF6CF4D4B7056C371E32FBFE1D0D7B3 /* AMNowClockView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMNowClockView-Info.plist"; sourceTree = "<group>"; };
-		D04439E27C5BA2619F737924FBBECCCD /* AMSpeedMeter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSpeedMeter-umbrella.h"; sourceTree = "<group>"; };
-		D2E2DC4F37783EEB9868AE1526CB0479 /* AMJpnMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMJpnMap.modulemap; sourceTree = "<group>"; };
-		D4766B4484D6B2E54C0431A10D2CFC84 /* AMBurnAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMBurnAnimation-Info.plist"; sourceTree = "<group>"; };
+		D06BCABF4BA609CF7A529E4F044C1972 /* AMJpnMap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMJpnMap-prefix.pch"; sourceTree = "<group>"; };
+		D21730C318713A93714AC292A0C36454 /* AMVennDiagramView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMVennDiagramView-dummy.m"; sourceTree = "<group>"; };
 		D4E3B172BC2EB316BA6993552FE53A77 /* AMBurnAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMBurnAnimation.framework; path = AMBurnAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D656DED87E9A51F8DAB7B8847CCB9989 /* AMColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMColorPicker-Info.plist"; sourceTree = "<group>"; };
-		D76E8E8AA1491AF67EAAA96ED3A49476 /* AMColorPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerViewController.xib; path = Source/AMColorPickerViewController.xib; sourceTree = "<group>"; };
-		D93B184FD960ACD76AE6C4D032980427 /* AMCP_color_wheel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_color_wheel@2x.png"; path = "Source/image/AMCP_color_wheel@2x.png"; sourceTree = "<group>"; };
-		DB93F0664C0929D57095AFA7631A6041 /* AMMeterView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMMeterView-dummy.m"; sourceTree = "<group>"; };
-		DE331D5603E6A968916D092EDEDF2A32 /* AMSpeedMeter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMSpeedMeter.xcconfig; sourceTree = "<group>"; };
-		DFF444EDD7CC75DD42206DBD9A89BCA0 /* AMCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendar.swift; path = Source/AMCalendar.swift; sourceTree = "<group>"; };
-		DFFC140775C42682758525C1EF905405 /* AMColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMColorPicker.xcconfig; sourceTree = "<group>"; };
-		E126AC7644FD9514E36359C9CE448048 /* AMPrefecture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPrefecture.swift; path = Source/enums/AMPrefecture.swift; sourceTree = "<group>"; };
-		E1E8B77CF3A28667BDD3CF46E8DE8250 /* AMJpnMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMJpnMap.xcconfig; sourceTree = "<group>"; };
+		D6E488C4F7AA1A50159C84DB35CD839C /* AMColorPickerWheelView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerWheelView.xib; path = Source/view/AMColorPickerWheelView.xib; sourceTree = "<group>"; };
+		D6F6BA20DF5CDB9AFC2919971555F556 /* AMVennDiagramView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMVennDiagramView-umbrella.h"; sourceTree = "<group>"; };
+		D77066FF86F20084F3D7DC87681C53DF /* AMNowClockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMNowClockView.swift; path = Source/AMNowClockView.swift; sourceTree = "<group>"; };
+		DE6B8151F29F6906BFBFB7889EE3A1CB /* AMColorPickerRGBSliderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerRGBSliderView.xib; path = Source/view/AMColorPickerRGBSliderView.xib; sourceTree = "<group>"; };
+		E136502A4F62CC5A699A4C8391AA2632 /* AMMeterView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMMeterView-Info.plist"; sourceTree = "<group>"; };
+		E1F23992B5FFE2667A4D62BC6A9D4F7E /* AMJpnMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMJpnMap-dummy.m"; sourceTree = "<group>"; };
 		E284169C5EF99A176E22504CC66D6ECD /* Pods-TestPod-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestPod-frameworks.sh"; sourceTree = "<group>"; };
-		E305F8FA73B7AF75040F25A5C74A3CD6 /* AMJpnMap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMJpnMap-prefix.pch"; sourceTree = "<group>"; };
-		E35AFE256918C56FBAA51E9C41FE9C86 /* AMColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerViewController.swift; path = Source/AMColorPickerViewController.swift; sourceTree = "<group>"; };
-		E4491A5D1F890852BE4B7DD56BFD25AC /* AMChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMChart-dummy.m"; sourceTree = "<group>"; };
+		E50F162A1043B5EE99841ACB270CA42D /* AMChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMChart-umbrella.h"; sourceTree = "<group>"; };
+		E6AC846B7A1E0BC6202C5040A7BB4BE5 /* AMCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMCalendar-umbrella.h"; sourceTree = "<group>"; };
 		E7D0A07E20F77B9ED9BB83609EF353EF /* Pods-TestPod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPod-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E8617A92EDC313931A80822B771B9F32 /* AMMeterView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMMeterView-umbrella.h"; sourceTree = "<group>"; };
-		E8C9E19711EE925EE50B4AA0FE0C44D2 /* AMJMRegionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJMRegionLayer.swift; path = Source/Detail/AMJMRegionLayer.swift; sourceTree = "<group>"; };
-		E8F7099A20EA866D3E9C09B7F8F8417C /* AMClockView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMClockView.xcconfig; sourceTree = "<group>"; };
-		EAD1A4DC399FFC9956DEF15C5D2DC06A /* AMCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMCalendar.xcconfig; sourceTree = "<group>"; };
+		E9AA8373D09A4A0CE467CEEFCEEA66AE /* AMClockView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMClockView-Info.plist"; sourceTree = "<group>"; };
+		EA6B5BDA137F67DD3012BD89C81A4BB3 /* AMNowClockView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMNowClockView.xcconfig; sourceTree = "<group>"; };
+		ECA961F87644D97DDD8AAA236586FD99 /* AMCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMCalendar-prefix.pch"; sourceTree = "<group>"; };
+		EE671279E6E3A04CBB0DBD6A890BA052 /* AMJpnMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMJpnMap-Info.plist"; sourceTree = "<group>"; };
+		EE9B04D2E6694B77E31496986E2032FB /* AMSpeedMeter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMSpeedMeter-Info.plist"; sourceTree = "<group>"; };
+		EEFB8C72194191D98618456074636E2F /* AMVennDiagramView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMVennDiagramView.modulemap; sourceTree = "<group>"; };
+		EEFCD4CEA8AAE2C12415923AC54E177C /* AMCalendarDataViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMCalendarDataViewController.xib; path = Source/AMCalendarDataViewController.xib; sourceTree = "<group>"; };
+		F15C85A3397F33C5EB74BC289EAB2B2F /* AMCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMCalendar.xcconfig; sourceTree = "<group>"; };
 		F1B848687280A75DD94879B942DF14E0 /* Pods-TestPodTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPodTests-Info.plist"; sourceTree = "<group>"; };
-		F2AFEE75AAF732965A44355960F39135 /* AMColorPickerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerProtocol.swift; path = Source/AMColorPickerProtocol.swift; sourceTree = "<group>"; };
+		F2A99DB9127F18532A532BD905DD7D8E /* AMClockView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMClockView-dummy.m"; sourceTree = "<group>"; };
+		F50FDA44648BA425D9DA5B3B3D405E62 /* AMColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMColorPicker-dummy.m"; sourceTree = "<group>"; };
 		F569F2B05A9A520E60A480D8C844CB03 /* AMVennDiagramView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMVennDiagramView.framework; path = AMVennDiagramView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F92ECC4078D37F3C466D59735464AA31 /* AMVennDiagramView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMVennDiagramView-Info.plist"; sourceTree = "<group>"; };
+		F67173CA7EB376A653CF6B4B09A1D5D2 /* AMBurnAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMBurnAnimation-Info.plist"; sourceTree = "<group>"; };
+		F6FA867AD679808B18A7AE354A03C836 /* AMColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		F9C44C609297690A799E1BAFF8CF8758 /* AMJpnMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJpnMapView.swift; path = Source/AMJpnMapView.swift; sourceTree = "<group>"; };
 		FB3CD55EF66D16F4712CEA92C8CE33D1 /* Pods-TestPodUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPodUITests-dummy.m"; sourceTree = "<group>"; };
-		FC56055D92E5A09CEFAC27611F27E963 /* AMBurnAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMBurnAnimation-dummy.m"; sourceTree = "<group>"; };
-		FC9DA03C0EFE44E8CD958EB1B481E41E /* AMClockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMClockView.swift; path = Source/AMClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +361,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		618B8604051F151211635607F47ED7B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AB9C29DAFD3EF44739BBC725ECAB1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		621E3314B638E6029B0FFC21162E8765 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,14 +401,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8151BB51B39A498584AE61AFED6FF284 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				783970EA10935DCD94A66D818B41E8F9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A3F2227D5618A764E0F8A945B6C43794 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,46 +428,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1032B4501C767592E11B80991E5BB108 /* Resources */ = {
+		12BBACBCF57E959DB0BDF896F43BAB2F /* AMCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				1B143C8DE608CAFC7D08047301D3967D /* AMCalendarDataViewController.xib */,
+				2907F13E4A16922F8C20DF725DE21BF4 /* AMCalendar.swift */,
+				05366AEB539F392755B45512B3D73AE2 /* AMCalendarDataViewController.swift */,
+				12E4168B247504451B3D4D6F2B0F8F70 /* AMCalendarRootViewController.swift */,
+				FB5D5603D50417FA63A4B6DDA348E0A2 /* Resources */,
+				1FA81E584B8512E3A28A8408A55B6824 /* Support Files */,
 			);
-			name = Resources;
+			name = AMCalendar;
+			path = AMCalendar;
 			sourceTree = "<group>";
 		};
-		1860359CFAE996ED30A45960B5658D1C /* Support Files */ = {
+		19B83F142E1C15F701C3B0FD0461F068 /* AMVennDiagramView */ = {
 			isa = PBXGroup;
 			children = (
-				57BA6AA3737C6785DA4359021A09AEA0 /* AMSpeedMeter.modulemap */,
-				DE331D5603E6A968916D092EDEDF2A32 /* AMSpeedMeter.xcconfig */,
-				9ED70CEB3AF5DDD1D324814CEB04975C /* AMSpeedMeter-dummy.m */,
-				61C4EBD26F25338DECF329A2704F3D7D /* AMSpeedMeter-Info.plist */,
-				0F4C3B77622D2883DEA68E7D06E631D1 /* AMSpeedMeter-prefix.pch */,
-				D04439E27C5BA2619F737924FBBECCCD /* AMSpeedMeter-umbrella.h */,
+				114E9271DA97390B5DE6A2E394EA3CC1 /* AMVennDiagramView.swift */,
+				C62364A29A8799889A3BE6275395098B /* Support Files */,
+			);
+			name = AMVennDiagramView;
+			path = AMVennDiagramView;
+			sourceTree = "<group>";
+		};
+		1A50A466537592D7CAA538D4C45976CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16B4DFE285311A9ABBDF27C0307EDD15 /* AMClockView.modulemap */,
+				7572EFC1C65936018F58AAF90A1971F6 /* AMClockView.xcconfig */,
+				F2A99DB9127F18532A532BD905DD7D8E /* AMClockView-dummy.m */,
+				E9AA8373D09A4A0CE467CEEFCEEA66AE /* AMClockView-Info.plist */,
+				9CBE0E00FFA0E437D94026A5240DA84B /* AMClockView-prefix.pch */,
+				5776FF94C0B1555F0855C75FE817EECE /* AMClockView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/AMSpeedMeter";
+			path = "../Target Support Files/AMClockView";
 			sourceTree = "<group>";
 		};
-		2B420F8E7384FB9FC384CDC36E078FA6 /* Resources */ = {
+		1FA81E584B8512E3A28A8408A55B6824 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2F9D86A85D006E217529EDF9EA8F284B /* amb_particle.png */,
-				869EEC41FB5423CD46360E1FBCFC63DB /* amb_particle1@2x.png */,
-				356763992379B7F9532E2B1BBE492D99 /* amb_particle2@2x.png */,
+				2EA60A6A8849DE2680CA18E8CA75C0E0 /* AMCalendar.modulemap */,
+				F15C85A3397F33C5EB74BC289EAB2B2F /* AMCalendar.xcconfig */,
+				795501E4E437876E071521D089CF4A90 /* AMCalendar-dummy.m */,
+				826172C12308F126218A7647E85D46AF /* AMCalendar-Info.plist */,
+				ECA961F87644D97DDD8AAA236586FD99 /* AMCalendar-prefix.pch */,
+				E6AC846B7A1E0BC6202C5040A7BB4BE5 /* AMCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMCalendar";
+			sourceTree = "<group>";
+		};
+		1FE9CDF11F262DED839F96EDE912428C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCEF18503B5BCB6D478568CEC61B0EA6 /* amb_particle.png */,
+				0EC383DAA22FEDA08D17701161806BF6 /* amb_particle1@2x.png */,
+				937C8F1315BDC595AB18F6C23C08A5E3 /* amb_particle2@2x.png */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		3241B5B5438FFF921761ED0213F7BF61 /* AMClockView */ = {
-			isa = PBXGroup;
-			children = (
-				FC9DA03C0EFE44E8CD958EB1B481E41E /* AMClockView.swift */,
-				E180B6585105DCA0829EB28253A47E44 /* Support Files */,
-			);
-			name = AMClockView;
-			path = AMClockView;
 			sourceTree = "<group>";
 		};
 		3632BC2882AF3627BD0B681D6DE04983 /* Pods-TestPod */ = {
@@ -483,32 +506,35 @@
 			path = "Target Support Files/Pods-TestPod";
 			sourceTree = "<group>";
 		};
-		4CC7211997152EE1F689CBAC21ED3F94 /* Support Files */ = {
+		3CDEDD8D15E29F9C12F57CAEC0C4018C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43D3436BB930358D3AA4B0FDB9F03569 /* AMNowClockView.modulemap */,
-				34EB7B1D018609A9A2F49E3F5A104E25 /* AMNowClockView.xcconfig */,
-				CB574868CF8782DC1020A85550DD2EAB /* AMNowClockView-dummy.m */,
-				CFF6CF4D4B7056C371E32FBFE1D0D7B3 /* AMNowClockView-Info.plist */,
-				29D9F172033D8C2E73F0D30CE9F2276B /* AMNowClockView-prefix.pch */,
-				6444524A7B97A2FDF1A4BAAB9660EB04 /* AMNowClockView-umbrella.h */,
+				72F9D648C9ED7FF6205DD182A70D7BC3 /* AMBurnAnimation */,
+				12BBACBCF57E959DB0BDF896F43BAB2F /* AMCalendar */,
+				9D9485F70154B8766BBF9028AD10B622 /* AMChart */,
+				752A71318B2097BF8DCA4CCE5628038A /* AMClockView */,
+				717B53EE4EFDC375B7B456518A1DD257 /* AMColorPicker */,
+				DE51EC84C7741EF2DFFA59238B58237B /* AMJpnMap */,
+				81F8AF443EEAD5D68EA4BB483262704D /* AMMeterView */,
+				A813D86D85736AF5A7749FAED593AB1E /* AMNowClockView */,
+				73C284AB0536264E75422ACA710B8D33 /* AMSpeedMeter */,
+				19B83F142E1C15F701C3B0FD0461F068 /* AMVennDiagramView */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AMNowClockView";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		4D0BC316C7C723450EA7DA8BB2990217 /* Support Files */ = {
+		50E00EDAE5FF56B17608AACDA149A02E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4C805C012FCD031E44C79FAD710259BB /* AMColorPicker.modulemap */,
-				DFFC140775C42682758525C1EF905405 /* AMColorPicker.xcconfig */,
-				4E260204BF461A4F515110DA48A04991 /* AMColorPicker-dummy.m */,
-				D656DED87E9A51F8DAB7B8847CCB9989 /* AMColorPicker-Info.plist */,
-				C10922FCCCD628B717329CC670BC229A /* AMColorPicker-prefix.pch */,
-				116EBD35582A03FDD29A792F916C9929 /* AMColorPicker-umbrella.h */,
+				0E08056CF5AD93C0866BE0AD146FB15F /* AMJpnMap.modulemap */,
+				45D95CD9819AB51F8BCFCA7E26CF9837 /* AMJpnMap.xcconfig */,
+				E1F23992B5FFE2667A4D62BC6A9D4F7E /* AMJpnMap-dummy.m */,
+				EE671279E6E3A04CBB0DBD6A890BA052 /* AMJpnMap-Info.plist */,
+				D06BCABF4BA609CF7A529E4F044C1972 /* AMJpnMap-prefix.pch */,
+				4DE1EBB3DAA993A6BD57785ABFCFC917 /* AMJpnMap-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/AMColorPicker";
+			path = "../Target Support Files/AMJpnMap";
 			sourceTree = "<group>";
 		};
 		593EC9F844C3AA3D15D53E566C2743F4 /* Pods-TestPodUITests */ = {
@@ -527,57 +553,103 @@
 			path = "Target Support Files/Pods-TestPodUITests";
 			sourceTree = "<group>";
 		};
-		6D2B022B4332BE9C68793784F80E82A5 /* AMColorPicker */ = {
+		5DB4C30595B6E9D4F422AC0CAB64AF18 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F2AFEE75AAF732965A44355960F39135 /* AMColorPickerProtocol.swift */,
-				06D8287FD75CB2D974BDC4E914458634 /* AMColorPickerRGBSliderView.swift */,
-				1A0E71AF5600DD94151CE3C5ED1F4202 /* AMColorPickerSlider.swift */,
-				9F05BD47A049022458751D91AB4E6716 /* AMColorPickerTableView.swift */,
-				8738BBC3E6672C06B5A46486BE9D14D7 /* AMColorPickerTableViewCell.swift */,
-				E35AFE256918C56FBAA51E9C41FE9C86 /* AMColorPickerViewController.swift */,
-				C7BA5FABCC51C335F1F761B039DAF3E6 /* AMColorPickerWheelView.swift */,
-				97EFF993500236F31E9DD450ED3AB597 /* Resources */,
-				4D0BC316C7C723450EA7DA8BB2990217 /* Support Files */,
+				92B0E5DDFF918D4A07F48E381A3271E9 /* AMColorPickerAssets.xcassets */,
+				DE6B8151F29F6906BFBFB7889EE3A1CB /* AMColorPickerRGBSliderView.xib */,
+				21FDFB1143EF4D4EE0D73C64C69DA882 /* AMColorPickerTableView.xib */,
+				7BEB19EEF8FFB7C3B4A4ABDAD589729E /* AMColorPickerTableViewCell.xib */,
+				B1CD58C57D13F615A0238BA529C6F49C /* AMColorPickerViewController.xib */,
+				D6E488C4F7AA1A50159C84DB35CD839C /* AMColorPickerWheelView.xib */,
+				9BB5E44CA053D5DA4A6033B56E965FDD /* AMCP_color_wheel@2x.png */,
+				22EF679CE3FCA17436B3989988C7E6AC /* AMCP_cursor@2x.png */,
+				1D4A336BDD06692046A31B204E821100 /* AMCP_slider_thumb@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		70832F9DDFACAECC4FCFE46DB4BEC220 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35B776C42DF80C4EDD82B939930513A8 /* AMBurnAnimation.modulemap */,
+				48B14E65764CC10AE35F9B9C6620A0DC /* AMBurnAnimation.xcconfig */,
+				BDECB6049A8F847C231EF56F81FB9324 /* AMBurnAnimation-dummy.m */,
+				F67173CA7EB376A653CF6B4B09A1D5D2 /* AMBurnAnimation-Info.plist */,
+				0DADBA2DE3423DC93B21A5FB96A8DD65 /* AMBurnAnimation-prefix.pch */,
+				1457FAAC74EFDAD597BFA7482680D505 /* AMBurnAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMBurnAnimation";
+			sourceTree = "<group>";
+		};
+		717B53EE4EFDC375B7B456518A1DD257 /* AMColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8C3E096624141CBE427ACD202303510A /* AMColorPickerProtocol.swift */,
+				5A21559D8B417AD4E340A802501665F5 /* AMColorPickerRGBSliderView.swift */,
+				525654A9B9AC964B34BFB8D4EE225BF6 /* AMColorPickerSlider.swift */,
+				52171B4529EE1E79AA2C56FBD14CEB88 /* AMColorPickerTableView.swift */,
+				C61F3ECB3BF16098310E4408924F676B /* AMColorPickerTableViewCell.swift */,
+				78E5E2184E96AE7829658AF169A7176A /* AMColorPickerViewController.swift */,
+				C0E4624A90763FE078D6016DF2254701 /* AMColorPickerWheelView.swift */,
+				5DB4C30595B6E9D4F422AC0CAB64AF18 /* Resources */,
+				A55B22E845F3F58AB6EF1CE59760FE32 /* Support Files */,
 			);
 			name = AMColorPicker;
 			path = AMColorPicker;
 			sourceTree = "<group>";
 		};
-		7BF1D0A96A8F70937B9BB917D4A9C047 /* Support Files */ = {
+		72F9D648C9ED7FF6205DD182A70D7BC3 /* AMBurnAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				D2E2DC4F37783EEB9868AE1526CB0479 /* AMJpnMap.modulemap */,
-				E1E8B77CF3A28667BDD3CF46E8DE8250 /* AMJpnMap.xcconfig */,
-				CD638B591A3ED588ACD4F2414F6968B0 /* AMJpnMap-dummy.m */,
-				423FB6B3890D001BBCEC2C3F7CC4DCB8 /* AMJpnMap-Info.plist */,
-				E305F8FA73B7AF75040F25A5C74A3CD6 /* AMJpnMap-prefix.pch */,
-				8122DCD511DF27ECDDA9310FF37BF2DE /* AMJpnMap-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AMJpnMap";
-			sourceTree = "<group>";
-		};
-		80B9808610AE9314E490CAA2DC4EE870 /* AMBurnAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				0A93777290C19FE051DAD4446371C7C1 /* UIView+BurnAnimation.swift */,
-				2B420F8E7384FB9FC384CDC36E078FA6 /* Resources */,
-				F378D2A578F6350FBC02ECC7AFF5DB9D /* Support Files */,
+				A62086BC6FEAF8788D842D8F7CBFCC4C /* UIView+BurnAnimation.swift */,
+				1FE9CDF11F262DED839F96EDE912428C /* Resources */,
+				70832F9DDFACAECC4FCFE46DB4BEC220 /* Support Files */,
 			);
 			name = AMBurnAnimation;
 			path = AMBurnAnimation;
 			sourceTree = "<group>";
 		};
-		82E17E1B116CB44BFE1C95ADCA9765AB /* Support Files */ = {
+		73C284AB0536264E75422ACA710B8D33 /* AMSpeedMeter */ = {
 			isa = PBXGroup;
 			children = (
-				2B5047B1C87361773BB5BAB9B950104D /* AMChart.modulemap */,
-				BE22134D944A05A432FD9D5883D6E465 /* AMChart.xcconfig */,
-				E4491A5D1F890852BE4B7DD56BFD25AC /* AMChart-dummy.m */,
-				387B159EAB68921CF8D484A5B32AD08E /* AMChart-Info.plist */,
-				C7FCB7C5ED46760FDAE56221297EE40A /* AMChart-prefix.pch */,
-				09545F092DE90CF08C4C083CCDCB1D9A /* AMChart-umbrella.h */,
+				571FF99085AF1EEF696DED0EEFFCD644 /* AMSpeedMeterView.swift */,
+				A039C53ECF44E278A957AB6201D98F5C /* Support Files */,
+			);
+			name = AMSpeedMeter;
+			path = AMSpeedMeter;
+			sourceTree = "<group>";
+		};
+		752A71318B2097BF8DCA4CCE5628038A /* AMClockView */ = {
+			isa = PBXGroup;
+			children = (
+				BD0D530D42D49798586E54D4B8DA99D0 /* AMClockView.swift */,
+				1A50A466537592D7CAA538D4C45976CF /* Support Files */,
+			);
+			name = AMClockView;
+			path = AMClockView;
+			sourceTree = "<group>";
+		};
+		81F8AF443EEAD5D68EA4BB483262704D /* AMMeterView */ = {
+			isa = PBXGroup;
+			children = (
+				9DF2FDA2753C3D7C553569B8372A6BFC /* AMMeterView.swift */,
+				E522D6C4D40B15175D7E7A9C883B8E00 /* Support Files */,
+			);
+			name = AMMeterView;
+			path = AMMeterView;
+			sourceTree = "<group>";
+		};
+		83981AEF48821A82AEA4F95E9CE6AC53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FA8560C9B4BA29E3BB6F2F4941D29F0 /* AMChart.modulemap */,
+				9C0F5F4D6CDB71E6724D8BBE921EE208 /* AMChart.xcconfig */,
+				2EF433ECDD757C37F1344ADB711141C9 /* AMChart-dummy.m */,
+				A2BF8D8F058335F69900FEB051C5C125 /* AMChart-Info.plist */,
+				A46F802927D22CBFC4AFD93E7717FA46 /* AMChart-prefix.pch */,
+				E50F162A1043B5EE99841ACB270CA42D /* AMChart-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AMChart";
@@ -609,74 +681,58 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8B0A87AF43B10629E33540F908165A51 /* AMJpnMap */ = {
+		9D9485F70154B8766BBF9028AD10B622 /* AMChart */ = {
 			isa = PBXGroup;
 			children = (
-				E8C9E19711EE925EE50B4AA0FE0C44D2 /* AMJMRegionLayer.swift */,
-				9F868556A502E5C22344E3339DAED9EE /* AMJpnMapDetailView.swift */,
-				967A4C08C18A7E363D44C3F8E03F9A9B /* AMJpnMapView.swift */,
-				E126AC7644FD9514E36359C9CE448048 /* AMPrefecture.swift */,
-				5DE7F5BEB5059FF9CB3D3EE820B5D1EF /* AMRegion.swift */,
-				7BF1D0A96A8F70937B9BB917D4A9C047 /* Support Files */,
+				61E552A6936D14DC5F594F698A9A21B1 /* AMBarChartView.swift */,
+				7204C7B4DB3F780AED35C39BE7EE782A /* AMChartData.swift */,
+				0573976AFDBB0DF5533F5B84EC807D78 /* AMChartView.swift */,
+				A554AFAB46DEE9263FDFF830D4BC0C43 /* AMLineChartView.swift */,
+				200A0382B34E1C56D919D64028DAD96E /* AMPieChartView.swift */,
+				6CA37620EC88BB09EB6EE394C19DAEBD /* AMRadarChartView.swift */,
+				8071D08D1B4BFFBE70C0A55E9F233791 /* AMScatterChartView.swift */,
+				83981AEF48821A82AEA4F95E9CE6AC53 /* Support Files */,
 			);
-			name = AMJpnMap;
-			path = AMJpnMap;
+			name = AMChart;
+			path = AMChart;
 			sourceTree = "<group>";
 		};
-		97EFF993500236F31E9DD450ED3AB597 /* Resources */ = {
+		A039C53ECF44E278A957AB6201D98F5C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				11E14E25D650CA782BF3B92337910A6E /* AMColorPickerAssets.xcassets */,
-				687BD9ACB8D323D6210D901A7D18A08C /* AMColorPickerRGBSliderView.xib */,
-				A03D5A831ED795F3AE38ED658CF579B2 /* AMColorPickerTableView.xib */,
-				02D6D4B8F44C451F70A3C5BB4478E9AC /* AMColorPickerTableViewCell.xib */,
-				D76E8E8AA1491AF67EAAA96ED3A49476 /* AMColorPickerViewController.xib */,
-				76BD10098A3F3605C72DF8F81C3B53F7 /* AMColorPickerWheelView.xib */,
-				D93B184FD960ACD76AE6C4D032980427 /* AMCP_color_wheel@2x.png */,
-				794E15B70F2F686630D3731FD7615D7A /* AMCP_cursor@2x.png */,
-				49EFD619BCA1F946A8EC9339C4496CFC /* AMCP_slider_thumb@2x.png */,
+				C9C4561035C5F2C406FF5752AF3A82D8 /* AMSpeedMeter.modulemap */,
+				AC59BF3C25CB92C23F853A57BE24D2A6 /* AMSpeedMeter.xcconfig */,
+				2FDD50DBFB8CF6370DD651858705F813 /* AMSpeedMeter-dummy.m */,
+				EE9B04D2E6694B77E31496986E2032FB /* AMSpeedMeter-Info.plist */,
+				3631C5BDA04A5259116415E0AEB35066 /* AMSpeedMeter-prefix.pch */,
+				9DBFAA51F5C9D04CECED06B623C8B2CB /* AMSpeedMeter-umbrella.h */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/AMSpeedMeter";
 			sourceTree = "<group>";
 		};
-		992C83C103F60EBC48CA569F2A2A992A /* AMMeterView */ = {
+		A55B22E845F3F58AB6EF1CE59760FE32 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0EE137F846F89B49406B713F0549AFBB /* AMMeterView.swift */,
-				D341F59EE84D31FE0D309826D3C34D19 /* Support Files */,
+				540B830254F59E6F8BFF9E87396B9091 /* AMColorPicker.modulemap */,
+				520581FF317B89CE25CFDCC7D4D2B94F /* AMColorPicker.xcconfig */,
+				F50FDA44648BA425D9DA5B3B3D405E62 /* AMColorPicker-dummy.m */,
+				9DA70DB0FC4EA09900185C30F949DD0E /* AMColorPicker-Info.plist */,
+				BB87C7A05C8F003028C13C7A77C32DA2 /* AMColorPicker-prefix.pch */,
+				F6FA867AD679808B18A7AE354A03C836 /* AMColorPicker-umbrella.h */,
 			);
-			name = AMMeterView;
-			path = AMMeterView;
+			name = "Support Files";
+			path = "../Target Support Files/AMColorPicker";
 			sourceTree = "<group>";
 		};
-		AC03173705D0138508B6A6A93DB05654 /* AMSpeedMeter */ = {
+		A813D86D85736AF5A7749FAED593AB1E /* AMNowClockView */ = {
 			isa = PBXGroup;
 			children = (
-				4FF21311B018F146ECB5A479BA756824 /* AMSpeedMeterView.swift */,
-				1860359CFAE996ED30A45960B5658D1C /* Support Files */,
-			);
-			name = AMSpeedMeter;
-			path = AMSpeedMeter;
-			sourceTree = "<group>";
-		};
-		BE273A989406C44B785523A156468E2E /* AMNowClockView */ = {
-			isa = PBXGroup;
-			children = (
-				2DE7FC9ADB4D71E170468A47980056E2 /* AMNowClockView.swift */,
-				4CC7211997152EE1F689CBAC21ED3F94 /* Support Files */,
+				D77066FF86F20084F3D7DC87681C53DF /* AMNowClockView.swift */,
+				D6970D8F784EADEF33D480614A85372E /* Support Files */,
 			);
 			name = AMNowClockView;
 			path = AMNowClockView;
-			sourceTree = "<group>";
-		};
-		C0810EAE92727D29A7A1FDFF703F5AB0 /* AMVennDiagramView */ = {
-			isa = PBXGroup;
-			children = (
-				0A350D3C87CD03B4ACAB008D8669D5F7 /* AMVennDiagramView.swift */,
-				C0B96C6629DD08A9DEB1B9527A8DD129 /* Support Files */,
-			);
-			name = AMVennDiagramView;
-			path = AMVennDiagramView;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -687,15 +743,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C0B96C6629DD08A9DEB1B9527A8DD129 /* Support Files */ = {
+		C62364A29A8799889A3BE6275395098B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2A1EB7157F3F09F3ABD2B7B279FB71A /* AMVennDiagramView.modulemap */,
-				141D76F6421C3A0068B38D95EB5B1996 /* AMVennDiagramView.xcconfig */,
-				B5E69F2580CE4D3CD3F218EB4EE98065 /* AMVennDiagramView-dummy.m */,
-				F92ECC4078D37F3C466D59735464AA31 /* AMVennDiagramView-Info.plist */,
-				BE6A7C5E3D09A31582AC88D27A2D37FD /* AMVennDiagramView-prefix.pch */,
-				2E75C33BD157C33C890F640370C79F2B /* AMVennDiagramView-umbrella.h */,
+				EEFB8C72194191D98618456074636E2F /* AMVennDiagramView.modulemap */,
+				BFE1682EC3576DDEEA4FD2A8FF00C95D /* AMVennDiagramView.xcconfig */,
+				D21730C318713A93714AC292A0C36454 /* AMVennDiagramView-dummy.m */,
+				536E4AE416E5BFD7FCCA3DE1C2E72756 /* AMVennDiagramView-Info.plist */,
+				81095431D97A80AE45158C180D885078 /* AMVennDiagramView-prefix.pch */,
+				D6F6BA20DF5CDB9AFC2919971555F556 /* AMVennDiagramView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AMVennDiagramView";
@@ -706,24 +762,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DD53038E5CA574958C0A6D1BD2AD247A /* Pods */,
+				3CDEDD8D15E29F9C12F57CAEC0C4018C /* Pods */,
 				F29D644C9B404FA11F2EE04505C058BA /* Products */,
 				8A52C1C714977249A8526BC5B3484B3E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CFEF40E29B24593FE2C22489FFBD2671 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7007CEF49D48FD8CD2908905024CAB6A /* AMCalendar.modulemap */,
-				EAD1A4DC399FFC9956DEF15C5D2DC06A /* AMCalendar.xcconfig */,
-				80E9DB2528B06175CDFB2B1C53422FCE /* AMCalendar-dummy.m */,
-				A416B018E1D90F222168A407595BBDCC /* AMCalendar-Info.plist */,
-				1C5CDDAA5D35F1F060A17EF3D370D3C2 /* AMCalendar-prefix.pch */,
-				CBB6AEC737E903FE520FBA2EF9EE6FAB /* AMCalendar-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AMCalendar";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -734,76 +776,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D341F59EE84D31FE0D309826D3C34D19 /* Support Files */ = {
+		D6970D8F784EADEF33D480614A85372E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2EE72F3CE32F1A35644304DC56A0430B /* AMMeterView.modulemap */,
-				B721F9E7D4B25F6F43FC5495AEA9A040 /* AMMeterView.xcconfig */,
-				DB93F0664C0929D57095AFA7631A6041 /* AMMeterView-dummy.m */,
-				0966BAD66A01DB8AB3001B0439D9DCE1 /* AMMeterView-Info.plist */,
-				60EFF7C07B45F148AE7BAAEE1BAF99E5 /* AMMeterView-prefix.pch */,
-				E8617A92EDC313931A80822B771B9F32 /* AMMeterView-umbrella.h */,
+				CD6E38C3F113EAD83AE552B1F5B300CE /* AMNowClockView.modulemap */,
+				EA6B5BDA137F67DD3012BD89C81A4BB3 /* AMNowClockView.xcconfig */,
+				CD968CF0D80F584150411BFA68292B26 /* AMNowClockView-dummy.m */,
+				30573FEF94F22A939A50B6C296CAC49A /* AMNowClockView-Info.plist */,
+				686A98C31135FD5D65E44B3B365FB1D9 /* AMNowClockView-prefix.pch */,
+				25C7330125124011EF3FE46D34E94FDA /* AMNowClockView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMNowClockView";
+			sourceTree = "<group>";
+		};
+		DE51EC84C7741EF2DFFA59238B58237B /* AMJpnMap */ = {
+			isa = PBXGroup;
+			children = (
+				351CE75EC8094C75D69ABD3C5520090E /* AMJMRegionLayer.swift */,
+				3FF61087EF7C3BE4E156A3D36350CFE7 /* AMJpnMapDetailView.swift */,
+				F9C44C609297690A799E1BAFF8CF8758 /* AMJpnMapView.swift */,
+				079747C13B0E83253DADD95DD0F89836 /* AMPrefecture.swift */,
+				6316B5EC9FA542312A91C5F0542B11F8 /* AMRegion.swift */,
+				50E00EDAE5FF56B17608AACDA149A02E /* Support Files */,
+			);
+			name = AMJpnMap;
+			path = AMJpnMap;
+			sourceTree = "<group>";
+		};
+		E522D6C4D40B15175D7E7A9C883B8E00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C30A22A1E6C934D43B19B186B3D1A15F /* AMMeterView.modulemap */,
+				6117E3CF038CE4154524470DA6D7169F /* AMMeterView.xcconfig */,
+				7DA5171FD0025EADE6EA81D45152CF5F /* AMMeterView-dummy.m */,
+				E136502A4F62CC5A699A4C8391AA2632 /* AMMeterView-Info.plist */,
+				488E5900191B7E3CD6C33ABAACB8D3F0 /* AMMeterView-prefix.pch */,
+				11ACB5E036A039405EAC959D0AFC213B /* AMMeterView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AMMeterView";
-			sourceTree = "<group>";
-		};
-		DD53038E5CA574958C0A6D1BD2AD247A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				80B9808610AE9314E490CAA2DC4EE870 /* AMBurnAnimation */,
-				E0A6280F736FAD7AF0AC1207755212F8 /* AMCalendar */,
-				ECAAAFC3D2ABC577F22735390D627C05 /* AMChart */,
-				3241B5B5438FFF921761ED0213F7BF61 /* AMClockView */,
-				6D2B022B4332BE9C68793784F80E82A5 /* AMColorPicker */,
-				8B0A87AF43B10629E33540F908165A51 /* AMJpnMap */,
-				992C83C103F60EBC48CA569F2A2A992A /* AMMeterView */,
-				BE273A989406C44B785523A156468E2E /* AMNowClockView */,
-				AC03173705D0138508B6A6A93DB05654 /* AMSpeedMeter */,
-				C0810EAE92727D29A7A1FDFF703F5AB0 /* AMVennDiagramView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E0A6280F736FAD7AF0AC1207755212F8 /* AMCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				DFF444EDD7CC75DD42206DBD9A89BCA0 /* AMCalendar.swift */,
-				078352778EC2169F6CEC108B32779D22 /* AMCalendarDataViewController.swift */,
-				9D421336C1C50E27D8D8A62A978B9F2D /* AMCalendarRootViewController.swift */,
-				1032B4501C767592E11B80991E5BB108 /* Resources */,
-				CFEF40E29B24593FE2C22489FFBD2671 /* Support Files */,
-			);
-			name = AMCalendar;
-			path = AMCalendar;
-			sourceTree = "<group>";
-		};
-		E180B6585105DCA0829EB28253A47E44 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AC6389C98BF3F0FB9CA84A0294FE517B /* AMClockView.modulemap */,
-				E8F7099A20EA866D3E9C09B7F8F8417C /* AMClockView.xcconfig */,
-				17C499F864468A832BFFFFF4511A7ABD /* AMClockView-dummy.m */,
-				7776B97BC2781BF9CDE9E5F8AB548312 /* AMClockView-Info.plist */,
-				035A5DDA32758FA93BBE935D5E9CA6F9 /* AMClockView-prefix.pch */,
-				258BEEBD46EE62BCB67B898A88F56E1D /* AMClockView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AMClockView";
-			sourceTree = "<group>";
-		};
-		ECAAAFC3D2ABC577F22735390D627C05 /* AMChart */ = {
-			isa = PBXGroup;
-			children = (
-				2E22A2E9A3B44385902C11A7D294646C /* AMBarChartView.swift */,
-				0653E39B21ACDA30A3044EB1EE6C4382 /* AMLineChartView.swift */,
-				6058051FD6BBECFEB699AD0F836C8F7B /* AMPieChartView.swift */,
-				17D36F33D3FB56A04779D35124DD3FEA /* AMRadarChartView.swift */,
-				7950E685EA5E6E08063E9149D825F2C0 /* AMScatterChartView.swift */,
-				82E17E1B116CB44BFE1C95ADCA9765AB /* Support Files */,
-			);
-			name = AMChart;
-			path = AMChart;
 			sourceTree = "<group>";
 		};
 		F29D644C9B404FA11F2EE04505C058BA /* Products */ = {
@@ -826,18 +838,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F378D2A578F6350FBC02ECC7AFF5DB9D /* Support Files */ = {
+		FB5D5603D50417FA63A4B6DDA348E0A2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AD26D391EC9195C18B51CD06DCB970F1 /* AMBurnAnimation.modulemap */,
-				CB428D3D7F664001C5BE50001BC561F5 /* AMBurnAnimation.xcconfig */,
-				FC56055D92E5A09CEFAC27611F27E963 /* AMBurnAnimation-dummy.m */,
-				D4766B4484D6B2E54C0431A10D2CFC84 /* AMBurnAnimation-Info.plist */,
-				B6F2DE57E60083FAFFC8691E5D1E0971 /* AMBurnAnimation-prefix.pch */,
-				4C4C538A6493D5B83B670335F9166F44 /* AMBurnAnimation-umbrella.h */,
+				EEFCD4CEA8AAE2C12415923AC54E177C /* AMCalendarDataViewController.xib */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AMBurnAnimation";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -867,11 +873,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35FD952C134DD5241766E6DF2B65082B /* Headers */ = {
+		2810F2FF4347C3D5D40B422FB7E6304C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90266A6477C1383952D62B7F08271FC4 /* AMChart-umbrella.h in Headers */,
+				F8EE1660DF98F371793A767819B3FA04 /* AMChart-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1006,12 +1012,12 @@
 		};
 		3751D7E78C641D85289333798DEE081D /* AMChart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EFCC732BF460C57B9DFE3AE8E076F53 /* Build configuration list for PBXNativeTarget "AMChart" */;
+			buildConfigurationList = 35F12A572F83BCA27E4B78125485BE61 /* Build configuration list for PBXNativeTarget "AMChart" */;
 			buildPhases = (
-				35FD952C134DD5241766E6DF2B65082B /* Headers */,
-				BAEA8A3653FB888F015D738DDE308648 /* Sources */,
-				8151BB51B39A498584AE61AFED6FF284 /* Frameworks */,
-				2ACA714A8F88E47835D08FEB84BE1F0A /* Resources */,
+				2810F2FF4347C3D5D40B422FB7E6304C /* Headers */,
+				2B035661C0D5FCEBB96A4D5605F24407 /* Sources */,
+				618B8604051F151211635607F47ED7B0 /* Frameworks */,
+				720DD517327D9EDA863F498EC0B5D8EE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1206,7 +1212,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1242,13 +1248,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2ACA714A8F88E47835D08FEB84BE1F0A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50283658119FA314F00F2A6DBB4E0D65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1257,6 +1256,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5933AF1AC3DA5D6A3F70B19AE5CD08E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720DD517327D9EDA863F498EC0B5D8EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1381,6 +1387,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B035661C0D5FCEBB96A4D5605F24407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF68F8DCE1D843F99BE1B9A5E184D7B8 /* AMBarChartView.swift in Sources */,
+				B0349F4B6D030FF46053FF68124DC000 /* AMChart-dummy.m in Sources */,
+				67EFD42D4E6ADD4C01889220F108E009 /* AMChartData.swift in Sources */,
+				339B8A5E2059FE085A151459CEEE0778 /* AMChartView.swift in Sources */,
+				A5CE8DBDDF499241BF241078A50739A0 /* AMLineChartView.swift in Sources */,
+				39CB03CC056F3B091962D0F86E12014F /* AMPieChartView.swift in Sources */,
+				002D3E745F9C90BC6D9AF61B7F677155 /* AMRadarChartView.swift in Sources */,
+				67E7D7E01BAA12F987A93D0F6FA76211 /* AMScatterChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BA96C1E2941C03DA1C0DCE14AA96506 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1439,19 +1460,6 @@
 			files = (
 				1BC4ED0A533396E47F0A4A48D299B5CA /* AMVennDiagramView-dummy.m in Sources */,
 				E689591BB17DDF3F9D10908FBEA60555 /* AMVennDiagramView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAEA8A3653FB888F015D738DDE308648 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EDDEEE155BA6604647B3944EA1F1DB27 /* AMBarChartView.swift in Sources */,
-				9EAE89F96980DB22E6B55D4C3D97C0E2 /* AMChart-dummy.m in Sources */,
-				5A76530FB7E3B665B9AE92C49F718A34 /* AMLineChartView.swift in Sources */,
-				D32F16DEC6B076DD440B1ADC8AE7C168 /* AMPieChartView.swift in Sources */,
-				7D832B41FDDA8A6B1D64EE9EE3E6D97A /* AMRadarChartView.swift in Sources */,
-				5A2845621383D0A8039974EDF113AC1A /* AMScatterChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1550,7 +1558,1010 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+		134BA85C78EBE0BAB6B3CF1F6CFA53CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DA3043A8C5B8423AF64E8D77CC55C2 /* Pods-TestPodUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPodUITests/Pods-TestPodUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPodUITests/Pods-TestPodUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		25B97B03DB89680DB144550BE2527889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671E440D7B0B93F24356F299A096F4FD /* Pods-TestPod.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27CE0EFA2698A87B6998D1769C64D7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE1682EC3576DDEEA4FD2A8FF00C95D /* AMVennDiagramView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMVennDiagramView/AMVennDiagramView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMVennDiagramView/AMVennDiagramView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMVennDiagramView/AMVennDiagramView.modulemap";
+				PRODUCT_MODULE_NAME = AMVennDiagramView;
+				PRODUCT_NAME = AMVennDiagramView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35DC3E5C53A92F0ED77C006C0CD675C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6B5BDA137F67DD3012BD89C81A4BB3 /* AMNowClockView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMNowClockView/AMNowClockView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMNowClockView/AMNowClockView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMNowClockView/AMNowClockView.modulemap";
+				PRODUCT_MODULE_NAME = AMNowClockView;
+				PRODUCT_NAME = AMNowClockView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DA3CE1E2AAEDE292C239DA4CEF2F1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC59BF3C25CB92C23F853A57BE24D2A6 /* AMSpeedMeter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMSpeedMeter/AMSpeedMeter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMSpeedMeter/AMSpeedMeter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMSpeedMeter/AMSpeedMeter.modulemap";
+				PRODUCT_MODULE_NAME = AMSpeedMeter;
+				PRODUCT_NAME = AMSpeedMeter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41E7548F4A7D33A6F42905D08E450029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D95CD9819AB51F8BCFCA7E26CF9837 /* AMJpnMap.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMJpnMap/AMJpnMap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMJpnMap/AMJpnMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMJpnMap/AMJpnMap.modulemap";
+				PRODUCT_MODULE_NAME = AMJpnMap;
+				PRODUCT_NAME = AMJpnMap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42CCE43DDD5B4AD8AF48E7AAF85A951F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D95CD9819AB51F8BCFCA7E26CF9837 /* AMJpnMap.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMJpnMap/AMJpnMap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMJpnMap/AMJpnMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMJpnMap/AMJpnMap.modulemap";
+				PRODUCT_MODULE_NAME = AMJpnMap;
+				PRODUCT_NAME = AMJpnMap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		531BB0DE58A737C1F471D891377ED60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC59BF3C25CB92C23F853A57BE24D2A6 /* AMSpeedMeter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMSpeedMeter/AMSpeedMeter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMSpeedMeter/AMSpeedMeter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMSpeedMeter/AMSpeedMeter.modulemap";
+				PRODUCT_MODULE_NAME = AMSpeedMeter;
+				PRODUCT_NAME = AMSpeedMeter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AB30EF510116133ED63D1A9AAC01CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1D7A2169DDBD530F754423B212B925 /* Pods-TestPodTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPodTests/Pods-TestPodTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPodTests/Pods-TestPodTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AC1CAF174240418A6DC841695BC716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7572EFC1C65936018F58AAF90A1971F6 /* AMClockView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMClockView/AMClockView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMClockView/AMClockView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMClockView/AMClockView.modulemap";
+				PRODUCT_MODULE_NAME = AMClockView;
+				PRODUCT_NAME = AMClockView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		777C4BB5BA7546BDDC5A9959EC53552E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B14E65764CC10AE35F9B9C6620A0DC /* AMBurnAnimation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMBurnAnimation/AMBurnAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMBurnAnimation/AMBurnAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMBurnAnimation/AMBurnAnimation.modulemap";
+				PRODUCT_MODULE_NAME = AMBurnAnimation;
+				PRODUCT_NAME = AMBurnAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A44107405703407202BF7F4DFD2DF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0F5F4D6CDB71E6724D8BBE921EE208 /* AMChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMChart/AMChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMChart/AMChart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMChart/AMChart.modulemap";
+				PRODUCT_MODULE_NAME = AMChart;
+				PRODUCT_NAME = AMChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A86909D42256D205873D1242ABDDFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54781FAE12597BC0E9AEBB4F05F9A1A8 /* Pods-TestPod.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8714A342A9ED9B6B9772CD2B1A6ED162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B14E65764CC10AE35F9B9C6620A0DC /* AMBurnAnimation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMBurnAnimation/AMBurnAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMBurnAnimation/AMBurnAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMBurnAnimation/AMBurnAnimation.modulemap";
+				PRODUCT_MODULE_NAME = AMBurnAnimation;
+				PRODUCT_NAME = AMBurnAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A768074FCE0B3BBAF87B9DA7446D9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15C85A3397F33C5EB74BC289EAB2B2F /* AMCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMCalendar/AMCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMCalendar/AMCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMCalendar/AMCalendar.modulemap";
+				PRODUCT_MODULE_NAME = AMCalendar;
+				PRODUCT_NAME = AMCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8A5AA6247502A2144BDD8346C790B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE1682EC3576DDEEA4FD2A8FF00C95D /* AMVennDiagramView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMVennDiagramView/AMVennDiagramView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMVennDiagramView/AMVennDiagramView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMVennDiagramView/AMVennDiagramView.modulemap";
+				PRODUCT_MODULE_NAME = AMVennDiagramView;
+				PRODUCT_NAME = AMVennDiagramView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AED04709415BC7B6B654D5526E3706E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3470F84E9C3EBF449F67C732024148E0 /* Pods-TestPodUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPodUITests/Pods-TestPodUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPodUITests/Pods-TestPodUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2CE7710B4511C8C23511A51EA9CA29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CA71A980358D4E54C4A089DA6EE02A /* Pods-TestPodTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPodTests/Pods-TestPodTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPodTests/Pods-TestPodTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B36B556D9920C7D737A0F8B5ADB9559A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7572EFC1C65936018F58AAF90A1971F6 /* AMClockView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMClockView/AMClockView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMClockView/AMClockView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMClockView/AMClockView.modulemap";
+				PRODUCT_MODULE_NAME = AMClockView;
+				PRODUCT_NAME = AMClockView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7935747BC389974600F6B5583FDE221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6117E3CF038CE4154524470DA6D7169F /* AMMeterView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMMeterView/AMMeterView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMMeterView/AMMeterView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMMeterView/AMMeterView.modulemap";
+				PRODUCT_MODULE_NAME = AMMeterView;
+				PRODUCT_NAME = AMMeterView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8C5788C7073EFB4431B8F363C084930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 520581FF317B89CE25CFDCC7D4D2B94F /* AMColorPicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMColorPicker/AMColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMColorPicker/AMColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMColorPicker/AMColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = AMColorPicker;
+				PRODUCT_NAME = AMColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEA68459AA3AA38BF079EED61A5E3A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15C85A3397F33C5EB74BC289EAB2B2F /* AMCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMCalendar/AMCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMCalendar/AMCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMCalendar/AMCalendar.modulemap";
+				PRODUCT_MODULE_NAME = AMCalendar;
+				PRODUCT_NAME = AMCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0AC516120494008D4CD37F74087AF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0F5F4D6CDB71E6724D8BBE921EE208 /* AMChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMChart/AMChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMChart/AMChart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMChart/AMChart.modulemap";
+				PRODUCT_MODULE_NAME = AMChart;
+				PRODUCT_NAME = AMChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0B28A9B6F248F34EEEBD7DE0F463F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6B5BDA137F67DD3012BD89C81A4BB3 /* AMNowClockView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMNowClockView/AMNowClockView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMNowClockView/AMNowClockView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMNowClockView/AMNowClockView.modulemap";
+				PRODUCT_MODULE_NAME = AMNowClockView;
+				PRODUCT_NAME = AMNowClockView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7D2503A308D90B8D5EA2656180E5A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 520581FF317B89CE25CFDCC7D4D2B94F /* AMColorPicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMColorPicker/AMColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMColorPicker/AMColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMColorPicker/AMColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = AMColorPicker;
+				PRODUCT_NAME = AMColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E942BFD7C981A7D4F6E9F961FA88771F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6117E3CF038CE4154524470DA6D7169F /* AMMeterView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMMeterView/AMMeterView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMMeterView/AMMeterView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMMeterView/AMMeterView.modulemap";
+				PRODUCT_MODULE_NAME = AMMeterView;
+				PRODUCT_NAME = AMMeterView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1601,7 +2612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1611,1009 +2622,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		27CE0EFA2698A87B6998D1769C64D7A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 141D76F6421C3A0068B38D95EB5B1996 /* AMVennDiagramView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMVennDiagramView/AMVennDiagramView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMVennDiagramView/AMVennDiagramView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMVennDiagramView/AMVennDiagramView.modulemap";
-				PRODUCT_MODULE_NAME = AMVennDiagramView;
-				PRODUCT_NAME = AMVennDiagramView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		35DC3E5C53A92F0ED77C006C0CD675C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34EB7B1D018609A9A2F49E3F5A104E25 /* AMNowClockView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMNowClockView/AMNowClockView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMNowClockView/AMNowClockView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMNowClockView/AMNowClockView.modulemap";
-				PRODUCT_MODULE_NAME = AMNowClockView;
-				PRODUCT_NAME = AMNowClockView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		3DA3CE1E2AAEDE292C239DA4CEF2F1FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE331D5603E6A968916D092EDEDF2A32 /* AMSpeedMeter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMSpeedMeter/AMSpeedMeter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMSpeedMeter/AMSpeedMeter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMSpeedMeter/AMSpeedMeter.modulemap";
-				PRODUCT_MODULE_NAME = AMSpeedMeter;
-				PRODUCT_NAME = AMSpeedMeter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		41E7548F4A7D33A6F42905D08E450029 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1E8B77CF3A28667BDD3CF46E8DE8250 /* AMJpnMap.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMJpnMap/AMJpnMap-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMJpnMap/AMJpnMap-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMJpnMap/AMJpnMap.modulemap";
-				PRODUCT_MODULE_NAME = AMJpnMap;
-				PRODUCT_NAME = AMJpnMap;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		42CCE43DDD5B4AD8AF48E7AAF85A951F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1E8B77CF3A28667BDD3CF46E8DE8250 /* AMJpnMap.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMJpnMap/AMJpnMap-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMJpnMap/AMJpnMap-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMJpnMap/AMJpnMap.modulemap";
-				PRODUCT_MODULE_NAME = AMJpnMap;
-				PRODUCT_NAME = AMJpnMap;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4DB89D3C1F73BF00DC6EC0F0B68D93A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54781FAE12597BC0E9AEBB4F05F9A1A8 /* Pods-TestPod.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5126EC72C69F37E1FD500DBE55B8E454 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46DA3043A8C5B8423AF64E8D77CC55C2 /* Pods-TestPodUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestPodUITests/Pods-TestPodUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestPodUITests/Pods-TestPodUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		531BB0DE58A737C1F471D891377ED60E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE331D5603E6A968916D092EDEDF2A32 /* AMSpeedMeter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMSpeedMeter/AMSpeedMeter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMSpeedMeter/AMSpeedMeter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMSpeedMeter/AMSpeedMeter.modulemap";
-				PRODUCT_MODULE_NAME = AMSpeedMeter;
-				PRODUCT_NAME = AMSpeedMeter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5914DC7B1A791B2BFD9E218EAC2A2FCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3470F84E9C3EBF449F67C732024148E0 /* Pods-TestPodUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestPodUITests/Pods-TestPodUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestPodUITests/Pods-TestPodUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		61C2EC498197552A04F8D69B87E617CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F1D7A2169DDBD530F754423B212B925 /* Pods-TestPodTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestPodTests/Pods-TestPodTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestPodTests/Pods-TestPodTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6AC1CAF174240418A6DC841695BC716E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8F7099A20EA866D3E9C09B7F8F8417C /* AMClockView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMClockView/AMClockView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMClockView/AMClockView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMClockView/AMClockView.modulemap";
-				PRODUCT_MODULE_NAME = AMClockView;
-				PRODUCT_NAME = AMClockView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6F301B5E5E59DF068A0164C9E26C270C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 671E440D7B0B93F24356F299A096F4FD /* Pods-TestPod.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		777C4BB5BA7546BDDC5A9959EC53552E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB428D3D7F664001C5BE50001BC561F5 /* AMBurnAnimation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMBurnAnimation/AMBurnAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMBurnAnimation/AMBurnAnimation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMBurnAnimation/AMBurnAnimation.modulemap";
-				PRODUCT_MODULE_NAME = AMBurnAnimation;
-				PRODUCT_NAME = AMBurnAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		82AA7489A0B1DC6D1C8880AB3CEB1191 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE22134D944A05A432FD9D5883D6E465 /* AMChart.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMChart/AMChart-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMChart/AMChart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMChart/AMChart.modulemap";
-				PRODUCT_MODULE_NAME = AMChart;
-				PRODUCT_NAME = AMChart;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8714A342A9ED9B6B9772CD2B1A6ED162 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB428D3D7F664001C5BE50001BC561F5 /* AMBurnAnimation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMBurnAnimation/AMBurnAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMBurnAnimation/AMBurnAnimation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMBurnAnimation/AMBurnAnimation.modulemap";
-				PRODUCT_MODULE_NAME = AMBurnAnimation;
-				PRODUCT_NAME = AMBurnAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8A768074FCE0B3BBAF87B9DA7446D9A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAD1A4DC399FFC9956DEF15C5D2DC06A /* AMCalendar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMCalendar/AMCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMCalendar/AMCalendar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMCalendar/AMCalendar.modulemap";
-				PRODUCT_MODULE_NAME = AMCalendar;
-				PRODUCT_NAME = AMCalendar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		934D3E42A2C93E3683C1CED47C303C47 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3CA71A980358D4E54C4A089DA6EE02A /* Pods-TestPodTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestPodTests/Pods-TestPodTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestPodTests/Pods-TestPodTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		95F28384574A5E17B590AA3976886D4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE22134D944A05A432FD9D5883D6E465 /* AMChart.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMChart/AMChart-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMChart/AMChart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMChart/AMChart.modulemap";
-				PRODUCT_MODULE_NAME = AMChart;
-				PRODUCT_NAME = AMChart;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A8A5AA6247502A2144BDD8346C790B80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 141D76F6421C3A0068B38D95EB5B1996 /* AMVennDiagramView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMVennDiagramView/AMVennDiagramView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMVennDiagramView/AMVennDiagramView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMVennDiagramView/AMVennDiagramView.modulemap";
-				PRODUCT_MODULE_NAME = AMVennDiagramView;
-				PRODUCT_NAME = AMVennDiagramView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B36B556D9920C7D737A0F8B5ADB9559A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8F7099A20EA866D3E9C09B7F8F8417C /* AMClockView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMClockView/AMClockView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMClockView/AMClockView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMClockView/AMClockView.modulemap";
-				PRODUCT_MODULE_NAME = AMClockView;
-				PRODUCT_NAME = AMClockView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B7935747BC389974600F6B5583FDE221 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B721F9E7D4B25F6F43FC5495AEA9A040 /* AMMeterView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMMeterView/AMMeterView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMMeterView/AMMeterView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMMeterView/AMMeterView.modulemap";
-				PRODUCT_MODULE_NAME = AMMeterView;
-				PRODUCT_NAME = AMMeterView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B8C5788C7073EFB4431B8F363C084930 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFFC140775C42682758525C1EF905405 /* AMColorPicker.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMColorPicker/AMColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMColorPicker/AMColorPicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMColorPicker/AMColorPicker.modulemap";
-				PRODUCT_MODULE_NAME = AMColorPicker;
-				PRODUCT_NAME = AMColorPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DEA68459AA3AA38BF079EED61A5E3A50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAD1A4DC399FFC9956DEF15C5D2DC06A /* AMCalendar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMCalendar/AMCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMCalendar/AMCalendar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMCalendar/AMCalendar.modulemap";
-				PRODUCT_MODULE_NAME = AMCalendar;
-				PRODUCT_NAME = AMCalendar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E0B28A9B6F248F34EEEBD7DE0F463F42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34EB7B1D018609A9A2F49E3F5A104E25 /* AMNowClockView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMNowClockView/AMNowClockView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMNowClockView/AMNowClockView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMNowClockView/AMNowClockView.modulemap";
-				PRODUCT_MODULE_NAME = AMNowClockView;
-				PRODUCT_NAME = AMNowClockView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E7D2503A308D90B8D5EA2656180E5A38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFFC140775C42682758525C1EF905405 /* AMColorPicker.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMColorPicker/AMColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMColorPicker/AMColorPicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMColorPicker/AMColorPicker.modulemap";
-				PRODUCT_MODULE_NAME = AMColorPicker;
-				PRODUCT_NAME = AMColorPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E942BFD7C981A7D4F6E9F961FA88771F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B721F9E7D4B25F6F43FC5495AEA9A040 /* AMMeterView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMMeterView/AMMeterView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMMeterView/AMMeterView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AMMeterView/AMMeterView.modulemap";
-				PRODUCT_MODULE_NAME = AMMeterView;
-				PRODUCT_NAME = AMMeterView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -2647,6 +2655,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		35F12A572F83BCA27E4B78125485BE61 /* Build configuration list for PBXNativeTarget "AMChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A44107405703407202BF7F4DFD2DF7C /* Debug */,
+				E0AC516120494008D4CD37F74087AF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3ED0FD692B7F9F5934D9070411BF6F65 /* Build configuration list for PBXNativeTarget "AMClockView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2659,8 +2676,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
-				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2683,15 +2700,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EFCC732BF460C57B9DFE3AE8E076F53 /* Build configuration list for PBXNativeTarget "AMChart" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82AA7489A0B1DC6D1C8880AB3CEB1191 /* Debug */,
-				95F28384574A5E17B590AA3976886D4E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AA6F6F037316B4DDD6CD000B03D8B5C9 /* Build configuration list for PBXNativeTarget "AMMeterView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2704,8 +2712,8 @@
 		AD942AB6D47F6423FAC766DBF7BE9DC4 /* Build configuration list for PBXNativeTarget "Pods-TestPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F301B5E5E59DF068A0164C9E26C270C /* Debug */,
-				4DB89D3C1F73BF00DC6EC0F0B68D93A4 /* Release */,
+				25B97B03DB89680DB144550BE2527889 /* Debug */,
+				7A86909D42256D205873D1242ABDDFEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2722,8 +2730,8 @@
 		C7281DF9BA048BA0AEADAE8B472AF2BA /* Build configuration list for PBXNativeTarget "Pods-TestPodTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61C2EC498197552A04F8D69B87E617CB /* Debug */,
-				934D3E42A2C93E3683C1CED47C303C47 /* Release */,
+				6AB30EF510116133ED63D1A9AAC01CA8 /* Debug */,
+				B2CE7710B4511C8C23511A51EA9CA29C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2731,8 +2739,8 @@
 		CC2AB42C476D535D771F4A9D7AFF1484 /* Build configuration list for PBXNativeTarget "Pods-TestPodUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5914DC7B1A791B2BFD9E218EAC2A2FCF /* Debug */,
-				5126EC72C69F37E1FD500DBE55B8E454 /* Release */,
+				AED04709415BC7B6B654D5526E3706E9 /* Debug */,
+				134BA85C78EBE0BAB6B3CF1F6CFA53CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

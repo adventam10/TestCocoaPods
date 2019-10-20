@@ -1,10 +1,10 @@
 PODS:
   - AMBurnAnimation (2.1.0)
   - AMCalendar (2.1.2)
-  - AMChart (2.2.0)
+  - AMChart (2.3.3)
   - AMClockView (2.1.0)
   - AMColorPicker (3.0.1)
-  - AMJpnMap (2.1.0)
+  - AMJpnMap (2.1.1)
   - AMMeterView (2.1.1)
   - AMNowClockView (2.2.0)
   - AMSpeedMeter (2.1.0)
@@ -13,10 +13,10 @@ PODS:
 DEPENDENCIES:
   - AMBurnAnimation (= 2.1.0)
   - AMCalendar (= 2.1.2)
-  - AMChart (= 2.2.0)
+  - AMChart (= 2.3.3)
   - AMClockView (= 2.1.0)
   - AMColorPicker (= 3.0.1)
-  - AMJpnMap (= 2.1.0)
+  - AMJpnMap (= 2.1.1)
   - AMMeterView (= 2.1.1)
   - AMNowClockView (= 2.2.0)
   - AMSpeedMeter (= 2.1.0)
@@ -38,15 +38,15 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AMBurnAnimation: c9f2648c0074ccf4981f3914dac81e281643c438
   AMCalendar: f174c82e3e4bb69fb3591f23f838b75a4b058d00
-  AMChart: 254718b234b4db56c11a9355ea80e992b09b75fb
+  AMChart: 38336761edcd7cc9729f237551fd7d90b2959bbd
   AMClockView: 37495e25da208da8ee44be4a68944b810acb5a60
   AMColorPicker: 8532f0cb7e0c6e498858368d61089008ee102bd4
-  AMJpnMap: 16e7a294e95b4a25e40c2d13c498067d924b7fa4
+  AMJpnMap: d5ac953d2ea7bc38429c62bf0d292087dbad9d94
   AMMeterView: f55be51c1b4c4d568dc902c6168bf734e01be16b
   AMNowClockView: d54990c760e36437c04abaeecfa02f0cc234ae7e
   AMSpeedMeter: beb24077540a530573564ac83a9478c20fbf6b85
   AMVennDiagramView: d566b94b949b0720ac2946edc61b34b23c0dcf58
 
-PODFILE CHECKSUM: 45da85e5b9033872b10ad8a126dcf967980254d2
+PODFILE CHECKSUM: fc331ca9ba09ac0b107716d5eaf818a7bf584d36
 
 COCOAPODS: 1.8.3

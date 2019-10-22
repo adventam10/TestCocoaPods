@@ -1,0 +1,6 @@
+framework module AMOuijaBoard {
+  umbrella header "AMOuijaBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}

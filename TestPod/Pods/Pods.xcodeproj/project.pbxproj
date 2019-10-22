@@ -7,102 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002D3E745F9C90BC6D9AF61B7F677155 /* AMRadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA37620EC88BB09EB6EE394C19DAEBD /* AMRadarChartView.swift */; };
+		002D3E745F9C90BC6D9AF61B7F677155 /* AMRadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15068FD88EA301C7BFC20A2FD374610B /* AMRadarChartView.swift */; };
+		00DAC3570EEB246A60A7DC9FECF48178 /* Pods-TestPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE290030B1ACC4D201758F9D2FF0075 /* Pods-TestPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0470C02C7066081A522B6B463D8DCFE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		056280D1F00978A071FBDAA3ED74093E /* AMJMRegionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CE75EC8094C75D69ABD3C5520090E /* AMJMRegionLayer.swift */; };
-		0AA327C220E8FCE029277DEDDA3FCDEC /* AMClockView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5776FF94C0B1555F0855C75FE817EECE /* AMClockView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		128506D8BD225B90D13B981EA6DF3ABA /* AMColorPickerWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E488C4F7AA1A50159C84DB35CD839C /* AMColorPickerWheelView.xib */; };
-		1290B48B5522977377D6A57EC4FC0471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		13EC04A37A3195D0A8146D397CF97BA5 /* AMColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1CD58C57D13F615A0238BA529C6F49C /* AMColorPickerViewController.xib */; };
+		056280D1F00978A071FBDAA3ED74093E /* AMJMRegionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F8FF15FFFEFD7CF82CDBA28940BD9A /* AMJMRegionLayer.swift */; };
+		08B2FC1236CCADAB666AE11296BA3913 /* AMOuijaBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D060DEEBB81BF47443004EE165F286CE /* AMOuijaBoardView.swift */; };
+		0AA327C220E8FCE029277DEDDA3FCDEC /* AMClockView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7A53B8C987EECA46E882327267B7044 /* AMClockView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		128506D8BD225B90D13B981EA6DF3ABA /* AMColorPickerWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556D8861E84CA4EC1277E6DB4CDBFD07 /* AMColorPickerWheelView.xib */; };
+		13EC04A37A3195D0A8146D397CF97BA5 /* AMColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E0F70EB1637812445C24DCE03EB028 /* AMColorPickerViewController.xib */; };
 		1A857CFB8ED5A51752E6368142CF3EE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1BC4ED0A533396E47F0A4A48D299B5CA /* AMVennDiagramView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D21730C318713A93714AC292A0C36454 /* AMVennDiagramView-dummy.m */; };
-		26B5FF575E7029ECC5AF87B6200DFD33 /* AMPrefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079747C13B0E83253DADD95DD0F89836 /* AMPrefecture.swift */; };
-		26BD2D756FA41E8C5303E4BC4CF0AF4B /* Pods-TestPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B794E7ABFEAF42E3CAB000BB5B585A98 /* Pods-TestPod-dummy.m */; };
+		1BC4ED0A533396E47F0A4A48D299B5CA /* AMVennDiagramView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2E9E2C2C3965DA681D1AF0E9B3F163 /* AMVennDiagramView-dummy.m */; };
+		26B5FF575E7029ECC5AF87B6200DFD33 /* AMPrefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130169A2CF646DC5B8374BE4A0B7DAD0 /* AMPrefecture.swift */; };
 		2EBE2FC73F450AA91FBBF78249B32E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3140D0FED860B8395E30F04E6E787E61 /* AMColorPickerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52171B4529EE1E79AA2C56FBD14CEB88 /* AMColorPickerTableView.swift */; };
-		339B8A5E2059FE085A151459CEEE0778 /* AMChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573976AFDBB0DF5533F5B84EC807D78 /* AMChartView.swift */; };
-		356D1AE507089A89F01D3834FA9F46CB /* AMColorPickerWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4624A90763FE078D6016DF2254701 /* AMColorPickerWheelView.swift */; };
-		3895C84D6508F27A1208A87123FB3A3D /* AMJpnMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C44C609297690A799E1BAFF8CF8758 /* AMJpnMapView.swift */; };
-		39CB03CC056F3B091962D0F86E12014F /* AMPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A0382B34E1C56D919D64028DAD96E /* AMPieChartView.swift */; };
+		3140D0FED860B8395E30F04E6E787E61 /* AMColorPickerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD3E563B11AD9C6FF1946F51E686A8B /* AMColorPickerTableView.swift */; };
+		339B8A5E2059FE085A151459CEEE0778 /* AMChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA1565EEFFEFB3B510BA847EE4D6F9 /* AMChartView.swift */; };
+		356D1AE507089A89F01D3834FA9F46CB /* AMColorPickerWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365233731E19928BCBA03DB0F0CA5FA9 /* AMColorPickerWheelView.swift */; };
+		3895C84D6508F27A1208A87123FB3A3D /* AMJpnMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343FA8FF8EBA34ABB910BEDE3891F876 /* AMJpnMapView.swift */; };
+		39CB03CC056F3B091962D0F86E12014F /* AMPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6364162F2687FA130BF23EB39C651C6 /* AMPieChartView.swift */; };
 		3C909B8B0252A97D2EFCA04C544C8D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3D36A4E03C7F00F835FD5216CEE3AA42 /* AMBurnAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDECB6049A8F847C231EF56F81FB9324 /* AMBurnAnimation-dummy.m */; };
-		3E06FC16AD490E415C5FFF1F3D1C59DB /* AMColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FA867AD679808B18A7AE354A03C836 /* AMColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4180F4AC37CC5E2396844E7FBCFE5167 /* AMClockView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A99DB9127F18532A532BD905DD7D8E /* AMClockView-dummy.m */; };
-		4571796293BFF4B811BF62DBEBDE3CAC /* amb_particle.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEF18503B5BCB6D478568CEC61B0EA6 /* amb_particle.png */; };
-		4707A5A3172D8AC780295C3C76C3E510 /* AMMeterView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11ACB5E036A039405EAC959D0AFC213B /* AMMeterView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B12C426BF53064A3880EDBACC0A7B8A /* AMCP_cursor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22EF679CE3FCA17436B3989988C7E6AC /* AMCP_cursor@2x.png */; };
-		51F48BFF707DF7154B16E2907ACA3870 /* AMCP_color_wheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5E44CA053D5DA4A6033B56E965FDD /* AMCP_color_wheel@2x.png */; };
-		5644F65E3F5B827F3BCF973B40023C98 /* AMJpnMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE1EBB3DAA993A6BD57785ABFCFC917 /* AMJpnMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D36A4E03C7F00F835FD5216CEE3AA42 /* AMBurnAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C6FFF72B3D18E22D306F8C36D29290 /* AMBurnAnimation-dummy.m */; };
+		3E06FC16AD490E415C5FFF1F3D1C59DB /* AMColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF01AC114E9B81A3F823BE48BE828EB /* AMColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4180F4AC37CC5E2396844E7FBCFE5167 /* AMClockView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6FA142FBA8383BA7FBE827AC9213FF /* AMClockView-dummy.m */; };
+		4571796293BFF4B811BF62DBEBDE3CAC /* amb_particle.png in Resources */ = {isa = PBXBuildFile; fileRef = DA00D98B79051D576631A7A6DBB335A3 /* amb_particle.png */; };
+		4707A5A3172D8AC780295C3C76C3E510 /* AMMeterView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6B55E2B0E5B1C81833140FE4FF273F /* AMMeterView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B12C426BF53064A3880EDBACC0A7B8A /* AMCP_cursor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 304B4EF32D16843F06376ED4FCA9EBA2 /* AMCP_cursor@2x.png */; };
+		4B6E7A304E0EA9946CC4420AA9DAF930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		51F48BFF707DF7154B16E2907ACA3870 /* AMCP_color_wheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E86F52EEFF5C1EBC8267757DC664411 /* AMCP_color_wheel@2x.png */; };
+		5644F65E3F5B827F3BCF973B40023C98 /* AMJpnMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E67387CC9DC0BD4CD5FEA8267C4D622 /* AMJpnMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		631415B5E62D19C325747E8D1489BF7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6477ED8BDC252A1F54B52A3350DFDE8A /* AMMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF2FDA2753C3D7C553569B8372A6BFC /* AMMeterView.swift */; };
+		6477ED8BDC252A1F54B52A3350DFDE8A /* AMMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE717157B0BE8A52BE9529E88EB674C /* AMMeterView.swift */; };
 		64BF9942ABDBB3C1718BB50D3511D154 /* Pods-TestPodUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3CD55EF66D16F4712CEA92C8CE33D1 /* Pods-TestPodUITests-dummy.m */; };
-		66EB131EC062D11D014B86C4A75FFC39 /* AMColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FDA44648BA425D9DA5B3B3D405E62 /* AMColorPicker-dummy.m */; };
-		674DD9B40617922F953D3AB39D6BD466 /* AMRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6316B5EC9FA542312A91C5F0542B11F8 /* AMRegion.swift */; };
-		67E246E3DBB8E9239BB266DAD3553427 /* AMNowClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77066FF86F20084F3D7DC87681C53DF /* AMNowClockView.swift */; };
-		67E7D7E01BAA12F987A93D0F6FA76211 /* AMScatterChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8071D08D1B4BFFBE70C0A55E9F233791 /* AMScatterChartView.swift */; };
-		67EFD42D4E6ADD4C01889220F108E009 /* AMChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204C7B4DB3F780AED35C39BE7EE782A /* AMChartData.swift */; };
-		6B181C52EFABD9BCFD4ADE57861E28E6 /* AMCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795501E4E437876E071521D089CF4A90 /* AMCalendar-dummy.m */; };
-		6DC43B6FC3B5FDF0D72D6162C3E75805 /* AMColorPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BEB19EEF8FFB7C3B4A4ABDAD589729E /* AMColorPickerTableViewCell.xib */; };
-		6E5B6B2BB4BF7EDFCA7F9C281D9EA94E /* AMNowClockView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C7330125124011EF3FE46D34E94FDA /* AMNowClockView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E6116BC68E56AB32D64A378BE12833B /* AMCalendarRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4168B247504451B3D4D6F2B0F8F70 /* AMCalendarRootViewController.swift */; };
-		7062F4939C7CDC5DD6D5FDFF770204A4 /* AMJpnMapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF61087EF7C3BE4E156A3D36350CFE7 /* AMJpnMapDetailView.swift */; };
+		66EB131EC062D11D014B86C4A75FFC39 /* AMColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5119B4A3778268162026C732D20AB9 /* AMColorPicker-dummy.m */; };
+		674DD9B40617922F953D3AB39D6BD466 /* AMRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473B614AFC00D785A8FE321DAE94440F /* AMRegion.swift */; };
+		67E246E3DBB8E9239BB266DAD3553427 /* AMNowClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA659756AB86ADBA0E7EA05223B384C /* AMNowClockView.swift */; };
+		67E7D7E01BAA12F987A93D0F6FA76211 /* AMScatterChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C2685F472CEA831F43A9991A9719F /* AMScatterChartView.swift */; };
+		67EFD42D4E6ADD4C01889220F108E009 /* AMChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207F2E366403DBDBC625BDCD4C970223 /* AMChartData.swift */; };
+		6B181C52EFABD9BCFD4ADE57861E28E6 /* AMCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0205DA364A27826ABFFB7EC8463D572C /* AMCalendar-dummy.m */; };
+		6DC43B6FC3B5FDF0D72D6162C3E75805 /* AMColorPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406DDC22B732EF88B7D2DB1E05008B4E /* AMColorPickerTableViewCell.xib */; };
+		6E5B6B2BB4BF7EDFCA7F9C281D9EA94E /* AMNowClockView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5EF3BE45B2685B250FC72A6CCD21DBA /* AMNowClockView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E6116BC68E56AB32D64A378BE12833B /* AMCalendarRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34337BF3CB964494096AFCB9E4A1825 /* AMCalendarRootViewController.swift */; };
+		7062F4939C7CDC5DD6D5FDFF770204A4 /* AMJpnMapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236E95C46320D77BFC721EACEE452B7 /* AMJpnMapDetailView.swift */; };
 		76CC2ACE9B630CEC9061530896B3BE20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		77E9B74277BB26EC02831EF81803DEAD /* AMSpeedMeter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBFAA51F5C9D04CECED06B623C8B2CB /* AMSpeedMeter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BC369523CF18358BD597372CDBD8760 /* AMColorPickerRGBSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21559D8B417AD4E340A802501665F5 /* AMColorPickerRGBSliderView.swift */; };
+		77E9B74277BB26EC02831EF81803DEAD /* AMSpeedMeter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01361D3CA31DF1817DA3F182E895057B /* AMSpeedMeter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BC369523CF18358BD597372CDBD8760 /* AMColorPickerRGBSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2429FAFAD51039C9370575A1977CABF /* AMColorPickerRGBSliderView.swift */; };
 		81EC41401E97C90CD0B6218D66DE2A75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		848C9A7BE243F4A7F9C809A3CBA46E1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		85D9C313DB134095A59156BB7B10A38F /* AMColorPickerRGBSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6B8151F29F6906BFBFB7889EE3A1CB /* AMColorPickerRGBSliderView.xib */; };
+		85D9C313DB134095A59156BB7B10A38F /* AMColorPickerRGBSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 675E1BA3A4BED0AFB91976F89990A594 /* AMColorPickerRGBSliderView.xib */; };
 		87AB9C29DAFD3EF44739BBC725ECAB1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		89DB9E860605EFEAD33A2C1042AA4E3D /* AMCalendarDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05366AEB539F392755B45512B3D73AE2 /* AMCalendarDataViewController.swift */; };
-		8C7910BE0665ED3D757C0027BB557857 /* AMSpeedMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571FF99085AF1EEF696DED0EEFFCD644 /* AMSpeedMeterView.swift */; };
-		8EFAFE5D81B5B54356EE52CD67AB8560 /* amb_particle1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EC383DAA22FEDA08D17701161806BF6 /* amb_particle1@2x.png */; };
-		8FE189AABE07B9D87E5E86201AAF956C /* AMCalendarDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFCD4CEA8AAE2C12415923AC54E177C /* AMCalendarDataViewController.xib */; };
-		94498466C336B5576A8948432C546094 /* AMVennDiagramView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F6BA20DF5CDB9AFC2919971555F556 /* AMVennDiagramView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89DB9E860605EFEAD33A2C1042AA4E3D /* AMCalendarDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C393B6875DECB73CE5529582CBEA5E /* AMCalendarDataViewController.swift */; };
+		8C7910BE0665ED3D757C0027BB557857 /* AMSpeedMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B576E5AAC0C834B68C54651F092009 /* AMSpeedMeterView.swift */; };
+		8D1A57E6E066B99EBC45748EAAEAF800 /* AMOuijaBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 999F87349F70A3027253EA56528EF5CA /* AMOuijaBoard-dummy.m */; };
+		8EFAFE5D81B5B54356EE52CD67AB8560 /* amb_particle1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ED054F7A42F3AC72E701FA9C80E157 /* amb_particle1@2x.png */; };
+		8FE189AABE07B9D87E5E86201AAF956C /* AMCalendarDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1E992C00B58C7315577B43D774707F5 /* AMCalendarDataViewController.xib */; };
+		94498466C336B5576A8948432C546094 /* AMVennDiagramView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C84622E21C9BCB16AF4D9ABE2EB600 /* AMVennDiagramView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9699DEA1EE304F8E7E7808C0AA8C5D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		97C8E7EF0EC310807B6A02E375468B9D /* AMColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E5E2184E96AE7829658AF169A7176A /* AMColorPickerViewController.swift */; };
+		97C8E7EF0EC310807B6A02E375468B9D /* AMColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040DE21D7E4A6A8D04EDE9106410090 /* AMColorPickerViewController.swift */; };
+		982B87879298142297C59FA83F356788 /* Pods-TestPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B794E7ABFEAF42E3CAB000BB5B585A98 /* Pods-TestPod-dummy.m */; };
 		9CF8C154625FF514C7C89ED1820BF33A /* Pods-TestPodTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB74114CC60889BA7FEE24186D4F3C /* Pods-TestPodTests-dummy.m */; };
-		9FB05ACA9AC17734F1EAC88B7A7A75BE /* AMCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907F13E4A16922F8C20DF725DE21BF4 /* AMCalendar.swift */; };
-		A57ADBCB229B6F41CA4E9EE13CC43EFF /* AMCP_slider_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4A336BDD06692046A31B204E821100 /* AMCP_slider_thumb@2x.png */; };
-		A5CE8DBDDF499241BF241078A50739A0 /* AMLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554AFAB46DEE9263FDFF830D4BC0C43 /* AMLineChartView.swift */; };
-		AAD681D4C2C3F9C553E67C299E8A972A /* AMColorPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61F3ECB3BF16098310E4408924F676B /* AMColorPickerTableViewCell.swift */; };
+		9E9456ED38F385C21174C470D6495B4B /* AMOuijaBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF85EAAA367EA26E0E0B10EC0224FE3 /* AMOuijaBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FB05ACA9AC17734F1EAC88B7A7A75BE /* AMCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE139010CE67F4041F3BF99D5594AE19 /* AMCalendar.swift */; };
+		A57ADBCB229B6F41CA4E9EE13CC43EFF /* AMCP_slider_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0C51B48E384FC2CE44A80AECEB4BCD /* AMCP_slider_thumb@2x.png */; };
+		A5CE8DBDDF499241BF241078A50739A0 /* AMLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686671DDA7129FA8700EEE67E06D5863 /* AMLineChartView.swift */; };
+		AAD681D4C2C3F9C553E67C299E8A972A /* AMColorPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B90A591F26DA31165FA96C51AAE869 /* AMColorPickerTableViewCell.swift */; };
 		AB22EA577A2147B073B51F0BC1EA5897 /* Pods-TestPodTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF908265C305873D9934D211B4D88F3 /* Pods-TestPodTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0349F4B6D030FF46053FF68124DC000 /* AMChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF433ECDD757C37F1344ADB711141C9 /* AMChart-dummy.m */; };
-		B35A16906C41E4EE0F1A6892583D5A36 /* AMJpnMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F23992B5FFE2667A4D62BC6A9D4F7E /* AMJpnMap-dummy.m */; };
-		B87210436C179E36BCCDA1E4CC23D4E3 /* AMBurnAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1457FAAC74EFDAD597BFA7482680D505 /* AMBurnAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0349F4B6D030FF46053FF68124DC000 /* AMChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C23C95A1130D5129F82842AF1D87F2CF /* AMChart-dummy.m */; };
+		B35A16906C41E4EE0F1A6892583D5A36 /* AMJpnMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8983F96154BC4F1D550AACA75716F /* AMJpnMap-dummy.m */; };
+		B87210436C179E36BCCDA1E4CC23D4E3 /* AMBurnAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6412314B244FCF0BE377728A3E59ACEF /* AMBurnAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B998B3C32365E86245DEE8270F995573 /* Pods-TestPodUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA8F960B58F4F9EA3196BD104BF242B /* Pods-TestPodUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC35563945987857B72BA0356686C31C /* amb_particle2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 937C8F1315BDC595AB18F6C23C08A5E3 /* amb_particle2@2x.png */; };
-		CC528D67C6AD1CB8EA704605FD876132 /* AMColorPickerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B0E5DDFF918D4A07F48E381A3271E9 /* AMColorPickerAssets.xcassets */; };
-		DC95BC3637599CCC334A9A5C20C1EE1F /* AMMeterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5171FD0025EADE6EA81D45152CF5F /* AMMeterView-dummy.m */; };
-		DCD5A4241617B33C312631CC6419702C /* AMClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D530D42D49798586E54D4B8DA99D0 /* AMClockView.swift */; };
-		DDE8680E2FF9A5116A5A6E6B53F0FFD3 /* AMCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6AC846B7A1E0BC6202C5040A7BB4BE5 /* AMCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE7DFEA48E2C67D9A3469C002465DBA9 /* Pods-TestPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE290030B1ACC4D201758F9D2FF0075 /* Pods-TestPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF68F8DCE1D843F99BE1B9A5E184D7B8 /* AMBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E552A6936D14DC5F594F698A9A21B1 /* AMBarChartView.swift */; };
-		E0563B12E0D46DAEEBD1C9FD5574F0AA /* AMNowClockView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD968CF0D80F584150411BFA68292B26 /* AMNowClockView-dummy.m */; };
-		E2EA729DDCB79B80D6B98A691D7D64B2 /* AMColorPickerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E096624141CBE427ACD202303510A /* AMColorPickerProtocol.swift */; };
-		E689591BB17DDF3F9D10908FBEA60555 /* AMVennDiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114E9271DA97390B5DE6A2E394EA3CC1 /* AMVennDiagramView.swift */; };
-		E8CE31EA9F9CA6D823325B704DED1677 /* AMColorPickerTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21FDFB1143EF4D4EE0D73C64C69DA882 /* AMColorPickerTableView.xib */; };
+		BC35563945987857B72BA0356686C31C /* amb_particle2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A2637A0CDDA16BD8CE7961476B17C7 /* amb_particle2@2x.png */; };
+		CC528D67C6AD1CB8EA704605FD876132 /* AMColorPickerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C65979F5BADA2DE32B139F6A0A36FAD /* AMColorPickerAssets.xcassets */; };
+		DC95BC3637599CCC334A9A5C20C1EE1F /* AMMeterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E164223D4F79638232EB097100E3D6 /* AMMeterView-dummy.m */; };
+		DCD5A4241617B33C312631CC6419702C /* AMClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE29A0C9A8AA32F69AF1E27173E4FC9 /* AMClockView.swift */; };
+		DDE8680E2FF9A5116A5A6E6B53F0FFD3 /* AMCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 802247F6245B280F1F063F5A5520C7A9 /* AMCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF68F8DCE1D843F99BE1B9A5E184D7B8 /* AMBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08498FD6F392619F424F236BD4060880 /* AMBarChartView.swift */; };
+		E0563B12E0D46DAEEBD1C9FD5574F0AA /* AMNowClockView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7C285A09E1D92FA2DE2D8AEB009009 /* AMNowClockView-dummy.m */; };
+		E2EA729DDCB79B80D6B98A691D7D64B2 /* AMColorPickerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDF736D687F8FD78D2C804753F2371C /* AMColorPickerProtocol.swift */; };
+		E689591BB17DDF3F9D10908FBEA60555 /* AMVennDiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259074FB4118AA8D25499F28695C9A4C /* AMVennDiagramView.swift */; };
+		E8CE31EA9F9CA6D823325B704DED1677 /* AMColorPickerTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5348EE5EAA92308CB8BD764C012A77 /* AMColorPickerTableView.xib */; };
+		EA701639C99A50E07D443E2CC1D53F29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F3ADCEC6EA60DD4B6D2C9F7E071B18F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F476825FAA1B3E7E0966D7CE811B625C /* AMSpeedMeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDD50DBFB8CF6370DD651858705F813 /* AMSpeedMeter-dummy.m */; };
-		F73469DCD67695A6102650720D580542 /* AMColorPickerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525654A9B9AC964B34BFB8D4EE225BF6 /* AMColorPickerSlider.swift */; };
-		F8EE1660DF98F371793A767819B3FA04 /* AMChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E50F162A1043B5EE99841ACB270CA42D /* AMChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9720E94127967011FD0AFFEBE6A0E90 /* UIView+BurnAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62086BC6FEAF8788D842D8F7CBFCC4C /* UIView+BurnAnimation.swift */; };
+		F476825FAA1B3E7E0966D7CE811B625C /* AMSpeedMeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2654251902CCF8E919A6F7355D13D0B8 /* AMSpeedMeter-dummy.m */; };
+		F73469DCD67695A6102650720D580542 /* AMColorPickerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C750A36D17A70E3FA5151F4FF49CA460 /* AMColorPickerSlider.swift */; };
+		F8EE1660DF98F371793A767819B3FA04 /* AMChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBE15DFB8C6F1607C03C5DBEC318AE4 /* AMChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9720E94127967011FD0AFFEBE6A0E90 /* UIView+BurnAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC88CCD9CCFCC3ADB63459A1D65453 /* UIView+BurnAnimation.swift */; };
 		FD059F242EB9EC7CDF88C9EE0A813A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		252776D8ECB87BFA5B71ED168526CACD /* PBXContainerItemProxy */ = {
+		004683D74988870B41DA33D23DFA5684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CADCABC5512829B83B728B93F7F9E91;
+			remoteInfo = AMClockView;
+		};
+		0F97F9FB59167FE0ED671BFE7D232E9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3751D7E78C641D85289333798DEE081D;
 			remoteInfo = AMChart;
 		};
-		34CC9125D75ED3C4609B89D135B23EDD /* PBXContainerItemProxy */ = {
+		1E3DB6614223A6B422301E8E0BCA63B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 455460F29F100DCAA657269446BFF826;
+			remoteInfo = AMVennDiagramView;
+		};
+		26576EB8A2F02555FD2080B7DDF40750 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 310AC304B8B9F9C314E38143742C627C;
 			remoteInfo = AMCalendar;
+		};
+		375798AA083EE54C3FA5F18368A0FFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3638F098013F7CEFCFE679B71BD88D;
+			remoteInfo = AMJpnMap;
 		};
 		386768F2C2AAD0D727C72423E23DD993 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -111,33 +136,26 @@
 			remoteGlobalIDString = 6F47FC17D673BD48FF0EE2D116E1AEAD;
 			remoteInfo = "Pods-TestPod";
 		};
-		46D6025B92230F6B33284E0FB922F336 /* PBXContainerItemProxy */ = {
+		4C7D0A8A3EA7991F85F2466B78ED6E13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0A75EB426F0A3CC2B7C3327E4FE62E2C;
-			remoteInfo = AMSpeedMeter;
+			remoteGlobalIDString = 19D82ABFA41C9C8B4C0A12D9A6764299;
+			remoteInfo = AMOuijaBoard;
 		};
-		5CA518D5D5FAF4BB699D66220081186C /* PBXContainerItemProxy */ = {
+		6F3C4CEA8CBD4ADA797E4732F76AA2AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 455460F29F100DCAA657269446BFF826;
-			remoteInfo = AMVennDiagramView;
+			remoteGlobalIDString = 508B6AAEF650BE601D6B0D18E7FA1D59;
+			remoteInfo = AMColorPicker;
 		};
-		6AAA47C0FB6111B9A7765CE6AC757166 /* PBXContainerItemProxy */ = {
+		92BE835706F3ABE3365167BAE9431E5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 69B2FEDE3F7B42D196E43023852837FC;
 			remoteInfo = AMMeterView;
-		};
-		752ECD76CD4F117E110719BB1AE066E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E600915AF29594C4B4FDCCB750A8FAFE;
-			remoteInfo = AMNowClockView;
 		};
 		96BBED10E1FBF88C0B23A67D6C39984E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -146,194 +164,195 @@
 			remoteGlobalIDString = 6F47FC17D673BD48FF0EE2D116E1AEAD;
 			remoteInfo = "Pods-TestPod";
 		};
-		A29DEC5CD05CEDCB2B259F7F755DCB69 /* PBXContainerItemProxy */ = {
+		B484AB45838317E957978C682846345B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5B19D06F0E248A7442EA8DC07FA8B20C;
 			remoteInfo = AMBurnAnimation;
 		};
-		C1B98F99EB7886395A2B3DA96EED72DC /* PBXContainerItemProxy */ = {
+		D521A7DE747D8F08E7C44D95DA25EC8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F3638F098013F7CEFCFE679B71BD88D;
-			remoteInfo = AMJpnMap;
+			remoteGlobalIDString = E600915AF29594C4B4FDCCB750A8FAFE;
+			remoteInfo = AMNowClockView;
 		};
-		C3B3F4A13D3922CB38054B92E776E265 /* PBXContainerItemProxy */ = {
+		F66A0DE1CB8331B71ABC622EA98E9500 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6CADCABC5512829B83B728B93F7F9E91;
-			remoteInfo = AMClockView;
-		};
-		DD2AE9807262E6F2456E0F124A716A4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 508B6AAEF650BE601D6B0D18E7FA1D59;
-			remoteInfo = AMColorPicker;
+			remoteGlobalIDString = 0A75EB426F0A3CC2B7C3327E4FE62E2C;
+			remoteInfo = AMSpeedMeter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01361D3CA31DF1817DA3F182E895057B /* AMSpeedMeter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSpeedMeter-umbrella.h"; sourceTree = "<group>"; };
+		0205DA364A27826ABFFB7EC8463D572C /* AMCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMCalendar-dummy.m"; sourceTree = "<group>"; };
 		02F74660652CF76D653CC429ECF48F5D /* Pods_TestPodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestPodTests.framework; path = "Pods-TestPodTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DB74114CC60889BA7FEE24186D4F3C /* Pods-TestPodTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPodTests-dummy.m"; sourceTree = "<group>"; };
 		05200BBACD238E18246723C7D5EE8BED /* AMMeterView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMMeterView.framework; path = AMMeterView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		05366AEB539F392755B45512B3D73AE2 /* AMCalendarDataViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendarDataViewController.swift; path = Source/AMCalendarDataViewController.swift; sourceTree = "<group>"; };
-		0573976AFDBB0DF5533F5B84EC807D78 /* AMChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMChartView.swift; path = Source/AMChartView.swift; sourceTree = "<group>"; };
-		079747C13B0E83253DADD95DD0F89836 /* AMPrefecture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPrefecture.swift; path = Source/enums/AMPrefecture.swift; sourceTree = "<group>"; };
-		0DADBA2DE3423DC93B21A5FB96A8DD65 /* AMBurnAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMBurnAnimation-prefix.pch"; sourceTree = "<group>"; };
-		0E08056CF5AD93C0866BE0AD146FB15F /* AMJpnMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMJpnMap.modulemap; sourceTree = "<group>"; };
-		0EC383DAA22FEDA08D17701161806BF6 /* amb_particle1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amb_particle1@2x.png"; path = "Source/Resource/amb_particle1@2x.png"; sourceTree = "<group>"; };
-		114E9271DA97390B5DE6A2E394EA3CC1 /* AMVennDiagramView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMVennDiagramView.swift; path = Source/AMVennDiagramView.swift; sourceTree = "<group>"; };
-		11ACB5E036A039405EAC959D0AFC213B /* AMMeterView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMMeterView-umbrella.h"; sourceTree = "<group>"; };
-		12E4168B247504451B3D4D6F2B0F8F70 /* AMCalendarRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendarRootViewController.swift; path = Source/AMCalendarRootViewController.swift; sourceTree = "<group>"; };
-		1457FAAC74EFDAD597BFA7482680D505 /* AMBurnAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMBurnAnimation-umbrella.h"; sourceTree = "<group>"; };
-		16B4DFE285311A9ABBDF27C0307EDD15 /* AMClockView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMClockView.modulemap; sourceTree = "<group>"; };
-		1D4A336BDD06692046A31B204E821100 /* AMCP_slider_thumb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_slider_thumb@2x.png"; path = "Source/image/AMCP_slider_thumb@2x.png"; sourceTree = "<group>"; };
-		200A0382B34E1C56D919D64028DAD96E /* AMPieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPieChartView.swift; path = Source/AMPieChartView.swift; sourceTree = "<group>"; };
-		21FDFB1143EF4D4EE0D73C64C69DA882 /* AMColorPickerTableView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerTableView.xib; path = Source/view/AMColorPickerTableView.xib; sourceTree = "<group>"; };
-		22EF679CE3FCA17436B3989988C7E6AC /* AMCP_cursor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_cursor@2x.png"; path = "Source/image/AMCP_cursor@2x.png"; sourceTree = "<group>"; };
-		25C7330125124011EF3FE46D34E94FDA /* AMNowClockView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMNowClockView-umbrella.h"; sourceTree = "<group>"; };
-		2907F13E4A16922F8C20DF725DE21BF4 /* AMCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendar.swift; path = Source/AMCalendar.swift; sourceTree = "<group>"; };
-		2EA60A6A8849DE2680CA18E8CA75C0E0 /* AMCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMCalendar.modulemap; sourceTree = "<group>"; };
-		2EF433ECDD757C37F1344ADB711141C9 /* AMChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMChart-dummy.m"; sourceTree = "<group>"; };
+		0696B349CF62956B854AE53B5AD5183D /* AMOuijaBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMOuijaBoard-prefix.pch"; sourceTree = "<group>"; };
+		08498FD6F392619F424F236BD4060880 /* AMBarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMBarChartView.swift; path = Source/AMBarChartView.swift; sourceTree = "<group>"; };
+		0AE29A0C9A8AA32F69AF1E27173E4FC9 /* AMClockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMClockView.swift; path = Source/AMClockView.swift; sourceTree = "<group>"; };
+		0B7C285A09E1D92FA2DE2D8AEB009009 /* AMNowClockView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMNowClockView-dummy.m"; sourceTree = "<group>"; };
+		0BD6CF33F19997A3DE30631A319968D7 /* AMVennDiagramView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMVennDiagramView.modulemap; sourceTree = "<group>"; };
+		0BE717157B0BE8A52BE9529E88EB674C /* AMMeterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMMeterView.swift; path = Source/AMMeterView.swift; sourceTree = "<group>"; };
+		0FBE15DFB8C6F1607C03C5DBEC318AE4 /* AMChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMChart-umbrella.h"; sourceTree = "<group>"; };
+		10E8983F96154BC4F1D550AACA75716F /* AMJpnMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMJpnMap-dummy.m"; sourceTree = "<group>"; };
+		11B90A591F26DA31165FA96C51AAE869 /* AMColorPickerTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerTableViewCell.swift; path = Source/view/Cell/AMColorPickerTableViewCell.swift; sourceTree = "<group>"; };
+		130169A2CF646DC5B8374BE4A0B7DAD0 /* AMPrefecture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPrefecture.swift; path = Source/enums/AMPrefecture.swift; sourceTree = "<group>"; };
+		15068FD88EA301C7BFC20A2FD374610B /* AMRadarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMRadarChartView.swift; path = Source/AMRadarChartView.swift; sourceTree = "<group>"; };
+		173241B69D01D60B230FFA94F65CFE9E /* AMColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMColorPicker.xcconfig; sourceTree = "<group>"; };
+		1E5119B4A3778268162026C732D20AB9 /* AMColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMColorPicker-dummy.m"; sourceTree = "<group>"; };
+		207F2E366403DBDBC625BDCD4C970223 /* AMChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMChartData.swift; path = Source/AMChartData.swift; sourceTree = "<group>"; };
+		219AD15D4A07CB9F8C79A719CC70E7F3 /* AMSpeedMeter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSpeedMeter-prefix.pch"; sourceTree = "<group>"; };
+		219DF439E5EEBFAFD8867830BF648D4D /* AMColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMColorPicker-Info.plist"; sourceTree = "<group>"; };
+		2207499C5BAD225145D8658BFCB85226 /* AMCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMCalendar.modulemap; sourceTree = "<group>"; };
+		259074FB4118AA8D25499F28695C9A4C /* AMVennDiagramView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMVennDiagramView.swift; path = Source/AMVennDiagramView.swift; sourceTree = "<group>"; };
+		2654251902CCF8E919A6F7355D13D0B8 /* AMSpeedMeter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMSpeedMeter-dummy.m"; sourceTree = "<group>"; };
+		2C2E9E2C2C3965DA681D1AF0E9B3F163 /* AMVennDiagramView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMVennDiagramView-dummy.m"; sourceTree = "<group>"; };
+		2DFA1565EEFFEFB3B510BA847EE4D6F9 /* AMChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMChartView.swift; path = Source/AMChartView.swift; sourceTree = "<group>"; };
+		2EF85EAAA367EA26E0E0B10EC0224FE3 /* AMOuijaBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMOuijaBoard-umbrella.h"; sourceTree = "<group>"; };
 		2F36045FCE9AC9F9CC008FD6007B9F6A /* AMClockView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMClockView.framework; path = AMClockView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FDD50DBFB8CF6370DD651858705F813 /* AMSpeedMeter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMSpeedMeter-dummy.m"; sourceTree = "<group>"; };
-		30573FEF94F22A939A50B6C296CAC49A /* AMNowClockView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMNowClockView-Info.plist"; sourceTree = "<group>"; };
+		304B4EF32D16843F06376ED4FCA9EBA2 /* AMCP_cursor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_cursor@2x.png"; path = "Source/image/AMCP_cursor@2x.png"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32E164223D4F79638232EB097100E3D6 /* AMMeterView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMMeterView-dummy.m"; sourceTree = "<group>"; };
+		3397805A933707CB17E0EEBB5666B019 /* AMClockView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMClockView.xcconfig; sourceTree = "<group>"; };
+		343FA8FF8EBA34ABB910BEDE3891F876 /* AMJpnMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJpnMapView.swift; path = Source/AMJpnMapView.swift; sourceTree = "<group>"; };
 		3470F84E9C3EBF449F67C732024148E0 /* Pods-TestPodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPodUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		35054CEEEEFC76CC19A2519D50F5E6ED /* Pods_TestPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestPod.framework; path = "Pods-TestPod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		351CE75EC8094C75D69ABD3C5520090E /* AMJMRegionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJMRegionLayer.swift; path = Source/Detail/AMJMRegionLayer.swift; sourceTree = "<group>"; };
-		35B776C42DF80C4EDD82B939930513A8 /* AMBurnAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMBurnAnimation.modulemap; sourceTree = "<group>"; };
-		3631C5BDA04A5259116415E0AEB35066 /* AMSpeedMeter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSpeedMeter-prefix.pch"; sourceTree = "<group>"; };
-		3FF61087EF7C3BE4E156A3D36350CFE7 /* AMJpnMapDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJpnMapDetailView.swift; path = Source/Detail/AMJpnMapDetailView.swift; sourceTree = "<group>"; };
-		45D95CD9819AB51F8BCFCA7E26CF9837 /* AMJpnMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMJpnMap.xcconfig; sourceTree = "<group>"; };
+		365233731E19928BCBA03DB0F0CA5FA9 /* AMColorPickerWheelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerWheelView.swift; path = Source/view/AMColorPickerWheelView.swift; sourceTree = "<group>"; };
+		37C84622E21C9BCB16AF4D9ABE2EB600 /* AMVennDiagramView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMVennDiagramView-umbrella.h"; sourceTree = "<group>"; };
+		38EC88CCD9CCFCC3ADB63459A1D65453 /* UIView+BurnAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+BurnAnimation.swift"; path = "Source/UIView+BurnAnimation.swift"; sourceTree = "<group>"; };
+		3B5F021B6E31413AEF332A4AFEE3C742 /* AMBurnAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMBurnAnimation-prefix.pch"; sourceTree = "<group>"; };
+		3B6FA142FBA8383BA7FBE827AC9213FF /* AMClockView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMClockView-dummy.m"; sourceTree = "<group>"; };
+		3D62A6900D2911E1A75DC1C82109308B /* AMOuijaBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMOuijaBoard.modulemap; sourceTree = "<group>"; };
+		406DDC22B732EF88B7D2DB1E05008B4E /* AMColorPickerTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerTableViewCell.xib; path = Source/view/Cell/AMColorPickerTableViewCell.xib; sourceTree = "<group>"; };
 		46DA3043A8C5B8423AF64E8D77CC55C2 /* Pods-TestPodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPodUITests.release.xcconfig"; sourceTree = "<group>"; };
-		488E5900191B7E3CD6C33ABAACB8D3F0 /* AMMeterView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMMeterView-prefix.pch"; sourceTree = "<group>"; };
-		48B14E65764CC10AE35F9B9C6620A0DC /* AMBurnAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMBurnAnimation.xcconfig; sourceTree = "<group>"; };
-		4DE1EBB3DAA993A6BD57785ABFCFC917 /* AMJpnMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMJpnMap-umbrella.h"; sourceTree = "<group>"; };
-		4FA8560C9B4BA29E3BB6F2F4941D29F0 /* AMChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMChart.modulemap; sourceTree = "<group>"; };
-		520581FF317B89CE25CFDCC7D4D2B94F /* AMColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMColorPicker.xcconfig; sourceTree = "<group>"; };
-		52171B4529EE1E79AA2C56FBD14CEB88 /* AMColorPickerTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerTableView.swift; path = Source/view/AMColorPickerTableView.swift; sourceTree = "<group>"; };
-		525654A9B9AC964B34BFB8D4EE225BF6 /* AMColorPickerSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerSlider.swift; path = Source/view/Slider/AMColorPickerSlider.swift; sourceTree = "<group>"; };
-		536E4AE416E5BFD7FCCA3DE1C2E72756 /* AMVennDiagramView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMVennDiagramView-Info.plist"; sourceTree = "<group>"; };
-		540B830254F59E6F8BFF9E87396B9091 /* AMColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMColorPicker.modulemap; sourceTree = "<group>"; };
+		473B614AFC00D785A8FE321DAE94440F /* AMRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMRegion.swift; path = Source/enums/AMRegion.swift; sourceTree = "<group>"; };
+		49C393B6875DECB73CE5529582CBEA5E /* AMCalendarDataViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendarDataViewController.swift; path = Source/AMCalendarDataViewController.swift; sourceTree = "<group>"; };
+		4A5348EE5EAA92308CB8BD764C012A77 /* AMColorPickerTableView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerTableView.xib; path = Source/view/AMColorPickerTableView.xib; sourceTree = "<group>"; };
+		4C65979F5BADA2DE32B139F6A0A36FAD /* AMColorPickerAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AMColorPickerAssets.xcassets; path = Source/AMColorPickerAssets.xcassets; sourceTree = "<group>"; };
 		54781FAE12597BC0E9AEBB4F05F9A1A8 /* Pods-TestPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPod.release.xcconfig"; sourceTree = "<group>"; };
-		571FF99085AF1EEF696DED0EEFFCD644 /* AMSpeedMeterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMSpeedMeterView.swift; path = Source/AMSpeedMeterView.swift; sourceTree = "<group>"; };
-		5776FF94C0B1555F0855C75FE817EECE /* AMClockView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMClockView-umbrella.h"; sourceTree = "<group>"; };
+		556D8861E84CA4EC1277E6DB4CDBFD07 /* AMColorPickerWheelView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerWheelView.xib; path = Source/view/AMColorPickerWheelView.xib; sourceTree = "<group>"; };
+		56221EF67BC510FF475D54398184D5FE /* AMMeterView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMMeterView.modulemap; sourceTree = "<group>"; };
+		56C6FFF72B3D18E22D306F8C36D29290 /* AMBurnAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMBurnAnimation-dummy.m"; sourceTree = "<group>"; };
 		57A0F81CE72FA7A86ECE498F288DF92F /* AMSpeedMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMSpeedMeter.framework; path = AMSpeedMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A21559D8B417AD4E340A802501665F5 /* AMColorPickerRGBSliderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerRGBSliderView.swift; path = Source/view/AMColorPickerRGBSliderView.swift; sourceTree = "<group>"; };
+		5820677DB12311BE10458A6282C9BBCC /* AMClockView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMClockView-Info.plist"; sourceTree = "<group>"; };
+		5C6B55E2B0E5B1C81833140FE4FF273F /* AMMeterView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMMeterView-umbrella.h"; sourceTree = "<group>"; };
+		5EAED95D655A88CA3885B8419688C400 /* AMSpeedMeter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMSpeedMeter.xcconfig; sourceTree = "<group>"; };
 		5EBA536FAB2BD24D56A0384B0BB92DB6 /* Pods-TestPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPod.modulemap"; sourceTree = "<group>"; };
-		6117E3CF038CE4154524470DA6D7169F /* AMMeterView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMMeterView.xcconfig; sourceTree = "<group>"; };
-		61E552A6936D14DC5F594F698A9A21B1 /* AMBarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMBarChartView.swift; path = Source/AMBarChartView.swift; sourceTree = "<group>"; };
-		6316B5EC9FA542312A91C5F0542B11F8 /* AMRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMRegion.swift; path = Source/enums/AMRegion.swift; sourceTree = "<group>"; };
+		61BBF0B606CF19FB7A3A010275D0E04B /* AMOuijaBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMOuijaBoard.xcconfig; sourceTree = "<group>"; };
+		623A6C834E25E5A545461D55CADF3048 /* AMCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMCalendar-Info.plist"; sourceTree = "<group>"; };
+		63CE302781EF8B5323432152CB41DCE1 /* AMChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMChart.modulemap; sourceTree = "<group>"; };
+		6412314B244FCF0BE377728A3E59ACEF /* AMBurnAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMBurnAnimation-umbrella.h"; sourceTree = "<group>"; };
 		671E440D7B0B93F24356F299A096F4FD /* Pods-TestPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPod.debug.xcconfig"; sourceTree = "<group>"; };
-		686A98C31135FD5D65E44B3B365FB1D9 /* AMNowClockView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMNowClockView-prefix.pch"; sourceTree = "<group>"; };
-		6CA37620EC88BB09EB6EE394C19DAEBD /* AMRadarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMRadarChartView.swift; path = Source/AMRadarChartView.swift; sourceTree = "<group>"; };
+		675E1BA3A4BED0AFB91976F89990A594 /* AMColorPickerRGBSliderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerRGBSliderView.xib; path = Source/view/AMColorPickerRGBSliderView.xib; sourceTree = "<group>"; };
+		686671DDA7129FA8700EEE67E06D5863 /* AMLineChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMLineChartView.swift; path = Source/AMLineChartView.swift; sourceTree = "<group>"; };
+		6CDF736D687F8FD78D2C804753F2371C /* AMColorPickerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerProtocol.swift; path = Source/AMColorPickerProtocol.swift; sourceTree = "<group>"; };
+		6DF5E8D359AA8D36607F042376B69419 /* AMMeterView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMMeterView-prefix.pch"; sourceTree = "<group>"; };
+		6E1FFBA75AE173EED87BBD44D5B6497E /* AMOuijaBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMOuijaBoard.framework; path = AMOuijaBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E67387CC9DC0BD4CD5FEA8267C4D622 /* AMJpnMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMJpnMap-umbrella.h"; sourceTree = "<group>"; };
+		6E86F52EEFF5C1EBC8267757DC664411 /* AMCP_color_wheel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_color_wheel@2x.png"; path = "Source/image/AMCP_color_wheel@2x.png"; sourceTree = "<group>"; };
 		6F1D7A2169DDBD530F754423B212B925 /* Pods-TestPodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPodTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7204C7B4DB3F780AED35C39BE7EE782A /* AMChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMChartData.swift; path = Source/AMChartData.swift; sourceTree = "<group>"; };
+		7011892402C8E89DB585806909826DEA /* AMCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMCalendar-prefix.pch"; sourceTree = "<group>"; };
 		73B0BFAD611E2722781DB5431975FA7B /* Pods-TestPodUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPodUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73F205FAF9070BD04ECF03CD628B89D4 /* Pods-TestPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPod-Info.plist"; sourceTree = "<group>"; };
 		74E920B452C5D54B25B1D78B516F3C7E /* AMColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMColorPicker.framework; path = AMColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7572EFC1C65936018F58AAF90A1971F6 /* AMClockView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMClockView.xcconfig; sourceTree = "<group>"; };
 		7896A9C124E1319B8188BD3CF62D6072 /* AMChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMChart.framework; path = AMChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78E5E2184E96AE7829658AF169A7176A /* AMColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerViewController.swift; path = Source/AMColorPickerViewController.swift; sourceTree = "<group>"; };
-		795501E4E437876E071521D089CF4A90 /* AMCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMCalendar-dummy.m"; sourceTree = "<group>"; };
+		791DEBD129DD2AF89DF06F43CD3B7571 /* AMClockView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMClockView.modulemap; sourceTree = "<group>"; };
 		7A9F2351F47A03F4B67352E50E1B47D9 /* Pods-TestPodUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPodUITests.modulemap"; sourceTree = "<group>"; };
-		7BEB19EEF8FFB7C3B4A4ABDAD589729E /* AMColorPickerTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerTableViewCell.xib; path = Source/view/Cell/AMColorPickerTableViewCell.xib; sourceTree = "<group>"; };
-		7DA5171FD0025EADE6EA81D45152CF5F /* AMMeterView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMMeterView-dummy.m"; sourceTree = "<group>"; };
-		8071D08D1B4BFFBE70C0A55E9F233791 /* AMScatterChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMScatterChartView.swift; path = Source/AMScatterChartView.swift; sourceTree = "<group>"; };
-		81095431D97A80AE45158C180D885078 /* AMVennDiagramView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMVennDiagramView-prefix.pch"; sourceTree = "<group>"; };
-		826172C12308F126218A7647E85D46AF /* AMCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMCalendar-Info.plist"; sourceTree = "<group>"; };
+		7ADA10324CAD2AFA1EC6603F45915D19 /* AMBurnAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMBurnAnimation-Info.plist"; sourceTree = "<group>"; };
+		802247F6245B280F1F063F5A5520C7A9 /* AMCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMCalendar-umbrella.h"; sourceTree = "<group>"; };
 		8453F04176CA43DA3F246FD92B823CFB /* Pods-TestPodUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPodUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C3E096624141CBE427ACD202303510A /* AMColorPickerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerProtocol.swift; path = Source/AMColorPickerProtocol.swift; sourceTree = "<group>"; };
+		8756EEED9B5B4BA52B01F5BC2C31B802 /* AMSpeedMeter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMSpeedMeter-Info.plist"; sourceTree = "<group>"; };
+		8C2A0C615FA4B97334EC6CF5A87A6F32 /* AMBurnAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMBurnAnimation.xcconfig; sourceTree = "<group>"; };
+		8CA659756AB86ADBA0E7EA05223B384C /* AMNowClockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMNowClockView.swift; path = Source/AMNowClockView.swift; sourceTree = "<group>"; };
+		8CEF4707BCE26EDF740083B7FA66C55E /* AMMeterView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMMeterView.xcconfig; sourceTree = "<group>"; };
 		8DF29A613BD34F9C690CAABBE1CB5BA5 /* Pods-TestPod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPod-acknowledgements.plist"; sourceTree = "<group>"; };
 		8FE7C13DB4DD71363B13A607E95C66B2 /* Pods-TestPodTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPodTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		92B0E5DDFF918D4A07F48E381A3271E9 /* AMColorPickerAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AMColorPickerAssets.xcassets; path = Source/AMColorPickerAssets.xcassets; sourceTree = "<group>"; };
-		937C8F1315BDC595AB18F6C23C08A5E3 /* amb_particle2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amb_particle2@2x.png"; path = "Source/Resource/amb_particle2@2x.png"; sourceTree = "<group>"; };
+		96888EADB10142E75682B1DE0F3B45F0 /* AMOuijaBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMOuijaBoard-Info.plist"; sourceTree = "<group>"; };
+		97B576E5AAC0C834B68C54651F092009 /* AMSpeedMeterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMSpeedMeterView.swift; path = Source/AMSpeedMeterView.swift; sourceTree = "<group>"; };
 		991D9240A5EDFB5774089FA68F54D4D3 /* Pods-TestPodUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPodUITests-Info.plist"; sourceTree = "<group>"; };
+		999F87349F70A3027253EA56528EF5CA /* AMOuijaBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMOuijaBoard-dummy.m"; sourceTree = "<group>"; };
 		99A10FCF4692DF18A40D25DE118FF245 /* AMJpnMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMJpnMap.framework; path = AMJpnMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BB5E44CA053D5DA4A6033B56E965FDD /* AMCP_color_wheel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_color_wheel@2x.png"; path = "Source/image/AMCP_color_wheel@2x.png"; sourceTree = "<group>"; };
-		9C0F5F4D6CDB71E6724D8BBE921EE208 /* AMChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMChart.xcconfig; sourceTree = "<group>"; };
-		9CBE0E00FFA0E437D94026A5240DA84B /* AMClockView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMClockView-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DA70DB0FC4EA09900185C30F949DD0E /* AMColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMColorPicker-Info.plist"; sourceTree = "<group>"; };
-		9DBFAA51F5C9D04CECED06B623C8B2CB /* AMSpeedMeter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSpeedMeter-umbrella.h"; sourceTree = "<group>"; };
 		9DF0849583DA8B4CB81C3333F6E470BE /* AMNowClockView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMNowClockView.framework; path = AMNowClockView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DF2FDA2753C3D7C553569B8372A6BFC /* AMMeterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMMeterView.swift; path = Source/AMMeterView.swift; sourceTree = "<group>"; };
-		A2BF8D8F058335F69900FEB051C5C125 /* AMChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMChart-Info.plist"; sourceTree = "<group>"; };
-		A46F802927D22CBFC4AFD93E7717FA46 /* AMChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMChart-prefix.pch"; sourceTree = "<group>"; };
-		A554AFAB46DEE9263FDFF830D4BC0C43 /* AMLineChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMLineChartView.swift; path = Source/AMLineChartView.swift; sourceTree = "<group>"; };
-		A62086BC6FEAF8788D842D8F7CBFCC4C /* UIView+BurnAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+BurnAnimation.swift"; path = "Source/UIView+BurnAnimation.swift"; sourceTree = "<group>"; };
-		AC59BF3C25CB92C23F853A57BE24D2A6 /* AMSpeedMeter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMSpeedMeter.xcconfig; sourceTree = "<group>"; };
-		B1CD58C57D13F615A0238BA529C6F49C /* AMColorPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerViewController.xib; path = Source/AMColorPickerViewController.xib; sourceTree = "<group>"; };
+		A5B24662ADDE7FFD3C821A6F76DC0192 /* AMChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMChart-Info.plist"; sourceTree = "<group>"; };
+		AA2090B3EF073EE9044FD831CA4C2733 /* AMBurnAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMBurnAnimation.modulemap; sourceTree = "<group>"; };
+		AB03138F718843183AB2C6258B393090 /* AMNowClockView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMNowClockView.xcconfig; sourceTree = "<group>"; };
+		AD201A6E5B161BFF6918E5D1DE18BFFA /* AMSpeedMeter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMSpeedMeter.modulemap; sourceTree = "<group>"; };
+		B0872882D317021EA4F1E7270D1227EE /* AMNowClockView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMNowClockView-prefix.pch"; sourceTree = "<group>"; };
+		B1E992C00B58C7315577B43D774707F5 /* AMCalendarDataViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMCalendarDataViewController.xib; path = Source/AMCalendarDataViewController.xib; sourceTree = "<group>"; };
+		B236E95C46320D77BFC721EACEE452B7 /* AMJpnMapDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJpnMapDetailView.swift; path = Source/Detail/AMJpnMapDetailView.swift; sourceTree = "<group>"; };
+		B34337BF3CB964494096AFCB9E4A1825 /* AMCalendarRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendarRootViewController.swift; path = Source/AMCalendarRootViewController.swift; sourceTree = "<group>"; };
+		B6589E29D3CD075493BB3DB094A40E5F /* AMJpnMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMJpnMap.modulemap; sourceTree = "<group>"; };
 		B794E7ABFEAF42E3CAB000BB5B585A98 /* Pods-TestPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPod-dummy.m"; sourceTree = "<group>"; };
-		BB87C7A05C8F003028C13C7A77C32DA2 /* AMColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMColorPicker-prefix.pch"; sourceTree = "<group>"; };
 		BBE290030B1ACC4D201758F9D2FF0075 /* Pods-TestPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPod-umbrella.h"; sourceTree = "<group>"; };
-		BD0D530D42D49798586E54D4B8DA99D0 /* AMClockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMClockView.swift; path = Source/AMClockView.swift; sourceTree = "<group>"; };
-		BDECB6049A8F847C231EF56F81FB9324 /* AMBurnAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMBurnAnimation-dummy.m"; sourceTree = "<group>"; };
-		BFE1682EC3576DDEEA4FD2A8FF00C95D /* AMVennDiagramView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMVennDiagramView.xcconfig; sourceTree = "<group>"; };
+		BCAB6FCD62D33460626176B23AFD9379 /* AMColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMColorPicker-prefix.pch"; sourceTree = "<group>"; };
 		BFF908265C305873D9934D211B4D88F3 /* Pods-TestPodTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPodTests-umbrella.h"; sourceTree = "<group>"; };
-		C0E4624A90763FE078D6016DF2254701 /* AMColorPickerWheelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerWheelView.swift; path = Source/view/AMColorPickerWheelView.swift; sourceTree = "<group>"; };
 		C121A3F7AD663BAAE08277F739738ABA /* AMCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMCalendar.framework; path = AMCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C30A22A1E6C934D43B19B186B3D1A15F /* AMMeterView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMMeterView.modulemap; sourceTree = "<group>"; };
+		C23C95A1130D5129F82842AF1D87F2CF /* AMChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMChart-dummy.m"; sourceTree = "<group>"; };
 		C3CA71A980358D4E54C4A089DA6EE02A /* Pods-TestPodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPodTests.release.xcconfig"; sourceTree = "<group>"; };
+		C49559255B25B58B4CEC83F0AC85D09D /* AMVennDiagramView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMVennDiagramView-Info.plist"; sourceTree = "<group>"; };
 		C4AA31080F736996A64AD1FF58878230 /* Pods_TestPodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestPodUITests.framework; path = "Pods-TestPodUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C61F3ECB3BF16098310E4408924F676B /* AMColorPickerTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerTableViewCell.swift; path = Source/view/Cell/AMColorPickerTableViewCell.swift; sourceTree = "<group>"; };
-		C9C4561035C5F2C406FF5752AF3A82D8 /* AMSpeedMeter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMSpeedMeter.modulemap; sourceTree = "<group>"; };
+		C6647712BF37DF28FEEEB3CBDBEFCFD1 /* AMJpnMap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMJpnMap-prefix.pch"; sourceTree = "<group>"; };
+		C750A36D17A70E3FA5151F4FF49CA460 /* AMColorPickerSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerSlider.swift; path = Source/view/Slider/AMColorPickerSlider.swift; sourceTree = "<group>"; };
+		C7599ACD7DC333931835F3E5FC16F36F /* AMClockView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMClockView-prefix.pch"; sourceTree = "<group>"; };
+		C8ED054F7A42F3AC72E701FA9C80E157 /* amb_particle1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amb_particle1@2x.png"; path = "Source/Resource/amb_particle1@2x.png"; sourceTree = "<group>"; };
 		CAC50FC4BE0B9B940A4D0953579902B2 /* Pods-TestPodTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPodTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CCAEF9ADE3280EEC103B85A09F1E0756 /* Pods-TestPodTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPodTests.modulemap"; sourceTree = "<group>"; };
-		CCEF18503B5BCB6D478568CEC61B0EA6 /* amb_particle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = amb_particle.png; path = Source/Resource/amb_particle.png; sourceTree = "<group>"; };
-		CD6E38C3F113EAD83AE552B1F5B300CE /* AMNowClockView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMNowClockView.modulemap; sourceTree = "<group>"; };
-		CD968CF0D80F584150411BFA68292B26 /* AMNowClockView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMNowClockView-dummy.m"; sourceTree = "<group>"; };
+		CE139010CE67F4041F3BF99D5594AE19 /* AMCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMCalendar.swift; path = Source/AMCalendar.swift; sourceTree = "<group>"; };
+		CE2C2685F472CEA831F43A9991A9719F /* AMScatterChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMScatterChartView.swift; path = Source/AMScatterChartView.swift; sourceTree = "<group>"; };
 		CFA8F960B58F4F9EA3196BD104BF242B /* Pods-TestPodUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPodUITests-umbrella.h"; sourceTree = "<group>"; };
-		D06BCABF4BA609CF7A529E4F044C1972 /* AMJpnMap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMJpnMap-prefix.pch"; sourceTree = "<group>"; };
-		D21730C318713A93714AC292A0C36454 /* AMVennDiagramView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMVennDiagramView-dummy.m"; sourceTree = "<group>"; };
+		D060DEEBB81BF47443004EE165F286CE /* AMOuijaBoardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMOuijaBoardView.swift; path = Source/AMOuijaBoardView.swift; sourceTree = "<group>"; };
+		D1A2637A0CDDA16BD8CE7961476B17C7 /* amb_particle2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amb_particle2@2x.png"; path = "Source/Resource/amb_particle2@2x.png"; sourceTree = "<group>"; };
+		D2A486E8E7A738A1A1599718880AF044 /* AMNowClockView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMNowClockView.modulemap; sourceTree = "<group>"; };
 		D4E3B172BC2EB316BA6993552FE53A77 /* AMBurnAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMBurnAnimation.framework; path = AMBurnAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6E488C4F7AA1A50159C84DB35CD839C /* AMColorPickerWheelView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerWheelView.xib; path = Source/view/AMColorPickerWheelView.xib; sourceTree = "<group>"; };
-		D6F6BA20DF5CDB9AFC2919971555F556 /* AMVennDiagramView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMVennDiagramView-umbrella.h"; sourceTree = "<group>"; };
-		D77066FF86F20084F3D7DC87681C53DF /* AMNowClockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMNowClockView.swift; path = Source/AMNowClockView.swift; sourceTree = "<group>"; };
-		DE6B8151F29F6906BFBFB7889EE3A1CB /* AMColorPickerRGBSliderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerRGBSliderView.xib; path = Source/view/AMColorPickerRGBSliderView.xib; sourceTree = "<group>"; };
-		E136502A4F62CC5A699A4C8391AA2632 /* AMMeterView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMMeterView-Info.plist"; sourceTree = "<group>"; };
-		E1F23992B5FFE2667A4D62BC6A9D4F7E /* AMJpnMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMJpnMap-dummy.m"; sourceTree = "<group>"; };
+		D5EF3BE45B2685B250FC72A6CCD21DBA /* AMNowClockView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMNowClockView-umbrella.h"; sourceTree = "<group>"; };
+		D6364162F2687FA130BF23EB39C651C6 /* AMPieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPieChartView.swift; path = Source/AMPieChartView.swift; sourceTree = "<group>"; };
+		D6D461D747B8DF70205625B8D245E034 /* AMVennDiagramView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMVennDiagramView-prefix.pch"; sourceTree = "<group>"; };
+		D6E0F70EB1637812445C24DCE03EB028 /* AMColorPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerViewController.xib; path = Source/AMColorPickerViewController.xib; sourceTree = "<group>"; };
+		D940C91043E482A379CA4C07CD2FFDB8 /* AMColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMColorPicker.modulemap; sourceTree = "<group>"; };
+		DA00D98B79051D576631A7A6DBB335A3 /* amb_particle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = amb_particle.png; path = Source/Resource/amb_particle.png; sourceTree = "<group>"; };
+		DDD3E563B11AD9C6FF1946F51E686A8B /* AMColorPickerTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerTableView.swift; path = Source/view/AMColorPickerTableView.swift; sourceTree = "<group>"; };
+		E040DE21D7E4A6A8D04EDE9106410090 /* AMColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerViewController.swift; path = Source/AMColorPickerViewController.swift; sourceTree = "<group>"; };
+		E2429FAFAD51039C9370575A1977CABF /* AMColorPickerRGBSliderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerRGBSliderView.swift; path = Source/view/AMColorPickerRGBSliderView.swift; sourceTree = "<group>"; };
 		E284169C5EF99A176E22504CC66D6ECD /* Pods-TestPod-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestPod-frameworks.sh"; sourceTree = "<group>"; };
-		E50F162A1043B5EE99841ACB270CA42D /* AMChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMChart-umbrella.h"; sourceTree = "<group>"; };
-		E6AC846B7A1E0BC6202C5040A7BB4BE5 /* AMCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMCalendar-umbrella.h"; sourceTree = "<group>"; };
+		E7A53B8C987EECA46E882327267B7044 /* AMClockView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMClockView-umbrella.h"; sourceTree = "<group>"; };
 		E7D0A07E20F77B9ED9BB83609EF353EF /* Pods-TestPod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPod-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E9AA8373D09A4A0CE467CEEFCEEA66AE /* AMClockView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMClockView-Info.plist"; sourceTree = "<group>"; };
-		EA6B5BDA137F67DD3012BD89C81A4BB3 /* AMNowClockView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMNowClockView.xcconfig; sourceTree = "<group>"; };
-		ECA961F87644D97DDD8AAA236586FD99 /* AMCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMCalendar-prefix.pch"; sourceTree = "<group>"; };
-		EE671279E6E3A04CBB0DBD6A890BA052 /* AMJpnMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMJpnMap-Info.plist"; sourceTree = "<group>"; };
-		EE9B04D2E6694B77E31496986E2032FB /* AMSpeedMeter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMSpeedMeter-Info.plist"; sourceTree = "<group>"; };
-		EEFB8C72194191D98618456074636E2F /* AMVennDiagramView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMVennDiagramView.modulemap; sourceTree = "<group>"; };
-		EEFCD4CEA8AAE2C12415923AC54E177C /* AMCalendarDataViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMCalendarDataViewController.xib; path = Source/AMCalendarDataViewController.xib; sourceTree = "<group>"; };
-		F15C85A3397F33C5EB74BC289EAB2B2F /* AMCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMCalendar.xcconfig; sourceTree = "<group>"; };
+		E8047813BDF75A066A06BA2AF147FAC0 /* AMJpnMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMJpnMap-Info.plist"; sourceTree = "<group>"; };
+		EAA66D2C8B5E96454806E3FE38D4F0FF /* AMVennDiagramView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMVennDiagramView.xcconfig; sourceTree = "<group>"; };
+		EBA0DFA145AF648CD16C21AB65D296BF /* AMChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMChart.xcconfig; sourceTree = "<group>"; };
+		ECF35F97E4D523EBC2B871AA579F24BA /* AMChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMChart-prefix.pch"; sourceTree = "<group>"; };
+		ED0C51B48E384FC2CE44A80AECEB4BCD /* AMCP_slider_thumb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_slider_thumb@2x.png"; path = "Source/image/AMCP_slider_thumb@2x.png"; sourceTree = "<group>"; };
+		F0F8FF15FFFEFD7CF82CDBA28940BD9A /* AMJMRegionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJMRegionLayer.swift; path = Source/Detail/AMJMRegionLayer.swift; sourceTree = "<group>"; };
 		F1B848687280A75DD94879B942DF14E0 /* Pods-TestPodTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPodTests-Info.plist"; sourceTree = "<group>"; };
-		F2A99DB9127F18532A532BD905DD7D8E /* AMClockView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMClockView-dummy.m"; sourceTree = "<group>"; };
-		F50FDA44648BA425D9DA5B3B3D405E62 /* AMColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMColorPicker-dummy.m"; sourceTree = "<group>"; };
+		F407A5F7ACC4BE1FADE5381D54778805 /* AMJpnMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMJpnMap.xcconfig; sourceTree = "<group>"; };
 		F569F2B05A9A520E60A480D8C844CB03 /* AMVennDiagramView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMVennDiagramView.framework; path = AMVennDiagramView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F67173CA7EB376A653CF6B4B09A1D5D2 /* AMBurnAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMBurnAnimation-Info.plist"; sourceTree = "<group>"; };
-		F6FA867AD679808B18A7AE354A03C836 /* AMColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMColorPicker-umbrella.h"; sourceTree = "<group>"; };
-		F9C44C609297690A799E1BAFF8CF8758 /* AMJpnMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMJpnMapView.swift; path = Source/AMJpnMapView.swift; sourceTree = "<group>"; };
+		F6B2AC0ADB66ED8AD940C63DE45A8814 /* AMMeterView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMMeterView-Info.plist"; sourceTree = "<group>"; };
+		F858AE632599082815D0C93D23E3C8FF /* AMCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMCalendar.xcconfig; sourceTree = "<group>"; };
+		FAF01AC114E9B81A3F823BE48BE828EB /* AMColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMColorPicker-umbrella.h"; sourceTree = "<group>"; };
 		FB3CD55EF66D16F4712CEA92C8CE33D1 /* Pods-TestPodUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPodUITests-dummy.m"; sourceTree = "<group>"; };
+		FB7B1F25AC86AD3093A38ECEE437216F /* AMNowClockView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMNowClockView-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B21A045CD6DD6110E5258AEB6385AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6E7A304E0EA9946CC4420AA9DAF930 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		157977BFDF07D0CD33DF0BBF4CAB65B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9699DEA1EE304F8E7E7808C0AA8C5D34 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		232258C57D3187CE84739D0D8145D06C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1290B48B5522977377D6A57EC4FC0471 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +428,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD4A64C3789E2960E79CAE7AD28013AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA701639C99A50E07D443E2CC1D53F29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEE7086F0E957C2BBC1272EC563FF462 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,65 +455,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12BBACBCF57E959DB0BDF896F43BAB2F /* AMCalendar */ = {
+		0176FA726D2B906C72C5326B05785782 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2907F13E4A16922F8C20DF725DE21BF4 /* AMCalendar.swift */,
-				05366AEB539F392755B45512B3D73AE2 /* AMCalendarDataViewController.swift */,
-				12E4168B247504451B3D4D6F2B0F8F70 /* AMCalendarRootViewController.swift */,
-				FB5D5603D50417FA63A4B6DDA348E0A2 /* Resources */,
-				1FA81E584B8512E3A28A8408A55B6824 /* Support Files */,
-			);
-			name = AMCalendar;
-			path = AMCalendar;
-			sourceTree = "<group>";
-		};
-		19B83F142E1C15F701C3B0FD0461F068 /* AMVennDiagramView */ = {
-			isa = PBXGroup;
-			children = (
-				114E9271DA97390B5DE6A2E394EA3CC1 /* AMVennDiagramView.swift */,
-				C62364A29A8799889A3BE6275395098B /* Support Files */,
-			);
-			name = AMVennDiagramView;
-			path = AMVennDiagramView;
-			sourceTree = "<group>";
-		};
-		1A50A466537592D7CAA538D4C45976CF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				16B4DFE285311A9ABBDF27C0307EDD15 /* AMClockView.modulemap */,
-				7572EFC1C65936018F58AAF90A1971F6 /* AMClockView.xcconfig */,
-				F2A99DB9127F18532A532BD905DD7D8E /* AMClockView-dummy.m */,
-				E9AA8373D09A4A0CE467CEEFCEEA66AE /* AMClockView-Info.plist */,
-				9CBE0E00FFA0E437D94026A5240DA84B /* AMClockView-prefix.pch */,
-				5776FF94C0B1555F0855C75FE817EECE /* AMClockView-umbrella.h */,
+				AD201A6E5B161BFF6918E5D1DE18BFFA /* AMSpeedMeter.modulemap */,
+				5EAED95D655A88CA3885B8419688C400 /* AMSpeedMeter.xcconfig */,
+				2654251902CCF8E919A6F7355D13D0B8 /* AMSpeedMeter-dummy.m */,
+				8756EEED9B5B4BA52B01F5BC2C31B802 /* AMSpeedMeter-Info.plist */,
+				219AD15D4A07CB9F8C79A719CC70E7F3 /* AMSpeedMeter-prefix.pch */,
+				01361D3CA31DF1817DA3F182E895057B /* AMSpeedMeter-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/AMClockView";
+			path = "../Target Support Files/AMSpeedMeter";
 			sourceTree = "<group>";
 		};
-		1FA81E584B8512E3A28A8408A55B6824 /* Support Files */ = {
+		0804FFED559787535F47A3E21BF750E1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2EA60A6A8849DE2680CA18E8CA75C0E0 /* AMCalendar.modulemap */,
-				F15C85A3397F33C5EB74BC289EAB2B2F /* AMCalendar.xcconfig */,
-				795501E4E437876E071521D089CF4A90 /* AMCalendar-dummy.m */,
-				826172C12308F126218A7647E85D46AF /* AMCalendar-Info.plist */,
-				ECA961F87644D97DDD8AAA236586FD99 /* AMCalendar-prefix.pch */,
-				E6AC846B7A1E0BC6202C5040A7BB4BE5 /* AMCalendar-umbrella.h */,
+				B1E992C00B58C7315577B43D774707F5 /* AMCalendarDataViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		143F964FAC77AD587965A9A78FBE5965 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BD6CF33F19997A3DE30631A319968D7 /* AMVennDiagramView.modulemap */,
+				EAA66D2C8B5E96454806E3FE38D4F0FF /* AMVennDiagramView.xcconfig */,
+				2C2E9E2C2C3965DA681D1AF0E9B3F163 /* AMVennDiagramView-dummy.m */,
+				C49559255B25B58B4CEC83F0AC85D09D /* AMVennDiagramView-Info.plist */,
+				D6D461D747B8DF70205625B8D245E034 /* AMVennDiagramView-prefix.pch */,
+				37C84622E21C9BCB16AF4D9ABE2EB600 /* AMVennDiagramView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMVennDiagramView";
+			sourceTree = "<group>";
+		};
+		158E9FC221A2FBF121A45EBE2A9818E5 /* AMBurnAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				38EC88CCD9CCFCC3ADB63459A1D65453 /* UIView+BurnAnimation.swift */,
+				D02D1B02431E1724ACE5053E485E05C8 /* Resources */,
+				6CAE68CB7E8AD7CB7150A548CDA8A87B /* Support Files */,
+			);
+			name = AMBurnAnimation;
+			path = AMBurnAnimation;
+			sourceTree = "<group>";
+		};
+		17CCAC55CFEAFBD0CAF77D6E8260F2F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6589E29D3CD075493BB3DB094A40E5F /* AMJpnMap.modulemap */,
+				F407A5F7ACC4BE1FADE5381D54778805 /* AMJpnMap.xcconfig */,
+				10E8983F96154BC4F1D550AACA75716F /* AMJpnMap-dummy.m */,
+				E8047813BDF75A066A06BA2AF147FAC0 /* AMJpnMap-Info.plist */,
+				C6647712BF37DF28FEEEB3CBDBEFCFD1 /* AMJpnMap-prefix.pch */,
+				6E67387CC9DC0BD4CD5FEA8267C4D622 /* AMJpnMap-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMJpnMap";
+			sourceTree = "<group>";
+		};
+		1D8A146778CF5CDFFAFEFFB2A67CCB82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2207499C5BAD225145D8658BFCB85226 /* AMCalendar.modulemap */,
+				F858AE632599082815D0C93D23E3C8FF /* AMCalendar.xcconfig */,
+				0205DA364A27826ABFFB7EC8463D572C /* AMCalendar-dummy.m */,
+				623A6C834E25E5A545461D55CADF3048 /* AMCalendar-Info.plist */,
+				7011892402C8E89DB585806909826DEA /* AMCalendar-prefix.pch */,
+				802247F6245B280F1F063F5A5520C7A9 /* AMCalendar-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AMCalendar";
 			sourceTree = "<group>";
 		};
-		1FE9CDF11F262DED839F96EDE912428C /* Resources */ = {
+		2B032903A5C6D7DB9D1C19DF06AD12AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CCEF18503B5BCB6D478568CEC61B0EA6 /* amb_particle.png */,
-				0EC383DAA22FEDA08D17701161806BF6 /* amb_particle1@2x.png */,
-				937C8F1315BDC595AB18F6C23C08A5E3 /* amb_particle2@2x.png */,
+				4C65979F5BADA2DE32B139F6A0A36FAD /* AMColorPickerAssets.xcassets */,
+				675E1BA3A4BED0AFB91976F89990A594 /* AMColorPickerRGBSliderView.xib */,
+				4A5348EE5EAA92308CB8BD764C012A77 /* AMColorPickerTableView.xib */,
+				406DDC22B732EF88B7D2DB1E05008B4E /* AMColorPickerTableViewCell.xib */,
+				D6E0F70EB1637812445C24DCE03EB028 /* AMColorPickerViewController.xib */,
+				556D8861E84CA4EC1277E6DB4CDBFD07 /* AMColorPickerWheelView.xib */,
+				6E86F52EEFF5C1EBC8267757DC664411 /* AMCP_color_wheel@2x.png */,
+				304B4EF32D16843F06376ED4FCA9EBA2 /* AMCP_cursor@2x.png */,
+				ED0C51B48E384FC2CE44A80AECEB4BCD /* AMCP_slider_thumb@2x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		30B46EDFEA2499DE340BD7186E1FCDB4 /* AMJpnMap */ = {
+			isa = PBXGroup;
+			children = (
+				F0F8FF15FFFEFD7CF82CDBA28940BD9A /* AMJMRegionLayer.swift */,
+				B236E95C46320D77BFC721EACEE452B7 /* AMJpnMapDetailView.swift */,
+				343FA8FF8EBA34ABB910BEDE3891F876 /* AMJpnMapView.swift */,
+				130169A2CF646DC5B8374BE4A0B7DAD0 /* AMPrefecture.swift */,
+				473B614AFC00D785A8FE321DAE94440F /* AMRegion.swift */,
+				17CCAC55CFEAFBD0CAF77D6E8260F2F4 /* Support Files */,
+			);
+			name = AMJpnMap;
+			path = AMJpnMap;
+			sourceTree = "<group>";
+		};
+		359268D02D7A78FF4426269E2DCB5BB1 /* AMOuijaBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D060DEEBB81BF47443004EE165F286CE /* AMOuijaBoardView.swift */,
+				6B158B9680EA6E529738421CB8A41738 /* Support Files */,
+			);
+			name = AMOuijaBoard;
+			path = AMOuijaBoard;
 			sourceTree = "<group>";
 		};
 		3632BC2882AF3627BD0B681D6DE04983 /* Pods-TestPod */ = {
@@ -506,35 +587,38 @@
 			path = "Target Support Files/Pods-TestPod";
 			sourceTree = "<group>";
 		};
-		3CDEDD8D15E29F9C12F57CAEC0C4018C /* Pods */ = {
+		4CBC2B384D8889EC13F4E2518902DCE4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				72F9D648C9ED7FF6205DD182A70D7BC3 /* AMBurnAnimation */,
-				12BBACBCF57E959DB0BDF896F43BAB2F /* AMCalendar */,
-				9D9485F70154B8766BBF9028AD10B622 /* AMChart */,
-				752A71318B2097BF8DCA4CCE5628038A /* AMClockView */,
-				717B53EE4EFDC375B7B456518A1DD257 /* AMColorPicker */,
-				DE51EC84C7741EF2DFFA59238B58237B /* AMJpnMap */,
-				81F8AF443EEAD5D68EA4BB483262704D /* AMMeterView */,
-				A813D86D85736AF5A7749FAED593AB1E /* AMNowClockView */,
-				73C284AB0536264E75422ACA710B8D33 /* AMSpeedMeter */,
-				19B83F142E1C15F701C3B0FD0461F068 /* AMVennDiagramView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		50E00EDAE5FF56B17608AACDA149A02E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0E08056CF5AD93C0866BE0AD146FB15F /* AMJpnMap.modulemap */,
-				45D95CD9819AB51F8BCFCA7E26CF9837 /* AMJpnMap.xcconfig */,
-				E1F23992B5FFE2667A4D62BC6A9D4F7E /* AMJpnMap-dummy.m */,
-				EE671279E6E3A04CBB0DBD6A890BA052 /* AMJpnMap-Info.plist */,
-				D06BCABF4BA609CF7A529E4F044C1972 /* AMJpnMap-prefix.pch */,
-				4DE1EBB3DAA993A6BD57785ABFCFC917 /* AMJpnMap-umbrella.h */,
+				63CE302781EF8B5323432152CB41DCE1 /* AMChart.modulemap */,
+				EBA0DFA145AF648CD16C21AB65D296BF /* AMChart.xcconfig */,
+				C23C95A1130D5129F82842AF1D87F2CF /* AMChart-dummy.m */,
+				A5B24662ADDE7FFD3C821A6F76DC0192 /* AMChart-Info.plist */,
+				ECF35F97E4D523EBC2B871AA579F24BA /* AMChart-prefix.pch */,
+				0FBE15DFB8C6F1607C03C5DBEC318AE4 /* AMChart-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/AMJpnMap";
+			path = "../Target Support Files/AMChart";
+			sourceTree = "<group>";
+		};
+		53CA6B4DA82908256ECB974188A7DA6D /* AMNowClockView */ = {
+			isa = PBXGroup;
+			children = (
+				8CA659756AB86ADBA0E7EA05223B384C /* AMNowClockView.swift */,
+				D98547D8208CBBC714BB521656E05F46 /* Support Files */,
+			);
+			name = AMNowClockView;
+			path = AMNowClockView;
+			sourceTree = "<group>";
+		};
+		58F49EFF63719E3B7BB2F52291B2FC7C /* AMVennDiagramView */ = {
+			isa = PBXGroup;
+			children = (
+				259074FB4118AA8D25499F28695C9A4C /* AMVennDiagramView.swift */,
+				143F964FAC77AD587965A9A78FBE5965 /* Support Files */,
+			);
+			name = AMVennDiagramView;
+			path = AMVennDiagramView;
 			sourceTree = "<group>";
 		};
 		593EC9F844C3AA3D15D53E566C2743F4 /* Pods-TestPodUITests */ = {
@@ -553,106 +637,60 @@
 			path = "Target Support Files/Pods-TestPodUITests";
 			sourceTree = "<group>";
 		};
-		5DB4C30595B6E9D4F422AC0CAB64AF18 /* Resources */ = {
+		6B158B9680EA6E529738421CB8A41738 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				92B0E5DDFF918D4A07F48E381A3271E9 /* AMColorPickerAssets.xcassets */,
-				DE6B8151F29F6906BFBFB7889EE3A1CB /* AMColorPickerRGBSliderView.xib */,
-				21FDFB1143EF4D4EE0D73C64C69DA882 /* AMColorPickerTableView.xib */,
-				7BEB19EEF8FFB7C3B4A4ABDAD589729E /* AMColorPickerTableViewCell.xib */,
-				B1CD58C57D13F615A0238BA529C6F49C /* AMColorPickerViewController.xib */,
-				D6E488C4F7AA1A50159C84DB35CD839C /* AMColorPickerWheelView.xib */,
-				9BB5E44CA053D5DA4A6033B56E965FDD /* AMCP_color_wheel@2x.png */,
-				22EF679CE3FCA17436B3989988C7E6AC /* AMCP_cursor@2x.png */,
-				1D4A336BDD06692046A31B204E821100 /* AMCP_slider_thumb@2x.png */,
+				3D62A6900D2911E1A75DC1C82109308B /* AMOuijaBoard.modulemap */,
+				61BBF0B606CF19FB7A3A010275D0E04B /* AMOuijaBoard.xcconfig */,
+				999F87349F70A3027253EA56528EF5CA /* AMOuijaBoard-dummy.m */,
+				96888EADB10142E75682B1DE0F3B45F0 /* AMOuijaBoard-Info.plist */,
+				0696B349CF62956B854AE53B5AD5183D /* AMOuijaBoard-prefix.pch */,
+				2EF85EAAA367EA26E0E0B10EC0224FE3 /* AMOuijaBoard-umbrella.h */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/AMOuijaBoard";
 			sourceTree = "<group>";
 		};
-		70832F9DDFACAECC4FCFE46DB4BEC220 /* Support Files */ = {
+		6CAE68CB7E8AD7CB7150A548CDA8A87B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				35B776C42DF80C4EDD82B939930513A8 /* AMBurnAnimation.modulemap */,
-				48B14E65764CC10AE35F9B9C6620A0DC /* AMBurnAnimation.xcconfig */,
-				BDECB6049A8F847C231EF56F81FB9324 /* AMBurnAnimation-dummy.m */,
-				F67173CA7EB376A653CF6B4B09A1D5D2 /* AMBurnAnimation-Info.plist */,
-				0DADBA2DE3423DC93B21A5FB96A8DD65 /* AMBurnAnimation-prefix.pch */,
-				1457FAAC74EFDAD597BFA7482680D505 /* AMBurnAnimation-umbrella.h */,
+				AA2090B3EF073EE9044FD831CA4C2733 /* AMBurnAnimation.modulemap */,
+				8C2A0C615FA4B97334EC6CF5A87A6F32 /* AMBurnAnimation.xcconfig */,
+				56C6FFF72B3D18E22D306F8C36D29290 /* AMBurnAnimation-dummy.m */,
+				7ADA10324CAD2AFA1EC6603F45915D19 /* AMBurnAnimation-Info.plist */,
+				3B5F021B6E31413AEF332A4AFEE3C742 /* AMBurnAnimation-prefix.pch */,
+				6412314B244FCF0BE377728A3E59ACEF /* AMBurnAnimation-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AMBurnAnimation";
 			sourceTree = "<group>";
 		};
-		717B53EE4EFDC375B7B456518A1DD257 /* AMColorPicker */ = {
+		6F43C67C2419280CC103745004C2708D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8C3E096624141CBE427ACD202303510A /* AMColorPickerProtocol.swift */,
-				5A21559D8B417AD4E340A802501665F5 /* AMColorPickerRGBSliderView.swift */,
-				525654A9B9AC964B34BFB8D4EE225BF6 /* AMColorPickerSlider.swift */,
-				52171B4529EE1E79AA2C56FBD14CEB88 /* AMColorPickerTableView.swift */,
-				C61F3ECB3BF16098310E4408924F676B /* AMColorPickerTableViewCell.swift */,
-				78E5E2184E96AE7829658AF169A7176A /* AMColorPickerViewController.swift */,
-				C0E4624A90763FE078D6016DF2254701 /* AMColorPickerWheelView.swift */,
-				5DB4C30595B6E9D4F422AC0CAB64AF18 /* Resources */,
-				A55B22E845F3F58AB6EF1CE59760FE32 /* Support Files */,
+				158E9FC221A2FBF121A45EBE2A9818E5 /* AMBurnAnimation */,
+				ACE768175FAF49C0E013E60AE2E38BE0 /* AMCalendar */,
+				B015EA643040539C425DB0C2B225D769 /* AMChart */,
+				861192294DD84614604D7D8603E4D9D8 /* AMClockView */,
+				D1EDF645B857F1125CBAB72DA901A242 /* AMColorPicker */,
+				30B46EDFEA2499DE340BD7186E1FCDB4 /* AMJpnMap */,
+				DEB77312219D2745572691AD4441ADBA /* AMMeterView */,
+				53CA6B4DA82908256ECB974188A7DA6D /* AMNowClockView */,
+				359268D02D7A78FF4426269E2DCB5BB1 /* AMOuijaBoard */,
+				9D819753426C4220787976D9AC949F0B /* AMSpeedMeter */,
+				58F49EFF63719E3B7BB2F52291B2FC7C /* AMVennDiagramView */,
 			);
-			name = AMColorPicker;
-			path = AMColorPicker;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		72F9D648C9ED7FF6205DD182A70D7BC3 /* AMBurnAnimation */ = {
+		861192294DD84614604D7D8603E4D9D8 /* AMClockView */ = {
 			isa = PBXGroup;
 			children = (
-				A62086BC6FEAF8788D842D8F7CBFCC4C /* UIView+BurnAnimation.swift */,
-				1FE9CDF11F262DED839F96EDE912428C /* Resources */,
-				70832F9DDFACAECC4FCFE46DB4BEC220 /* Support Files */,
-			);
-			name = AMBurnAnimation;
-			path = AMBurnAnimation;
-			sourceTree = "<group>";
-		};
-		73C284AB0536264E75422ACA710B8D33 /* AMSpeedMeter */ = {
-			isa = PBXGroup;
-			children = (
-				571FF99085AF1EEF696DED0EEFFCD644 /* AMSpeedMeterView.swift */,
-				A039C53ECF44E278A957AB6201D98F5C /* Support Files */,
-			);
-			name = AMSpeedMeter;
-			path = AMSpeedMeter;
-			sourceTree = "<group>";
-		};
-		752A71318B2097BF8DCA4CCE5628038A /* AMClockView */ = {
-			isa = PBXGroup;
-			children = (
-				BD0D530D42D49798586E54D4B8DA99D0 /* AMClockView.swift */,
-				1A50A466537592D7CAA538D4C45976CF /* Support Files */,
+				0AE29A0C9A8AA32F69AF1E27173E4FC9 /* AMClockView.swift */,
+				F38F6A57540C72A1DB644D7F203BE590 /* Support Files */,
 			);
 			name = AMClockView;
 			path = AMClockView;
-			sourceTree = "<group>";
-		};
-		81F8AF443EEAD5D68EA4BB483262704D /* AMMeterView */ = {
-			isa = PBXGroup;
-			children = (
-				9DF2FDA2753C3D7C553569B8372A6BFC /* AMMeterView.swift */,
-				E522D6C4D40B15175D7E7A9C883B8E00 /* Support Files */,
-			);
-			name = AMMeterView;
-			path = AMMeterView;
-			sourceTree = "<group>";
-		};
-		83981AEF48821A82AEA4F95E9CE6AC53 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4FA8560C9B4BA29E3BB6F2F4941D29F0 /* AMChart.modulemap */,
-				9C0F5F4D6CDB71E6724D8BBE921EE208 /* AMChart.xcconfig */,
-				2EF433ECDD757C37F1344ADB711141C9 /* AMChart-dummy.m */,
-				A2BF8D8F058335F69900FEB051C5C125 /* AMChart-Info.plist */,
-				A46F802927D22CBFC4AFD93E7717FA46 /* AMChart-prefix.pch */,
-				E50F162A1043B5EE99841ACB270CA42D /* AMChart-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AMChart";
 			sourceTree = "<group>";
 		};
 		89F919F32E6B9FD25E3ACB1B85B4F036 /* Pods-TestPodTests */ = {
@@ -681,144 +719,60 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9D9485F70154B8766BBF9028AD10B622 /* AMChart */ = {
+		9D819753426C4220787976D9AC949F0B /* AMSpeedMeter */ = {
 			isa = PBXGroup;
 			children = (
-				61E552A6936D14DC5F594F698A9A21B1 /* AMBarChartView.swift */,
-				7204C7B4DB3F780AED35C39BE7EE782A /* AMChartData.swift */,
-				0573976AFDBB0DF5533F5B84EC807D78 /* AMChartView.swift */,
-				A554AFAB46DEE9263FDFF830D4BC0C43 /* AMLineChartView.swift */,
-				200A0382B34E1C56D919D64028DAD96E /* AMPieChartView.swift */,
-				6CA37620EC88BB09EB6EE394C19DAEBD /* AMRadarChartView.swift */,
-				8071D08D1B4BFFBE70C0A55E9F233791 /* AMScatterChartView.swift */,
-				83981AEF48821A82AEA4F95E9CE6AC53 /* Support Files */,
+				97B576E5AAC0C834B68C54651F092009 /* AMSpeedMeterView.swift */,
+				0176FA726D2B906C72C5326B05785782 /* Support Files */,
 			);
-			name = AMChart;
-			path = AMChart;
+			name = AMSpeedMeter;
+			path = AMSpeedMeter;
 			sourceTree = "<group>";
 		};
-		A039C53ECF44E278A957AB6201D98F5C /* Support Files */ = {
+		9F47C4D5F9A9E5EBCA3DD6C245DE6BB2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C9C4561035C5F2C406FF5752AF3A82D8 /* AMSpeedMeter.modulemap */,
-				AC59BF3C25CB92C23F853A57BE24D2A6 /* AMSpeedMeter.xcconfig */,
-				2FDD50DBFB8CF6370DD651858705F813 /* AMSpeedMeter-dummy.m */,
-				EE9B04D2E6694B77E31496986E2032FB /* AMSpeedMeter-Info.plist */,
-				3631C5BDA04A5259116415E0AEB35066 /* AMSpeedMeter-prefix.pch */,
-				9DBFAA51F5C9D04CECED06B623C8B2CB /* AMSpeedMeter-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AMSpeedMeter";
-			sourceTree = "<group>";
-		};
-		A55B22E845F3F58AB6EF1CE59760FE32 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				540B830254F59E6F8BFF9E87396B9091 /* AMColorPicker.modulemap */,
-				520581FF317B89CE25CFDCC7D4D2B94F /* AMColorPicker.xcconfig */,
-				F50FDA44648BA425D9DA5B3B3D405E62 /* AMColorPicker-dummy.m */,
-				9DA70DB0FC4EA09900185C30F949DD0E /* AMColorPicker-Info.plist */,
-				BB87C7A05C8F003028C13C7A77C32DA2 /* AMColorPicker-prefix.pch */,
-				F6FA867AD679808B18A7AE354A03C836 /* AMColorPicker-umbrella.h */,
+				D940C91043E482A379CA4C07CD2FFDB8 /* AMColorPicker.modulemap */,
+				173241B69D01D60B230FFA94F65CFE9E /* AMColorPicker.xcconfig */,
+				1E5119B4A3778268162026C732D20AB9 /* AMColorPicker-dummy.m */,
+				219DF439E5EEBFAFD8867830BF648D4D /* AMColorPicker-Info.plist */,
+				BCAB6FCD62D33460626176B23AFD9379 /* AMColorPicker-prefix.pch */,
+				FAF01AC114E9B81A3F823BE48BE828EB /* AMColorPicker-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AMColorPicker";
 			sourceTree = "<group>";
 		};
-		A813D86D85736AF5A7749FAED593AB1E /* AMNowClockView */ = {
+		ACE768175FAF49C0E013E60AE2E38BE0 /* AMCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				D77066FF86F20084F3D7DC87681C53DF /* AMNowClockView.swift */,
-				D6970D8F784EADEF33D480614A85372E /* Support Files */,
+				CE139010CE67F4041F3BF99D5594AE19 /* AMCalendar.swift */,
+				49C393B6875DECB73CE5529582CBEA5E /* AMCalendarDataViewController.swift */,
+				B34337BF3CB964494096AFCB9E4A1825 /* AMCalendarRootViewController.swift */,
+				0804FFED559787535F47A3E21BF750E1 /* Resources */,
+				1D8A146778CF5CDFFAFEFFB2A67CCB82 /* Support Files */,
 			);
-			name = AMNowClockView;
-			path = AMNowClockView;
+			name = AMCalendar;
+			path = AMCalendar;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		B015EA643040539C425DB0C2B225D769 /* AMChart */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				08498FD6F392619F424F236BD4060880 /* AMBarChartView.swift */,
+				207F2E366403DBDBC625BDCD4C970223 /* AMChartData.swift */,
+				2DFA1565EEFFEFB3B510BA847EE4D6F9 /* AMChartView.swift */,
+				686671DDA7129FA8700EEE67E06D5863 /* AMLineChartView.swift */,
+				D6364162F2687FA130BF23EB39C651C6 /* AMPieChartView.swift */,
+				15068FD88EA301C7BFC20A2FD374610B /* AMRadarChartView.swift */,
+				CE2C2685F472CEA831F43A9991A9719F /* AMScatterChartView.swift */,
+				4CBC2B384D8889EC13F4E2518902DCE4 /* Support Files */,
 			);
-			name = iOS;
+			name = AMChart;
+			path = AMChart;
 			sourceTree = "<group>";
 		};
-		C62364A29A8799889A3BE6275395098B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EEFB8C72194191D98618456074636E2F /* AMVennDiagramView.modulemap */,
-				BFE1682EC3576DDEEA4FD2A8FF00C95D /* AMVennDiagramView.xcconfig */,
-				D21730C318713A93714AC292A0C36454 /* AMVennDiagramView-dummy.m */,
-				536E4AE416E5BFD7FCCA3DE1C2E72756 /* AMVennDiagramView-Info.plist */,
-				81095431D97A80AE45158C180D885078 /* AMVennDiagramView-prefix.pch */,
-				D6F6BA20DF5CDB9AFC2919971555F556 /* AMVennDiagramView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AMVennDiagramView";
-			sourceTree = "<group>";
-		};
-		CF1408CF629C7361332E53B88F7BD30C = {
-			isa = PBXGroup;
-			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3CDEDD8D15E29F9C12F57CAEC0C4018C /* Pods */,
-				F29D644C9B404FA11F2EE04505C058BA /* Products */,
-				8A52C1C714977249A8526BC5B3484B3E /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D6970D8F784EADEF33D480614A85372E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD6E38C3F113EAD83AE552B1F5B300CE /* AMNowClockView.modulemap */,
-				EA6B5BDA137F67DD3012BD89C81A4BB3 /* AMNowClockView.xcconfig */,
-				CD968CF0D80F584150411BFA68292B26 /* AMNowClockView-dummy.m */,
-				30573FEF94F22A939A50B6C296CAC49A /* AMNowClockView-Info.plist */,
-				686A98C31135FD5D65E44B3B365FB1D9 /* AMNowClockView-prefix.pch */,
-				25C7330125124011EF3FE46D34E94FDA /* AMNowClockView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AMNowClockView";
-			sourceTree = "<group>";
-		};
-		DE51EC84C7741EF2DFFA59238B58237B /* AMJpnMap */ = {
-			isa = PBXGroup;
-			children = (
-				351CE75EC8094C75D69ABD3C5520090E /* AMJMRegionLayer.swift */,
-				3FF61087EF7C3BE4E156A3D36350CFE7 /* AMJpnMapDetailView.swift */,
-				F9C44C609297690A799E1BAFF8CF8758 /* AMJpnMapView.swift */,
-				079747C13B0E83253DADD95DD0F89836 /* AMPrefecture.swift */,
-				6316B5EC9FA542312A91C5F0542B11F8 /* AMRegion.swift */,
-				50E00EDAE5FF56B17608AACDA149A02E /* Support Files */,
-			);
-			name = AMJpnMap;
-			path = AMJpnMap;
-			sourceTree = "<group>";
-		};
-		E522D6C4D40B15175D7E7A9C883B8E00 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C30A22A1E6C934D43B19B186B3D1A15F /* AMMeterView.modulemap */,
-				6117E3CF038CE4154524470DA6D7169F /* AMMeterView.xcconfig */,
-				7DA5171FD0025EADE6EA81D45152CF5F /* AMMeterView-dummy.m */,
-				E136502A4F62CC5A699A4C8391AA2632 /* AMMeterView-Info.plist */,
-				488E5900191B7E3CD6C33ABAACB8D3F0 /* AMMeterView-prefix.pch */,
-				11ACB5E036A039405EAC959D0AFC213B /* AMMeterView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AMMeterView";
-			sourceTree = "<group>";
-		};
-		F29D644C9B404FA11F2EE04505C058BA /* Products */ = {
+		B12F94D87F4FFA942ADE66D7361FBDD6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				D4E3B172BC2EB316BA6993552FE53A77 /* AMBurnAnimation.framework */,
@@ -829,6 +783,7 @@
 				99A10FCF4692DF18A40D25DE118FF245 /* AMJpnMap.framework */,
 				05200BBACD238E18246723C7D5EE8BED /* AMMeterView.framework */,
 				9DF0849583DA8B4CB81C3333F6E470BE /* AMNowClockView.framework */,
+				6E1FFBA75AE173EED87BBD44D5B6497E /* AMOuijaBoard.framework */,
 				57A0F81CE72FA7A86ECE498F288DF92F /* AMSpeedMeter.framework */,
 				F569F2B05A9A520E60A480D8C844CB03 /* AMVennDiagramView.framework */,
 				35054CEEEEFC76CC19A2519D50F5E6ED /* Pods_TestPod.framework */,
@@ -838,12 +793,110 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FB5D5603D50417FA63A4B6DDA348E0A2 /* Resources */ = {
+		BA1419BAE87F425E07E834E739A50B9E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EEFCD4CEA8AAE2C12415923AC54E177C /* AMCalendarDataViewController.xib */,
+				56221EF67BC510FF475D54398184D5FE /* AMMeterView.modulemap */,
+				8CEF4707BCE26EDF740083B7FA66C55E /* AMMeterView.xcconfig */,
+				32E164223D4F79638232EB097100E3D6 /* AMMeterView-dummy.m */,
+				F6B2AC0ADB66ED8AD940C63DE45A8814 /* AMMeterView-Info.plist */,
+				6DF5E8D359AA8D36607F042376B69419 /* AMMeterView-prefix.pch */,
+				5C6B55E2B0E5B1C81833140FE4FF273F /* AMMeterView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMMeterView";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6F43C67C2419280CC103745004C2708D /* Pods */,
+				B12F94D87F4FFA942ADE66D7361FBDD6 /* Products */,
+				8A52C1C714977249A8526BC5B3484B3E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D02D1B02431E1724ACE5053E485E05C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA00D98B79051D576631A7A6DBB335A3 /* amb_particle.png */,
+				C8ED054F7A42F3AC72E701FA9C80E157 /* amb_particle1@2x.png */,
+				D1A2637A0CDDA16BD8CE7961476B17C7 /* amb_particle2@2x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		D1EDF645B857F1125CBAB72DA901A242 /* AMColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6CDF736D687F8FD78D2C804753F2371C /* AMColorPickerProtocol.swift */,
+				E2429FAFAD51039C9370575A1977CABF /* AMColorPickerRGBSliderView.swift */,
+				C750A36D17A70E3FA5151F4FF49CA460 /* AMColorPickerSlider.swift */,
+				DDD3E563B11AD9C6FF1946F51E686A8B /* AMColorPickerTableView.swift */,
+				11B90A591F26DA31165FA96C51AAE869 /* AMColorPickerTableViewCell.swift */,
+				E040DE21D7E4A6A8D04EDE9106410090 /* AMColorPickerViewController.swift */,
+				365233731E19928BCBA03DB0F0CA5FA9 /* AMColorPickerWheelView.swift */,
+				2B032903A5C6D7DB9D1C19DF06AD12AE /* Resources */,
+				9F47C4D5F9A9E5EBCA3DD6C245DE6BB2 /* Support Files */,
+			);
+			name = AMColorPicker;
+			path = AMColorPicker;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98547D8208CBBC714BB521656E05F46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2A486E8E7A738A1A1599718880AF044 /* AMNowClockView.modulemap */,
+				AB03138F718843183AB2C6258B393090 /* AMNowClockView.xcconfig */,
+				0B7C285A09E1D92FA2DE2D8AEB009009 /* AMNowClockView-dummy.m */,
+				FB7B1F25AC86AD3093A38ECEE437216F /* AMNowClockView-Info.plist */,
+				B0872882D317021EA4F1E7270D1227EE /* AMNowClockView-prefix.pch */,
+				D5EF3BE45B2685B250FC72A6CCD21DBA /* AMNowClockView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMNowClockView";
+			sourceTree = "<group>";
+		};
+		DEB77312219D2745572691AD4441ADBA /* AMMeterView */ = {
+			isa = PBXGroup;
+			children = (
+				0BE717157B0BE8A52BE9529E88EB674C /* AMMeterView.swift */,
+				BA1419BAE87F425E07E834E739A50B9E /* Support Files */,
+			);
+			name = AMMeterView;
+			path = AMMeterView;
+			sourceTree = "<group>";
+		};
+		F38F6A57540C72A1DB644D7F203BE590 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				791DEBD129DD2AF89DF06F43CD3B7571 /* AMClockView.modulemap */,
+				3397805A933707CB17E0EEBB5666B019 /* AMClockView.xcconfig */,
+				3B6FA142FBA8383BA7FBE827AC9213FF /* AMClockView-dummy.m */,
+				5820677DB12311BE10458A6282C9BBCC /* AMClockView-Info.plist */,
+				C7599ACD7DC333931835F3E5FC16F36F /* AMClockView-prefix.pch */,
+				E7A53B8C987EECA46E882327267B7044 /* AMClockView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMClockView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -929,14 +982,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C93C98FE52099E6B05671173064AEAD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE7DFEA48E2C67D9A3469C002465DBA9 /* Pods-TestPod-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		97CAFD7D71E1878EFB6B2F2401B9A7C6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -945,11 +990,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF8447286131B72F729241171CA57B6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DAC3570EEB246A60A7DC9FECF48178 /* Pods-TestPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E466A57797FE08A4D1681A5A1D7EC997 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5644F65E3F5B827F3BCF973B40023C98 /* AMJpnMap-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFBEEF614D031C61F2B63C10342E32D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9456ED38F385C21174C470D6495B4B /* AMOuijaBoard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,6 +1033,24 @@
 			name = AMSpeedMeter;
 			productName = AMSpeedMeter;
 			productReference = 57A0F81CE72FA7A86ECE498F288DF92F /* AMSpeedMeter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19D82ABFA41C9C8B4C0A12D9A6764299 /* AMOuijaBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BC969ED1CBF2C315F5681F1E71B9E9 /* Build configuration list for PBXNativeTarget "AMOuijaBoard" */;
+			buildPhases = (
+				EEFBEEF614D031C61F2B63C10342E32D /* Headers */,
+				AB8EB4467612513CFEB367FD34557D22 /* Sources */,
+				0B21A045CD6DD6110E5258AEB6385AF5 /* Frameworks */,
+				EB2B7D95E638B44C8511728F005271EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMOuijaBoard;
+			productName = AMOuijaBoard;
+			productReference = 6E1FFBA75AE173EED87BBD44D5B6497E /* AMOuijaBoard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2F3638F098013F7CEFCFE679B71BD88D /* AMJpnMap */ = {
@@ -1120,26 +1199,27 @@
 		};
 		6F47FC17D673BD48FF0EE2D116E1AEAD /* Pods-TestPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD942AB6D47F6423FAC766DBF7BE9DC4 /* Build configuration list for PBXNativeTarget "Pods-TestPod" */;
+			buildConfigurationList = 6CE601B3AB2292886FF677A9EB9A76D6 /* Build configuration list for PBXNativeTarget "Pods-TestPod" */;
 			buildPhases = (
-				7C93C98FE52099E6B05671173064AEAD /* Headers */,
-				6CDCED6EDDA517B1331CA866D51460EB /* Sources */,
-				232258C57D3187CE84739D0D8145D06C /* Frameworks */,
-				2555708AB03873D2AB539326F306118F /* Resources */,
+				AF8447286131B72F729241171CA57B6A /* Headers */,
+				0221474D55FD4FB8A45A1F2096C00C35 /* Sources */,
+				BD4A64C3789E2960E79CAE7AD28013AC /* Frameworks */,
+				E63C6F6023ED3FC3DF9B8E11D310EF92 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EF3A427BD3A4E22279A54B7D18F29624 /* PBXTargetDependency */,
-				B76D988D54846939B448345FE23B6525 /* PBXTargetDependency */,
-				42834534F6617C6F01C350B937521353 /* PBXTargetDependency */,
-				BB2214A15242E495B3536CD792371717 /* PBXTargetDependency */,
-				8F4ED13EAEDAC537F004FF52DFDBFB09 /* PBXTargetDependency */,
-				93619FCBF9C0F7CD544FB29EFFAF0BAC /* PBXTargetDependency */,
-				2CD8D88CF7F63870A3E447A37015370F /* PBXTargetDependency */,
-				DE82730569162F893C2DFDBD25E018C3 /* PBXTargetDependency */,
-				47E8AB16E9FF416A5BED4F79FB356A5F /* PBXTargetDependency */,
-				31B54CBB7670D2CB9AACFE1BA69DEBBB /* PBXTargetDependency */,
+				AF6008F5F5EFACEFCCE521CD012952E2 /* PBXTargetDependency */,
+				DECC6F7EA1FB4EAA89DFBF6024A4CE90 /* PBXTargetDependency */,
+				48EF0CD7A32EB084979E7C1E1D268D3F /* PBXTargetDependency */,
+				90FCD2C015CBF112E42CBB0953C187F1 /* PBXTargetDependency */,
+				D7EFA2EBD70C25F45BD2B9B129EBDDF8 /* PBXTargetDependency */,
+				7A5A4107FC679FD87D3A428FEF636F51 /* PBXTargetDependency */,
+				4587410D0B49418BB60DEB6CEDBE0F3B /* PBXTargetDependency */,
+				57B41D6A2FCAFB2CABA5AE7559256DC3 /* PBXTargetDependency */,
+				F17203A7BC8628EBC67F02870D92E689 /* PBXTargetDependency */,
+				BFEB8E57E40F88FA5D9BB4F9E37F6BD0 /* PBXTargetDependency */,
+				8103CB462120A6ECD8F449CFDACF2CC6 /* PBXTargetDependency */,
 			);
 			name = "Pods-TestPod";
 			productName = "Pods-TestPod";
@@ -1219,7 +1299,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F29D644C9B404FA11F2EE04505C058BA /* Products */;
+			productRefGroup = B12F94D87F4FFA942ADE66D7361FBDD6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1231,6 +1311,7 @@
 				2F3638F098013F7CEFCFE679B71BD88D /* AMJpnMap */,
 				69B2FEDE3F7B42D196E43023852837FC /* AMMeterView */,
 				E600915AF29594C4B4FDCCB750A8FAFE /* AMNowClockView */,
+				19D82ABFA41C9C8B4C0A12D9A6764299 /* AMOuijaBoard */,
 				0A75EB426F0A3CC2B7C3327E4FE62E2C /* AMSpeedMeter */,
 				455460F29F100DCAA657269446BFF826 /* AMVennDiagramView */,
 				6F47FC17D673BD48FF0EE2D116E1AEAD /* Pods-TestPod */,
@@ -1241,13 +1322,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2555708AB03873D2AB539326F306118F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50283658119FA314F00F2A6DBB4E0D65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1335,6 +1409,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E63C6F6023ED3FC3DF9B8E11D310EF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E7BD3426072CDEBFF57ACA42B15AEEDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1345,9 +1426,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EB2B7D95E638B44C8511728F005271EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0221474D55FD4FB8A45A1F2096C00C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982B87879298142297C59FA83F356788 /* Pods-TestPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		054A691248A057C0990252BB37A83747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1413,14 +1509,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CDCED6EDDA517B1331CA866D51460EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26BD2D756FA41E8C5303E4BC4CF0AF4B /* Pods-TestPod-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		752F4A326BDD899FEC7A7AAEE057D5BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1463,6 +1551,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB8EB4467612513CFEB367FD34557D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1A57E6E066B99EBC45748EAAEAF800 /* AMOuijaBoard-dummy.m in Sources */,
+				08B2FC1236CCADAB666AE11296BA3913 /* AMOuijaBoardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C793B4398FE6ED59598B337435897E7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1489,29 +1586,23 @@
 			target = 6F47FC17D673BD48FF0EE2D116E1AEAD /* Pods-TestPod */;
 			targetProxy = 96BBED10E1FBF88C0B23A67D6C39984E /* PBXContainerItemProxy */;
 		};
-		2CD8D88CF7F63870A3E447A37015370F /* PBXTargetDependency */ = {
+		4587410D0B49418BB60DEB6CEDBE0F3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMMeterView;
 			target = 69B2FEDE3F7B42D196E43023852837FC /* AMMeterView */;
-			targetProxy = 6AAA47C0FB6111B9A7765CE6AC757166 /* PBXContainerItemProxy */;
+			targetProxy = 92BE835706F3ABE3365167BAE9431E5A /* PBXContainerItemProxy */;
 		};
-		31B54CBB7670D2CB9AACFE1BA69DEBBB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AMVennDiagramView;
-			target = 455460F29F100DCAA657269446BFF826 /* AMVennDiagramView */;
-			targetProxy = 5CA518D5D5FAF4BB699D66220081186C /* PBXContainerItemProxy */;
-		};
-		42834534F6617C6F01C350B937521353 /* PBXTargetDependency */ = {
+		48EF0CD7A32EB084979E7C1E1D268D3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMChart;
 			target = 3751D7E78C641D85289333798DEE081D /* AMChart */;
-			targetProxy = 252776D8ECB87BFA5B71ED168526CACD /* PBXContainerItemProxy */;
+			targetProxy = 0F97F9FB59167FE0ED671BFE7D232E9F /* PBXContainerItemProxy */;
 		};
-		47E8AB16E9FF416A5BED4F79FB356A5F /* PBXTargetDependency */ = {
+		57B41D6A2FCAFB2CABA5AE7559256DC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AMSpeedMeter;
-			target = 0A75EB426F0A3CC2B7C3327E4FE62E2C /* AMSpeedMeter */;
-			targetProxy = 46D6025B92230F6B33284E0FB922F336 /* PBXContainerItemProxy */;
+			name = AMNowClockView;
+			target = E600915AF29594C4B4FDCCB750A8FAFE /* AMNowClockView */;
+			targetProxy = D521A7DE747D8F08E7C44D95DA25EC8D /* PBXContainerItemProxy */;
 		};
 		5EAB5C0FA9ABAF85AF3C7869CD67D0E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1519,41 +1610,53 @@
 			target = 6F47FC17D673BD48FF0EE2D116E1AEAD /* Pods-TestPod */;
 			targetProxy = 386768F2C2AAD0D727C72423E23DD993 /* PBXContainerItemProxy */;
 		};
-		8F4ED13EAEDAC537F004FF52DFDBFB09 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AMColorPicker;
-			target = 508B6AAEF650BE601D6B0D18E7FA1D59 /* AMColorPicker */;
-			targetProxy = DD2AE9807262E6F2456E0F124A716A4E /* PBXContainerItemProxy */;
-		};
-		93619FCBF9C0F7CD544FB29EFFAF0BAC /* PBXTargetDependency */ = {
+		7A5A4107FC679FD87D3A428FEF636F51 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMJpnMap;
 			target = 2F3638F098013F7CEFCFE679B71BD88D /* AMJpnMap */;
-			targetProxy = C1B98F99EB7886395A2B3DA96EED72DC /* PBXContainerItemProxy */;
+			targetProxy = 375798AA083EE54C3FA5F18368A0FFBB /* PBXContainerItemProxy */;
 		};
-		B76D988D54846939B448345FE23B6525 /* PBXTargetDependency */ = {
+		8103CB462120A6ECD8F449CFDACF2CC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AMCalendar;
-			target = 310AC304B8B9F9C314E38143742C627C /* AMCalendar */;
-			targetProxy = 34CC9125D75ED3C4609B89D135B23EDD /* PBXContainerItemProxy */;
+			name = AMVennDiagramView;
+			target = 455460F29F100DCAA657269446BFF826 /* AMVennDiagramView */;
+			targetProxy = 1E3DB6614223A6B422301E8E0BCA63B1 /* PBXContainerItemProxy */;
 		};
-		BB2214A15242E495B3536CD792371717 /* PBXTargetDependency */ = {
+		90FCD2C015CBF112E42CBB0953C187F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMClockView;
 			target = 6CADCABC5512829B83B728B93F7F9E91 /* AMClockView */;
-			targetProxy = C3B3F4A13D3922CB38054B92E776E265 /* PBXContainerItemProxy */;
+			targetProxy = 004683D74988870B41DA33D23DFA5684 /* PBXContainerItemProxy */;
 		};
-		DE82730569162F893C2DFDBD25E018C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AMNowClockView;
-			target = E600915AF29594C4B4FDCCB750A8FAFE /* AMNowClockView */;
-			targetProxy = 752ECD76CD4F117E110719BB1AE066E0 /* PBXContainerItemProxy */;
-		};
-		EF3A427BD3A4E22279A54B7D18F29624 /* PBXTargetDependency */ = {
+		AF6008F5F5EFACEFCCE521CD012952E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMBurnAnimation;
 			target = 5B19D06F0E248A7442EA8DC07FA8B20C /* AMBurnAnimation */;
-			targetProxy = A29DEC5CD05CEDCB2B259F7F755DCB69 /* PBXContainerItemProxy */;
+			targetProxy = B484AB45838317E957978C682846345B /* PBXContainerItemProxy */;
+		};
+		BFEB8E57E40F88FA5D9BB4F9E37F6BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMSpeedMeter;
+			target = 0A75EB426F0A3CC2B7C3327E4FE62E2C /* AMSpeedMeter */;
+			targetProxy = F66A0DE1CB8331B71ABC622EA98E9500 /* PBXContainerItemProxy */;
+		};
+		D7EFA2EBD70C25F45BD2B9B129EBDDF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMColorPicker;
+			target = 508B6AAEF650BE601D6B0D18E7FA1D59 /* AMColorPicker */;
+			targetProxy = 6F3C4CEA8CBD4ADA797E4732F76AA2AF /* PBXContainerItemProxy */;
+		};
+		DECC6F7EA1FB4EAA89DFBF6024A4CE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMCalendar;
+			target = 310AC304B8B9F9C314E38143742C627C /* AMCalendar */;
+			targetProxy = 26576EB8A2F02555FD2080B7DDF40750 /* PBXContainerItemProxy */;
+		};
+		F17203A7BC8628EBC67F02870D92E689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMOuijaBoard;
+			target = 19D82ABFA41C9C8B4C0A12D9A6764299 /* AMOuijaBoard */;
+			targetProxy = 4C7D0A8A3EA7991F85F2466B78ED6E13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1657,47 +1760,9 @@
 			};
 			name = Release;
 		};
-		25B97B03DB89680DB144550BE2527889 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 671E440D7B0B93F24356F299A096F4FD /* Pods-TestPod.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		27CE0EFA2698A87B6998D1769C64D7A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE1682EC3576DDEEA4FD2A8FF00C95D /* AMVennDiagramView.xcconfig */;
+			baseConfigurationReference = EAA66D2C8B5E96454806E3FE38D4F0FF /* AMVennDiagramView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1731,9 +1796,45 @@
 			};
 			name = Release;
 		};
+		2C9962F0688F66348B5757103FC92B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BBF0B606CF19FB7A3A010275D0E04B /* AMOuijaBoard.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMOuijaBoard/AMOuijaBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMOuijaBoard/AMOuijaBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMOuijaBoard/AMOuijaBoard.modulemap";
+				PRODUCT_MODULE_NAME = AMOuijaBoard;
+				PRODUCT_NAME = AMOuijaBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		35DC3E5C53A92F0ED77C006C0CD675C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA6B5BDA137F67DD3012BD89C81A4BB3 /* AMNowClockView.xcconfig */;
+			baseConfigurationReference = AB03138F718843183AB2C6258B393090 /* AMNowClockView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1769,7 +1870,7 @@
 		};
 		3DA3CE1E2AAEDE292C239DA4CEF2F1FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC59BF3C25CB92C23F853A57BE24D2A6 /* AMSpeedMeter.xcconfig */;
+			baseConfigurationReference = 5EAED95D655A88CA3885B8419688C400 /* AMSpeedMeter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1804,7 +1905,7 @@
 		};
 		41E7548F4A7D33A6F42905D08E450029 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45D95CD9819AB51F8BCFCA7E26CF9837 /* AMJpnMap.xcconfig */;
+			baseConfigurationReference = F407A5F7ACC4BE1FADE5381D54778805 /* AMJpnMap.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1839,7 +1940,7 @@
 		};
 		42CCE43DDD5B4AD8AF48E7AAF85A951F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45D95CD9819AB51F8BCFCA7E26CF9837 /* AMJpnMap.xcconfig */;
+			baseConfigurationReference = F407A5F7ACC4BE1FADE5381D54778805 /* AMJpnMap.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1875,7 +1976,7 @@
 		};
 		531BB0DE58A737C1F471D891377ED60E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC59BF3C25CB92C23F853A57BE24D2A6 /* AMSpeedMeter.xcconfig */;
+			baseConfigurationReference = 5EAED95D655A88CA3885B8419688C400 /* AMSpeedMeter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1949,7 +2050,7 @@
 		};
 		6AC1CAF174240418A6DC841695BC716E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7572EFC1C65936018F58AAF90A1971F6 /* AMClockView.xcconfig */;
+			baseConfigurationReference = 3397805A933707CB17E0EEBB5666B019 /* AMClockView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1985,7 +2086,7 @@
 		};
 		777C4BB5BA7546BDDC5A9959EC53552E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48B14E65764CC10AE35F9B9C6620A0DC /* AMBurnAnimation.xcconfig */;
+			baseConfigurationReference = 8C2A0C615FA4B97334EC6CF5A87A6F32 /* AMBurnAnimation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2020,7 +2121,7 @@
 		};
 		7A44107405703407202BF7F4DFD2DF7C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C0F5F4D6CDB71E6724D8BBE921EE208 /* AMChart.xcconfig */;
+			baseConfigurationReference = EBA0DFA145AF648CD16C21AB65D296BF /* AMChart.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2053,7 +2154,7 @@
 			};
 			name = Debug;
 		};
-		7A86909D42256D205873D1242ABDDFEB /* Release */ = {
+		84D8E066C7FEF68E879AAD50E6172DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54781FAE12597BC0E9AEBB4F05F9A1A8 /* Pods-TestPod.release.xcconfig */;
 			buildSettings = {
@@ -2094,7 +2195,7 @@
 		};
 		8714A342A9ED9B6B9772CD2B1A6ED162 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48B14E65764CC10AE35F9B9C6620A0DC /* AMBurnAnimation.xcconfig */;
+			baseConfigurationReference = 8C2A0C615FA4B97334EC6CF5A87A6F32 /* AMBurnAnimation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2130,7 +2231,7 @@
 		};
 		8A768074FCE0B3BBAF87B9DA7446D9A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F15C85A3397F33C5EB74BC289EAB2B2F /* AMCalendar.xcconfig */;
+			baseConfigurationReference = F858AE632599082815D0C93D23E3C8FF /* AMCalendar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2163,9 +2264,47 @@
 			};
 			name = Debug;
 		};
+		9AC751635CC425E3CFF00BADC2922330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671E440D7B0B93F24356F299A096F4FD /* Pods-TestPod.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPod/Pods-TestPod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A8A5AA6247502A2144BDD8346C790B80 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE1682EC3576DDEEA4FD2A8FF00C95D /* AMVennDiagramView.xcconfig */;
+			baseConfigurationReference = EAA66D2C8B5E96454806E3FE38D4F0FF /* AMVennDiagramView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2277,7 +2416,7 @@
 		};
 		B36B556D9920C7D737A0F8B5ADB9559A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7572EFC1C65936018F58AAF90A1971F6 /* AMClockView.xcconfig */;
+			baseConfigurationReference = 3397805A933707CB17E0EEBB5666B019 /* AMClockView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2312,7 +2451,7 @@
 		};
 		B7935747BC389974600F6B5583FDE221 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6117E3CF038CE4154524470DA6D7169F /* AMMeterView.xcconfig */;
+			baseConfigurationReference = 8CEF4707BCE26EDF740083B7FA66C55E /* AMMeterView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2348,7 +2487,7 @@
 		};
 		B8C5788C7073EFB4431B8F363C084930 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 520581FF317B89CE25CFDCC7D4D2B94F /* AMColorPicker.xcconfig */;
+			baseConfigurationReference = 173241B69D01D60B230FFA94F65CFE9E /* AMColorPicker.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2383,9 +2522,46 @@
 			};
 			name = Release;
 		};
+		C8421FF19BEA25B60ECBD889544DCFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BBF0B606CF19FB7A3A010275D0E04B /* AMOuijaBoard.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMOuijaBoard/AMOuijaBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMOuijaBoard/AMOuijaBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMOuijaBoard/AMOuijaBoard.modulemap";
+				PRODUCT_MODULE_NAME = AMOuijaBoard;
+				PRODUCT_NAME = AMOuijaBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DEA68459AA3AA38BF079EED61A5E3A50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F15C85A3397F33C5EB74BC289EAB2B2F /* AMCalendar.xcconfig */;
+			baseConfigurationReference = F858AE632599082815D0C93D23E3C8FF /* AMCalendar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2421,7 +2597,7 @@
 		};
 		E0AC516120494008D4CD37F74087AF61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C0F5F4D6CDB71E6724D8BBE921EE208 /* AMChart.xcconfig */;
+			baseConfigurationReference = EBA0DFA145AF648CD16C21AB65D296BF /* AMChart.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2457,7 +2633,7 @@
 		};
 		E0B28A9B6F248F34EEEBD7DE0F463F42 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA6B5BDA137F67DD3012BD89C81A4BB3 /* AMNowClockView.xcconfig */;
+			baseConfigurationReference = AB03138F718843183AB2C6258B393090 /* AMNowClockView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2492,7 +2668,7 @@
 		};
 		E7D2503A308D90B8D5EA2656180E5A38 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 520581FF317B89CE25CFDCC7D4D2B94F /* AMColorPicker.xcconfig */;
+			baseConfigurationReference = 173241B69D01D60B230FFA94F65CFE9E /* AMColorPicker.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2528,7 +2704,7 @@
 		};
 		E942BFD7C981A7D4F6E9F961FA88771F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6117E3CF038CE4154524470DA6D7169F /* AMMeterView.xcconfig */;
+			baseConfigurationReference = 8CEF4707BCE26EDF740083B7FA66C55E /* AMMeterView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2682,6 +2858,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6CE601B3AB2292886FF677A9EB9A76D6 /* Build configuration list for PBXNativeTarget "Pods-TestPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC751635CC425E3CFF00BADC2922330 /* Debug */,
+				84D8E066C7FEF68E879AAD50E6172DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6D6C5D7E0FD6871BDA73A10377272189 /* Build configuration list for PBXNativeTarget "AMVennDiagramView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2709,15 +2894,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD942AB6D47F6423FAC766DBF7BE9DC4 /* Build configuration list for PBXNativeTarget "Pods-TestPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25B97B03DB89680DB144550BE2527889 /* Debug */,
-				7A86909D42256D205873D1242ABDDFEB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B9FF1BE53FA916DBE7276ACB686910F3 /* Build configuration list for PBXNativeTarget "AMBurnAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2741,6 +2917,15 @@
 			buildConfigurations = (
 				AED04709415BC7B6B654D5526E3706E9 /* Debug */,
 				134BA85C78EBE0BAB6B3CF1F6CFA53CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BC969ED1CBF2C315F5681F1E71B9E9 /* Build configuration list for PBXNativeTarget "AMOuijaBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9962F0688F66348B5757103FC92B6E /* Debug */,
+				C8421FF19BEA25B60ECBD889544DCFA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

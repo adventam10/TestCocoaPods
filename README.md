@@ -22,4 +22,4 @@
 * [AMCalendar (2.1.2)](https://github.com/adventam10/AMCalendar)
 * [AMBurnAnimation (2.1.0)](https://github.com/adventam10/AMBurnAnimation)
 * [AMColorPicker (3.0.1)](https://github.com/adventam10/AMColorPicker)
-
+* [AMOuijaBoard (1.0.0)](https://github.com/adventam10/AMOuijaBoard)

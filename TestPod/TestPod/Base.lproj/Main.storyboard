@@ -65,38 +65,45 @@
                                         <rect key="frame" x="199.5" y="0.0" width="184.5" height="260"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjo-Rp-eaa">
-                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="31"/>
                                                 <state key="normal" title="AMBurn"/>
                                                 <connections>
                                                     <segue destination="CVL-g5-EG2" kind="show" id="buM-7x-xjr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rn-R2-7HV">
-                                                <rect key="frame" x="0.0" y="55" width="184.5" height="40"/>
+                                                <rect key="frame" x="0.0" y="46" width="184.5" height="30.5"/>
                                                 <state key="normal" title="AMVenn"/>
                                                 <connections>
                                                     <segue destination="dcS-qs-b36" kind="show" id="WeI-jK-aSv"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlF-zA-GZk">
-                                                <rect key="frame" x="0.0" y="110" width="184.5" height="40"/>
+                                                <rect key="frame" x="0.0" y="91.5" width="184.5" height="31"/>
                                                 <state key="normal" title="AMChart"/>
                                                 <connections>
                                                     <segue destination="9Pd-aY-EKV" kind="show" id="8dK-iq-Kfl"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZW-v4-mss">
-                                                <rect key="frame" x="0.0" y="165" width="184.5" height="40"/>
+                                                <rect key="frame" x="0.0" y="137.5" width="184.5" height="31"/>
                                                 <state key="normal" title="AMColorPicker"/>
                                                 <connections>
                                                     <segue destination="4hk-3j-ZFz" kind="show" id="eAz-71-S1U"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Er3-9H-euv">
-                                                <rect key="frame" x="0.0" y="220" width="184.5" height="40"/>
+                                                <rect key="frame" x="0.0" y="183.5" width="184.5" height="30.5"/>
                                                 <state key="normal" title="AMMap"/>
                                                 <connections>
                                                     <segue destination="0zS-Xv-teW" kind="show" id="TKJ-j6-aMq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0C-qo-X03">
+                                                <rect key="frame" x="0.0" y="229" width="184.5" height="31"/>
+                                                <state key="normal" title="AMOuijaBoard"/>
+                                                <connections>
+                                                    <segue destination="gkm-rU-ThC" kind="show" id="T2A-zI-FhI"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -374,6 +381,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nTF-kq-1Bd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1517" y="814"/>
+        </scene>
+        <!--AMOuijaBoard-->
+        <scene sceneID="bjC-Vh-0tw">
+            <objects>
+                <viewController title="AMOuijaBoard" id="gkm-rU-ThC" customClass="OuijaBoardViewController" customModule="TestPod" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Ti-of-ezf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="WHZ-gM-BIG">
+                                <rect key="frame" x="8" y="289" width="398" height="318"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4r-8K-H3n">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20.5" id="xA4-Gg-2uP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r3b-9y-ALG" customClass="AMOuijaBoardView" customModule="AMOuijaBoard">
+                                        <rect key="frame" x="0.0" y="36.5" width="398" height="281.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="r3b-9y-ALG" secondAttribute="height" multiplier="1.414:1" id="L04-B5-1Bz"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="hX7-1S-MGm"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="jZt-R7-MLj"/>
+                                            <constraint firstAttribute="width" priority="750" constant="500" id="si5-Fg-t4l"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WHZ-gM-BIG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lz7-Ow-RQU" secondAttribute="leading" constant="8" id="8qi-tH-0a5"/>
+                            <constraint firstItem="WHZ-gM-BIG" firstAttribute="centerX" secondItem="0Ti-of-ezf" secondAttribute="centerX" id="BjM-Au-1tc"/>
+                            <constraint firstItem="lz7-Ow-RQU" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="WHZ-gM-BIG" secondAttribute="bottom" constant="8" id="EWh-Io-VNF"/>
+                            <constraint firstItem="WHZ-gM-BIG" firstAttribute="top" relation="greaterThanOrEqual" secondItem="lz7-Ow-RQU" secondAttribute="top" constant="8" id="Jr3-Je-JoS"/>
+                            <constraint firstItem="WHZ-gM-BIG" firstAttribute="centerY" secondItem="0Ti-of-ezf" secondAttribute="centerY" id="LPX-qE-Mdi"/>
+                            <constraint firstItem="lz7-Ow-RQU" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="WHZ-gM-BIG" secondAttribute="trailing" constant="8" id="XaV-rl-rL1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lz7-Ow-RQU"/>
+                    </view>
+                    <connections>
+                        <outlet property="boardView" destination="r3b-9y-ALG" id="t8C-bA-raw"/>
+                        <outlet property="label" destination="a4r-8K-H3n" id="L2C-yg-GHg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="trc-45-vNM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2303" y="820"/>
         </scene>
         <!--AMMeterView-->
         <scene sceneID="LSF-ay-YJC">

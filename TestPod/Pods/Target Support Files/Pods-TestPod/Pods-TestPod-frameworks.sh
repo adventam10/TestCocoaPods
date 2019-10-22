@@ -169,6 +169,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AMJpnMap/AMJpnMap.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AMMeterView/AMMeterView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AMNowClockView/AMNowClockView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AMOuijaBoard/AMOuijaBoard.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AMSpeedMeter/AMSpeedMeter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AMVennDiagramView/AMVennDiagramView.framework"
 fi
@@ -181,6 +182,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AMJpnMap/AMJpnMap.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AMMeterView/AMMeterView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AMNowClockView/AMNowClockView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AMOuijaBoard/AMOuijaBoard.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AMSpeedMeter/AMSpeedMeter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AMVennDiagramView/AMVennDiagramView.framework"
 fi

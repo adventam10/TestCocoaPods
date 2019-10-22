@@ -25,6 +25,7 @@
 		0E682294226C8A3500B72A0A /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E682293226C8A3500B72A0A /* ColorPickerViewController.swift */; };
 		0E682296226C8A6900B72A0A /* VennDiagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E682295226C8A6900B72A0A /* VennDiagramViewController.swift */; };
 		0E682298226C8A7E00B72A0A /* JpnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E682297226C8A7E00B72A0A /* JpnMapViewController.swift */; };
+		0EAD6149235EDD4300398503 /* OuijaBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD6148235EDD4200398503 /* OuijaBoardViewController.swift */; };
 		ACEB7F6282551A3B8489D2ED /* Pods_TestPodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB64D975616694D1B94CBB2 /* Pods_TestPodTests.framework */; };
 		EB01C1AA5034A80492A53D6E /* Pods_TestPodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AAE02C82C62A18B2E10F60 /* Pods_TestPodUITests.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,7 @@
 		0E682293226C8A3500B72A0A /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		0E682295226C8A6900B72A0A /* VennDiagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VennDiagramViewController.swift; sourceTree = "<group>"; };
 		0E682297226C8A7E00B72A0A /* JpnMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JpnMapViewController.swift; sourceTree = "<group>"; };
+		0EAD6148235EDD4200398503 /* OuijaBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OuijaBoardViewController.swift; sourceTree = "<group>"; };
 		1DB64D975616694D1B94CBB2 /* Pods_TestPodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9777A80EF87D2CA831D57C /* Pods-TestPodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPodUITests.release.xcconfig"; path = "Target Support Files/Pods-TestPodUITests/Pods-TestPodUITests.release.xcconfig"; sourceTree = "<group>"; };
 		639650B753D95CC330C553A9 /* Pods-TestPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPod.debug.xcconfig"; path = "Target Support Files/Pods-TestPod/Pods-TestPod.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				0E682293226C8A3500B72A0A /* ColorPickerViewController.swift */,
 				0E682295226C8A6900B72A0A /* VennDiagramViewController.swift */,
 				0E682297226C8A7E00B72A0A /* JpnMapViewController.swift */,
+				0EAD6148235EDD4200398503 /* OuijaBoardViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				0E682294226C8A3500B72A0A /* ColorPickerViewController.swift in Sources */,
 				0E682290226C8A0D00B72A0A /* CalendarViewController.swift in Sources */,
 				0E682298226C8A7E00B72A0A /* JpnMapViewController.swift in Sources */,
+				0EAD6149235EDD4300398503 /* OuijaBoardViewController.swift in Sources */,
 				0E68228C226C89F700B72A0A /* MeterViewController.swift in Sources */,
 				0E68228E226C8A0100B72A0A /* ChartViewController.swift in Sources */,
 				0E682296226C8A6900B72A0A /* VennDiagramViewController.swift in Sources */,

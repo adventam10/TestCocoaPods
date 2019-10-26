@@ -7,7 +7,7 @@ PODS:
   - AMJpnMap (2.1.1)
   - AMMeterView (2.1.1)
   - AMNowClockView (2.2.0)
-  - AMOuijaBoard (1.0.0)
+  - AMOuijaBoard (1.0.1)
   - AMSpeedMeter (2.1.0)
   - AMVennDiagramView (2.1.0)
 
@@ -20,7 +20,7 @@ DEPENDENCIES:
   - AMJpnMap (= 2.1.1)
   - AMMeterView (= 2.1.1)
   - AMNowClockView (= 2.2.0)
-  - AMOuijaBoard (= 1.0.0)
+  - AMOuijaBoard (= 1.0.1)
   - AMSpeedMeter (= 2.1.0)
   - AMVennDiagramView (= 2.1.0)
 
@@ -47,10 +47,10 @@ SPEC CHECKSUMS:
   AMJpnMap: d5ac953d2ea7bc38429c62bf0d292087dbad9d94
   AMMeterView: f55be51c1b4c4d568dc902c6168bf734e01be16b
   AMNowClockView: d54990c760e36437c04abaeecfa02f0cc234ae7e
-  AMOuijaBoard: 488e912baaeaaf74430b633a063b0bd11473d4c0
+  AMOuijaBoard: eb10fba7020be95f4f5feb2de5cbdc68febc81cb
   AMSpeedMeter: beb24077540a530573564ac83a9478c20fbf6b85
   AMVennDiagramView: d566b94b949b0720ac2946edc61b34b23c0dcf58
 
-PODFILE CHECKSUM: dc0d2778415af06ef0ce846dc6cf85e30e6854a0
+PODFILE CHECKSUM: 5e805cf6316fe5647a431e06bbc5ad3210ac642a
 
 COCOAPODS: 1.8.3

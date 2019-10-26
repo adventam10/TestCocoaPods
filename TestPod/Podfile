@@ -16,7 +16,7 @@ pod 'AMVennDiagramView', '2.1.0'
 pod 'AMBurnAnimation', '2.1.0'
 pod 'AMJpnMap', '2.1.1'
 pod 'AMColorPicker', '3.0.1'
-pod 'AMOuijaBoard', '1.0.0'
+pod 'AMOuijaBoard', '1.0.1'
   target 'TestPodTests' do
     inherit! :search_paths
     # Pods for testing
